@@ -1,0 +1,437 @@
+<panel name="Walker">
+	<control name="WaypointList">
+		
+		<!-- Waypoints to depot -->
+		
+		<item text="roshamuul|depot-depot:" tag="255"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-depot:" tag="255"/>
+		<item text="Node (33559, 32384, 7)" tag="0"/>
+		<item text="Node (33557, 32382, 7)" tag="0"/>
+		<item text="Node (33555, 32379, 7)" tag="0"/>
+		<item text="Node (33557, 32376, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33556, 32376, 6)" tag="0"/>
+		<item text="Node (33552, 32376, 6)" tag="0"/>
+		<item text="Node (33549, 32378, 6)" tag="0"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-depot:" tag="255"/>
+		<item text="Node (33541, 32378, 7)" tag="0"/>
+		<item text="Node (33544, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33556, 32376, 6)" tag="0"/>
+		<item text="Node (33553, 32376, 6)" tag="0"/>
+		<item text="Node (33550, 32377, 6)" tag="0"/>
+		<item text="Node (33548, 32379, 6)" tag="0"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-depot:" tag="255"/>
+		<item text="Node (33541, 32378, 7)" tag="0"/>
+		<item text="Node (33544, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33556, 32376, 6)" tag="0"/>
+		<item text="Node (33553, 32376, 6)" tag="0"/>
+		<item text="Node (33550, 32377, 6)" tag="0"/>
+		<item text="Node (33548, 32379, 6)" tag="0"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-depot:" tag="255"/>
+		<item text="Node (33541, 32378, 7)" tag="0"/>
+		<item text="Node (33544, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33556, 32376, 6)" tag="0"/>
+		<item text="Node (33553, 32376, 6)" tag="0"/>
+		<item text="Node (33550, 32377, 6)" tag="0"/>
+		<item text="Node (33548, 32379, 6)" tag="0"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-depot:" tag="255"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33532, 32375, 7)" tag="0"/>
+		<item text="Node (33536, 32376, 7)" tag="0"/>
+		<item text="Node (33540, 32376, 7)" tag="0"/>
+		<item text="Node (33544, 32376, 7)" tag="0"/>
+		<item text="Node (33548, 32376, 7)" tag="0"/>
+		<item text="Node (33553, 32376, 7)" tag="0"/>
+		<item text="Node (33557, 32375, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33555, 32376, 6)" tag="0"/>
+		<item text="Node (33552, 32376, 6)" tag="0"/>
+		<item text="Node (33549, 32377, 6)" tag="0"/>
+		<item text="Node (33548, 32379, 6)" tag="0"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-depot:" tag="255"/>
+		<item text="Node (33551, 32386, 6)" tag="0"/>
+		<item text="Node (33548, 32382, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to bank -->
+
+		<item text="roshamuul|depot-bank:" tag="255"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32376, 7)" tag="0"/>
+		<item text="Node (33555, 32379, 7)" tag="0"/>
+		<item text="Node (33558, 32382, 7)" tag="0"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-bank:" tag="255"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-bank:" tag="255"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Node (33545, 32376, 7)" tag="0"/>
+		<item text="Node (33549, 32376, 7)" tag="0"/>
+		<item text="Node (33553, 32377, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-bank:" tag="255"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Node (33545, 32376, 7)" tag="0"/>
+		<item text="Node (33549, 32376, 7)" tag="0"/>
+		<item text="Node (33553, 32377, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-bank:" tag="255"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Node (33545, 32376, 7)" tag="0"/>
+		<item text="Node (33549, 32376, 7)" tag="0"/>
+		<item text="Node (33553, 32377, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-bank:" tag="255"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33532, 32376, 7)" tag="0"/>
+		<item text="Node (33536, 32376, 7)" tag="0"/>
+		<item text="Node (33540, 32376, 7)" tag="0"/>
+		<item text="Node (33544, 32376, 7)" tag="0"/>
+		<item text="Node (33548, 32376, 7)" tag="0"/>
+		<item text="Node (33552, 32376, 7)" tag="0"/>
+		<item text="Node (33555, 32379, 7)" tag="0"/>
+		<item text="Node (33557, 32382, 7)" tag="0"/>
+		<item text="Node (33559, 32385, 7)" tag="0"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-bank:" tag="255"/>
+		<item text="Node (33556, 32386, 6)" tag="0"/>
+		<item text="Node (33558, 32383, 6)" tag="0"/>
+		<item text="Node (33558, 32379, 6)" tag="0"/>
+		<item text="Node (33558, 32375, 6)" tag="0"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32376, 7)" tag="0"/>
+		<item text="Node (33555, 32379, 7)" tag="0"/>
+		<item text="Node (33558, 32382, 7)" tag="0"/>
+		<item text="Stand (33559, 32386, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to potion -->
+
+		<item text="roshamuul|depot-potion:" tag="255"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33544, 32375, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-potion:" tag="255"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33553, 32378, 7)" tag="0"/>
+		<item text="Node (33550, 32375, 7)" tag="0"/>
+		<item text="Node (33546, 32375, 7)" tag="0"/>
+		<item text="Node (33542, 32376, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-potion:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-potion:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-potion:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-potion:" tag="255"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33532, 32376, 7)" tag="0"/>
+		<item text="Node (33537, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-potion:" tag="255"/>
+		<item text="Node (33557, 32386, 6)" tag="0"/>
+		<item text="Node (33558, 32382, 6)" tag="0"/>
+		<item text="Node (33558, 32379, 6)" tag="0"/>
+		<item text="Node (33558, 32376, 6)" tag="0"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32376, 7)" tag="0"/>
+		<item text="Node (33548, 32376, 7)" tag="0"/>
+		<item text="Node (33545, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to rune -->
+
+		<item text="roshamuul|depot-rune:" tag="255"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33544, 32375, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-rune:" tag="255"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33553, 32378, 7)" tag="0"/>
+		<item text="Node (33550, 32375, 7)" tag="0"/>
+		<item text="Node (33546, 32375, 7)" tag="0"/>
+		<item text="Node (33542, 32376, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-rune:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-rune:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-rune:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-rune:" tag="255"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33532, 32376, 7)" tag="0"/>
+		<item text="Node (33537, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-rune:" tag="255"/>
+		<item text="Node (33557, 32386, 6)" tag="0"/>
+		<item text="Node (33558, 32382, 6)" tag="0"/>
+		<item text="Node (33558, 32379, 6)" tag="0"/>
+		<item text="Node (33558, 32376, 6)" tag="0"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32376, 7)" tag="0"/>
+		<item text="Node (33548, 32376, 7)" tag="0"/>
+		<item text="Node (33545, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to ammo -->
+
+		<item text="roshamuul|depot-ammo:" tag="255"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33544, 32375, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-ammo:" tag="255"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33553, 32378, 7)" tag="0"/>
+		<item text="Node (33550, 32375, 7)" tag="0"/>
+		<item text="Node (33546, 32375, 7)" tag="0"/>
+		<item text="Node (33542, 32376, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-ammo:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-ammo:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-ammo:" tag="255"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-ammo:" tag="255"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33532, 32376, 7)" tag="0"/>
+		<item text="Node (33537, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-ammo:" tag="255"/>
+		<item text="Node (33557, 32386, 6)" tag="0"/>
+		<item text="Node (33558, 32382, 6)" tag="0"/>
+		<item text="Node (33558, 32379, 6)" tag="0"/>
+		<item text="Node (33558, 32376, 6)" tag="0"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32376, 7)" tag="0"/>
+		<item text="Node (33548, 32376, 7)" tag="0"/>
+		<item text="Node (33545, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32377, 7)" tag="0"/>
+		<item text="Stand (33541, 32380, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to exit.north -->
+
+		<item text="roshamuul|depot-exit.north:" tag="255"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33555, 32375, 7)" tag="0"/>
+		<item text="Node (33551, 32375, 7)" tag="0"/>
+		<item text="Node (33547, 32375, 7)" tag="0"/>
+		<item text="Node (33543, 32376, 7)" tag="0"/>
+		<item text="Node (33539, 32376, 7)" tag="0"/>
+		<item text="Node (33535, 32376, 7)" tag="0"/>
+		<item text="Node (33532, 32374, 7)" tag="0"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-exit.north:" tag="255"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Node (33556, 32381, 7)" tag="0"/>
+		<item text="Node (33554, 32378, 7)" tag="0"/>
+		<item text="Node (33551, 32375, 7)" tag="0"/>
+		<item text="Node (33547, 32375, 7)" tag="0"/>
+		<item text="Node (33543, 32375, 7)" tag="0"/>
+		<item text="Node (33539, 32376, 7)" tag="0"/>
+		<item text="Node (33536, 32376, 7)" tag="0"/>
+		<item text="Node (33532, 32375, 7)" tag="0"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-exit.north:" tag="255"/>
+		<item text="Node (33540, 32377, 7)" tag="0"/>
+		<item text="Node (33536, 32377, 7)" tag="0"/>
+		<item text="Node (33532, 32375, 7)" tag="0"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-exit.north:" tag="255"/>
+		<item text="Node (33540, 32377, 7)" tag="0"/>
+		<item text="Node (33536, 32377, 7)" tag="0"/>
+		<item text="Node (33532, 32375, 7)" tag="0"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-exit.north:" tag="255"/>
+		<item text="Node (33540, 32377, 7)" tag="0"/>
+		<item text="Node (33536, 32377, 7)" tag="0"/>
+		<item text="Node (33532, 32375, 7)" tag="0"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-exit.north:" tag="255"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-exit.north:" tag="255"/>
+		<item text="Node (33557, 32386, 6)" tag="0"/>
+		<item text="Node (33558, 32382, 6)" tag="0"/>
+		<item text="Node (33558, 32378, 6)" tag="0"/>
+		<item text="Stand (33558, 32374, 6)" tag="1"/>
+		<item text="Node (33556, 32375, 7)" tag="0"/>
+		<item text="Node (33552, 32375, 7)" tag="0"/>
+		<item text="Node (33548, 32375, 7)" tag="0"/>
+		<item text="Node (33544, 32376, 7)" tag="0"/>
+		<item text="Node (33540, 32376, 7)" tag="0"/>
+		<item text="Node (33536, 32376, 7)" tag="0"/>
+		<item text="Node (33532, 32374, 7)" tag="0"/>
+		<item text="Node (33533, 32370, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to exit.south -->
+
+		<item text="roshamuul|depot-exit.south:" tag="255"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|bank-exit.south:" tag="255"/>
+		<item text="Node (33559, 32383, 7)" tag="0"/>
+		<item text="Node (33555, 32381, 7)" tag="0"/>
+		<item text="Node (33555, 32377, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33558, 32377, 6)" tag="0"/>
+		<item text="Node (33558, 32381, 6)" tag="0"/>
+		<item text="Node (33558, 32384, 6)" tag="0"/>
+		<item text="Node (33556, 32386, 6)" tag="0"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|potion-exit.south:" tag="255"/>
+		<item text="Node (33542, 32376, 7)" tag="0"/>
+		<item text="Node (33547, 32376, 7)" tag="0"/>
+		<item text="Node (33551, 32376, 7)" tag="0"/>
+		<item text="Node (33556, 32376, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33558, 32377, 6)" tag="0"/>
+		<item text="Node (33558, 32381, 6)" tag="0"/>
+		<item text="Node (33558, 32385, 6)" tag="0"/>
+		<item text="Node (33556, 32386, 6)" tag="0"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|rune-exit.south:" tag="255"/>
+		<item text="Node (33542, 32376, 7)" tag="0"/>
+		<item text="Node (33547, 32376, 7)" tag="0"/>
+		<item text="Node (33551, 32376, 7)" tag="0"/>
+		<item text="Node (33556, 32376, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33558, 32377, 6)" tag="0"/>
+		<item text="Node (33558, 32381, 6)" tag="0"/>
+		<item text="Node (33558, 32385, 6)" tag="0"/>
+		<item text="Node (33556, 32386, 6)" tag="0"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|ammo-exit.south:" tag="255"/>
+		<item text="Node (33542, 32376, 7)" tag="0"/>
+		<item text="Node (33547, 32376, 7)" tag="0"/>
+		<item text="Node (33551, 32376, 7)" tag="0"/>
+		<item text="Node (33556, 32376, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33558, 32377, 6)" tag="0"/>
+		<item text="Node (33558, 32381, 6)" tag="0"/>
+		<item text="Node (33558, 32385, 6)" tag="0"/>
+		<item text="Node (33556, 32386, 6)" tag="0"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.north-exit.south:" tag="255"/>
+		<item text="Node (33532, 32372, 7)" tag="0"/>
+		<item text="Node (33533, 32376, 7)" tag="0"/>
+		<item text="Node (33537, 32376, 7)" tag="0"/>
+		<item text="Node (33541, 32376, 7)" tag="0"/>
+		<item text="Node (33546, 32376, 7)" tag="0"/>
+		<item text="Node (33550, 32376, 7)" tag="0"/>
+		<item text="Node (33555, 32376, 7)" tag="0"/>
+		<item text="Stand (33558, 32374, 7)" tag="1"/>
+		<item text="Node (33558, 32377, 6)" tag="0"/>
+		<item text="Node (33558, 32381, 6)" tag="0"/>
+		<item text="Node (33558, 32384, 6)" tag="0"/>
+		<item text="Node (33556, 32386, 6)" tag="0"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="roshamuul|exit.south-exit.south:" tag="255"/>
+		<item text="Node (33553, 32387, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+	</control>
+</panel>

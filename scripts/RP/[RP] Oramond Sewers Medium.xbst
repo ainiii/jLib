@@ -1,0 +1,809 @@
+<panel name="Spell Shooter">
+	<control name="shooterList">
+		<item spell="utura gran" rune="3155" srange="10" type="4" reason="0" minhp="0" maxhp="100" mana="10" count="1" creature="Glooth Golem, Glooth Anemone, Devourer" danger="0" targ="1" enabled="1"/>
+		<item spell="utani hur" rune="3155" srange="10" type="4" reason="0" minhp="0" maxhp="100" mana="10" count="2" creature="Glooth Golem, Glooth Anemone, Devourer" danger="0" targ="1" enabled="1"/>
+		<item spell="exevo mas san" rune="3155" srange="4" type="2" reason="0" minhp="0" maxhp="100" mana="10" count="2" creature="Glooth Golem, Glooth Anemone, Devourer, Glooth Blob" danger="0" targ="1" enabled="1"/>
+		<item spell="exori san" rune="3155" srange="4" type="0" reason="0" minhp="0" maxhp="100" mana="10" count="1" creature="Glooth Anemone, Devourer" danger="0" targ="1" enabled="1"/>
+		<item spell="exori con" rune="3155" srange="7" type="0" reason="0" minhp="0" maxhp="100" mana="10" count="1" creature="Glooth Golem" danger="0" targ="1" enabled="1"/>
+	</control>
+</panel>
+<panel name="Self Healer">
+	<control name="SpellList">
+        <item spell="exura gran san" mana="210" vcomp="0" vsign="1" vrandom="0" vvalue="70" enabled="1"/>
+        <item spell="exura san" mana="160" vcomp="0" vsign="1" vrandom="0" vvalue="78" enabled="1"/>
+        <item spell="exura" mana="20" vcomp="0" vsign="1" vrandom="0" vvalue="94" enabled="1"/>
+	</control>
+	<control name="ItemList">
+		<item id="23374" vcomp="0" vsign="1" vrandom="0" vvalue="50" enabled="1"/>
+		<item id="237" vcomp="0" vsign="3" vrandom="0" vvalue="70" enabled="1"/>
+	</control>
+</panel>
+<panel name="Tools">
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="1"/>
+	<control name="EnableReconnect" value="1"/>
+	<control name="LightEnable" value="0"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="0"/>
+	<control name="ShowManaBar" value="0"/>
+	<control name="ShowBPInfo" value="0"/>
+	<control name="EnableAdvancedInfo" value="0"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="1"/>
+	<control name="ParaCureMana" value="60"/>
+	<control name="ParaCureSpell" value="utani hur"/>
+	<control name="HasteCastMana" value="50"/>
+	<control name="HasteCastSpell" value="Utani Hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="75"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="15793"/>
+	<control name="AmmoRefillEnable" value="1"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList" antiks="0">
+		<item type="Glooth Golem, Glooth Anemone, Devourer" chs="6" max="100" min="0" prio="9" prox="7" count="1" elastic="1"/>
+		<item type="All Creatures" chs="0" max="100" min="0" prio="10" prox="7" count="1" elastic="0"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="rathelon|depot-depot:" tag="255"/>
+		<item text="Stand (33628, 31895, 6)" tag="1"/>
+		<item text="Node (33637, 31895, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|bank-depot:" tag="255"/>
+		<item text="Stand (33626, 31891, 5)" tag="1"/>
+		<item text="Stand (33628, 31895, 6)" tag="1"/>
+		<item text="Node (33637, 31895, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|potion-depot:" tag="255"/>
+		<item text="Stand (33617, 31879, 4)" tag="1"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Stand (33620, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Stand (33628, 31895, 6)" tag="1"/>
+		<item text="Node (33637, 31895, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|rune-depot:" tag="255"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Stand (33620, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Stand (33628, 31895, 6)" tag="1"/>
+		<item text="Node (33637, 31895, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|ammo-depot:" tag="255"/>
+		<item text="Stand (33630, 31882, 5)" tag="1"/>
+		<item text="Stand (33632, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Node (33632, 31892, 6)" tag="0"/>
+		<item text="Node (33632, 31896, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Stand (33628, 31895, 6)" tag="1"/>
+		<item text="Node (33637, 31895, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-depot:" tag="255"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Stand (33628, 31895, 6)" tag="1"/>
+		<item text="Node (33637, 31895, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|depot-bank:" tag="255"/>
+		<item text="Stand (33629, 31895, 7)" tag="1"/>
+		<item text="Stand (33626, 31891, 6)" tag="1"/>
+		<item text="Stand (33626, 31892, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|bank-bank:" tag="255"/>
+		<item text="Stand (33626, 31892, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|potion-bank:" tag="255"/>
+		<item text="Stand (33617, 31879, 4)" tag="1"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Stand (33620, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Stand (33626, 31891, 6)" tag="1"/>
+		<item text="Stand (33626, 31892, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|rune-bank:" tag="255"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Stand (33620, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Stand (33626, 31891, 6)" tag="1"/>
+		<item text="Stand (33626, 31892, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|ammo-bank:" tag="255"/>
+		<item text="Stand (33630, 31882, 5)" tag="1"/>
+		<item text="Stand (33632, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Node (33632, 31892, 6)" tag="0"/>
+		<item text="Node (33632, 31896, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Stand (33626, 31891, 6)" tag="1"/>
+		<item text="Stand (33626, 31892, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-bank:" tag="255"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Stand (33626, 31891, 6)" tag="1"/>
+		<item text="Stand (33626, 31892, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|depot-potion:" tag="255"/>
+		<item text="Stand (33629, 31895, 7)" tag="1"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33617, 31879, 5)" tag="1"/>
+		<item text="Stand (33618, 31882, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|bank-potion:" tag="255"/>
+		<item text="Stand (33626, 31891, 5)" tag="1"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33617, 31879, 5)" tag="1"/>
+		<item text="Stand (33618, 31882, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|potion-potion:" tag="255"/>
+		<item text="Stand (33618, 31882, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|rune-potion:" tag="255"/>
+		<item text="Stand (33617, 31879, 5)" tag="1"/>
+		<item text="Stand (33618, 31882, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|ammo-potion:" tag="255"/>
+		<item text="Stand (33630, 31882, 5)" tag="1"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Node (33628, 31888, 6)" tag="0"/>
+		<item text="Node (33624, 31888, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33617, 31879, 5)" tag="1"/>
+		<item text="Stand (33618, 31882, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-potion:" tag="255"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33617, 31879, 5)" tag="1"/>
+		<item text="Stand (33618, 31882, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|depot-rune:" tag="255"/>
+		<item text="Stand (33629, 31895, 7)" tag="1"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33618, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|bank-rune:" tag="255"/>
+		<item text="Stand (33626, 31891, 5)" tag="1"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33618, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|potion-rune:" tag="255"/>
+		<item text="Stand (33617, 31879, 4)" tag="1"/>
+		<item text="Stand (33618, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|rune-rune:" tag="255"/>
+		<item text="Stand (33618, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|ammo-rune:" tag="255"/>
+		<item text="Stand (33630, 31882, 5)" tag="1"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Node (33628, 31888, 6)" tag="0"/>
+		<item text="Node (33624, 31888, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33618, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-rune:" tag="255"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Stand (33620, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33620, 31880, 6)" tag="1"/>
+		<item text="Stand (33618, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|depot-ammo:" tag="255"/>
+		<item text="Stand (33629, 31895, 7)" tag="1"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33632, 31896, 6)" tag="0"/>
+		<item text="Node (33632, 31892, 6)" tag="0"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Stand (33632, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33630, 31883, 6)" tag="1"/>
+		<item text="Stand (33632, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|bank-ammo:" tag="255"/>
+		<item text="Stand (33626, 31891, 5)" tag="1"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33632, 31896, 6)" tag="0"/>
+		<item text="Node (33632, 31892, 6)" tag="0"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Stand (33632, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33630, 31883, 6)" tag="1"/>
+		<item text="Stand (33632, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|potion-ammo:" tag="255"/>
+		<item text="Stand (33617, 31879, 4)" tag="1"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33624, 31888, 6)" tag="0"/>
+		<item text="Node (33628, 31888, 6)" tag="0"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Stand (33632, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33630, 31883, 6)" tag="1"/>
+		<item text="Stand (33632, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|rune-ammo:" tag="255"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33624, 31888, 6)" tag="0"/>
+		<item text="Node (33628, 31888, 6)" tag="0"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Stand (33632, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33630, 31883, 6)" tag="1"/>
+		<item text="Stand (33632, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|ammo-ammo:" tag="255"/>
+		<item text="Stand (33632, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-ammo:" tag="255"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33632, 31896, 6)" tag="0"/>
+		<item text="Node (33632, 31892, 6)" tag="0"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Stand (33632, 31886, 6)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Stand (33630, 31883, 6)" tag="1"/>
+		<item text="Stand (33632, 31882, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|depot-exit.south:" tag="255"/>
+		<item text="Stand (33629, 31895, 7)" tag="1"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33635, 31940, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|bank-exit.south:" tag="255"/>
+		<item text="Stand (33626, 31891, 5)" tag="1"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33635, 31940, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|potion-exit.south:" tag="255"/>
+		<item text="Stand (33617, 31879, 4)" tag="1"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Stand (33620, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33635, 31940, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|rune-exit.south:" tag="255"/>
+		<item text="Stand (33620, 31880, 5)" tag="1"/>
+		<item text="Stand (33620, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33620, 31886, 6)" tag="0"/>
+		<item text="Node (33618, 31891, 6)" tag="0"/>
+		<item text="Node (33619, 31895, 6)" tag="0"/>
+		<item text="Node (33624, 31898, 6)" tag="0"/>
+		<item text="Node (33628, 31898, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33635, 31940, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|ammo-exit.south:" tag="255"/>
+		<item text="Stand (33630, 31882, 5)" tag="1"/>
+		<item text="Stand (33632, 31884, 6)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33632, 31888, 6)" tag="0"/>
+		<item text="Node (33632, 31892, 6)" tag="0"/>
+		<item text="Node (33632, 31896, 6)" tag="0"/>
+		<item text="Node (33631, 31902, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33631, 31907, 6)" tag="0"/>
+		<item text="Node (33632, 31912, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33635, 31921, 6)" tag="0"/>
+		<item text="Node (33638, 31926, 6)" tag="0"/>
+		<item text="Node (33638, 31931, 6)" tag="0"/>
+		<item text="Node (33637, 31936, 6)" tag="0"/>
+		<item text="Node (33635, 31940, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-exit.south:" tag="255"/>
+		<item text="Node (33635, 31940, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="rathelon|exit.south-spawn:" tag="255"/>
+		<item text="Stand (33635, 31944, 6)" tag="1"/>
+		<item text="Node (33634, 31948, 7)" tag="0"/>
+		<item text="Node (33632, 31951, 7)" tag="0"/>
+		<item text="Node (33630, 31954, 7)" tag="0"/>
+		<item text="Node (33630, 31958, 7)" tag="0"/>
+		<item text="Node (33628, 31961, 7)" tag="0"/>
+		<item text="Node (33628, 31965, 7)" tag="0"/>
+		<item text="Node (33628, 31969, 7)" tag="0"/>
+		<item text="Node (33626, 31972, 7)" tag="0"/>
+		<item text="Stand (33624, 31975, 7)" tag="1"/>
+		<item text="other|door|south:" tag="255"/>
+		<item text="Node (33622, 31979, 7)" tag="0"/>
+		<item text="Ladder (33621, 31979, 7)" tag="2"/>
+		<item text="Stand (33623, 31984, 9)" tag="1"/>
+		<item text="Node (33619, 31984, 10)" tag="0"/>
+		<item text="Node (33615, 31984, 10)" tag="0"/>
+		<item text="Node (33611, 31984, 10)" tag="0"/>
+		<item text="Node (33612, 31981, 10)" tag="0"/>
+		<item text="Node (33616, 31980, 10)" tag="0"/>
+		<item text="Node (33620, 31980, 10)" tag="0"/>
+		<item text="Node (33624, 31980, 10)" tag="0"/>
+		<item text="Node (33628, 31980, 10)" tag="0"/>
+		<item text="Node (33632, 31980, 10)" tag="0"/>
+		<item text="Node (33636, 31980, 10)" tag="0"/>
+		<item text="hunt|start:" tag="255"/>
+		<item text="Node (33639, 31979, 10)" tag="0"/>
+		<item text="Node (33643, 31978, 10)" tag="0"/>
+		<item text="Node (33647, 31977, 10)" tag="0"/>
+		<item text="Node (33648, 31974, 10)" tag="0"/>
+		<item text="Node (33649, 31971, 10)" tag="0"/>
+		<item text="Node (33649, 31968, 10)" tag="0"/>
+		<item text="Node (33649, 31965, 10)" tag="0"/>
+		<item text="Node (33649, 31962, 10)" tag="0"/>
+		<item text="Node (33649, 31958, 10)" tag="0"/>
+		<item text="Node (33648, 31955, 10)" tag="0"/>
+		<item text="Node (33646, 31952, 10)" tag="0"/>
+		<item text="Node (33643, 31950, 10)" tag="0"/>
+		<item text="Node (33639, 31948, 10)" tag="0"/>
+		<item text="Node (33639, 31944, 10)" tag="0"/>
+		<item text="Node (33639, 31940, 10)" tag="0"/>
+		<item text="Node (33641, 31937, 10)" tag="0"/>
+		<item text="Node (33645, 31937, 10)" tag="0"/>
+		<item text="Node (33649, 31937, 10)" tag="0"/>
+		<item text="Node (33651, 31940, 10)" tag="0"/>
+		<item text="Node (33649, 31937, 10)" tag="0"/>
+		<item text="Node (33645, 31937, 10)" tag="0"/>
+		<item text="Node (33641, 31936, 10)" tag="0"/>
+		<item text="Node (33639, 31933, 10)" tag="0"/>
+		<item text="Node (33635, 31933, 10)" tag="0"/>
+		<item text="Node (33633, 31930, 10)" tag="0"/>
+		<item text="Node (33633, 31926, 10)" tag="0"/>
+		<item text="Node (33630, 31924, 10)" tag="0"/>
+		<item text="Node (33626, 31924, 10)" tag="0"/>
+		<item text="Node (33624, 31927, 10)" tag="0"/>
+		<item text="Node (33624, 31931, 10)" tag="0"/>
+		<item text="Node (33624, 31935, 10)" tag="0"/>
+		<item text="Node (33624, 31939, 10)" tag="0"/>
+		<item text="Node (33622, 31942, 10)" tag="0"/>
+		<item text="Node (33618, 31942, 10)" tag="0"/>
+		<item text="Node (33615, 31942, 10)" tag="0"/>
+		<item text="Node (33611, 31942, 10)" tag="0"/>
+		<item text="Node (33610, 31939, 10)" tag="0"/>
+		<item text="Node (33608, 31936, 10)" tag="0"/>
+		<item text="Node (33607, 31933, 10)" tag="0"/>
+		<item text="Node (33607, 31930, 10)" tag="0"/>
+		<item text="Node (33609, 31927, 10)" tag="0"/>
+		<item text="Node (33613, 31926, 10)" tag="0"/>
+		<item text="Node (33615, 31926, 10)" tag="0"/>
+		<item text="Node (33618, 31928, 10)" tag="0"/>
+		<item text="Node (33618, 31932, 10)" tag="0"/>
+		<item text="Node (33622, 31932, 10)" tag="0"/>
+		<item text="Node (33625, 31929, 10)" tag="0"/>
+		<item text="Node (33625, 31925, 10)" tag="0"/>
+		<item text="Node (33629, 31925, 10)" tag="0"/>
+		<item text="Node (33633, 31925, 10)" tag="0"/>
+		<item text="Node (33634, 31928, 10)" tag="0"/>
+		<item text="Node (33634, 31932, 10)" tag="0"/>
+		<item text="Node (33636, 31935, 10)" tag="0"/>
+		<item text="Node (33639, 31938, 10)" tag="0"/>
+		<item text="Node (33639, 31942, 10)" tag="0"/>
+		<item text="Node (33639, 31946, 10)" tag="0"/>
+		<item text="Node (33642, 31949, 10)" tag="0"/>
+		<item text="Node (33645, 31951, 10)" tag="0"/>
+		<item text="Node (33648, 31954, 10)" tag="0"/>
+		<item text="Node (33649, 31957, 10)" tag="0"/>
+		<item text="Node (33649, 31961, 10)" tag="0"/>
+		<item text="Node (33649, 31964, 10)" tag="0"/>
+		<item text="Node (33649, 31967, 10)" tag="0"/>
+		<item text="Node (33648, 31970, 10)" tag="0"/>
+		<item text="Node (33645, 31973, 10)" tag="0"/>
+		<item text="Node (33643, 31976, 10)" tag="0"/>
+		<item text="Node (33640, 31979, 10)" tag="0"/>
+		<item text="hunt|check:" tag="255"/>
+		<item text="Node (33637, 31979, 10)" tag="0"/>
+		<item text="Node (33640, 31979, 10)" tag="0"/>
+		<item text="Node (33642, 31977, 10)" tag="0"/>
+		<item text="Node (33643, 31974, 10)" tag="0"/>
+		<item text="Node (33645, 31972, 10)" tag="0"/>
+		<item text="Node (33648, 31971, 10)" tag="0"/>
+		<item text="Node (33649, 31968, 10)" tag="0"/>
+		<item text="Node (33649, 31965, 10)" tag="0"/>
+		<item text="Node (33649, 31962, 10)" tag="0"/>
+		<item text="Node (33649, 31959, 10)" tag="0"/>
+		<item text="Node (33650, 31956, 10)" tag="0"/>
+		<item text="Node (33653, 31954, 10)" tag="0"/>
+		<item text="hunt|exit|1:" tag="255"/>
+		<item text="Node (33653, 31954, 10)" tag="0"/>
+		<item text="Node (33610, 31926, 10)" tag="0"/>
+		<item text="Node (33608, 31928, 10)" tag="0"/>
+		<item text="Node (33607, 31931, 10)" tag="0"/>
+		<item text="Node (33608, 31934, 10)" tag="0"/>
+		<item text="Node (33609, 31937, 10)" tag="0"/>
+		<item text="Node (33610, 31941, 10)" tag="0"/>
+		<item text="Node (33613, 31942, 10)" tag="0"/>
+		<item text="Node (33616, 31942, 10)" tag="0"/>
+		<item text="Node (33619, 31942, 10)" tag="0"/>
+		<item text="Node (33622, 31942, 10)" tag="0"/>
+		<item text="Node (33624, 31939, 10)" tag="0"/>
+		<item text="Node (33624, 31936, 10)" tag="0"/>
+		<item text="Node (33624, 31933, 10)" tag="0"/>
+		<item text="Node (33624, 31930, 10)" tag="0"/>
+		<item text="Node (33624, 31927, 10)" tag="0"/>
+		<item text="Node (33624, 31924, 10)" tag="0"/>
+		<item text="Node (33627, 31924, 10)" tag="0"/>
+		<item text="Node (33631, 31924, 10)" tag="0"/>
+		<item text="Node (33634, 31926, 10)" tag="0"/>
+		<item text="Node (33634, 31929, 10)" tag="0"/>
+		<item text="Node (33634, 31932, 10)" tag="0"/>
+		<item text="Node (33634, 31935, 10)" tag="0"/>
+		<item text="Node (33637, 31937, 10)" tag="0"/>
+		<item text="Node (33639, 31940, 10)" tag="0"/>
+		<item text="hunt|exit|2:" tag="255"/>
+		<item text="Node (33650, 31943, 10)" tag="0"/>
+		<item text="Node (33650, 31940, 10)" tag="0"/>
+		<item text="Node (33649, 31937, 10)" tag="0"/>
+		<item text="Node (33646, 31937, 10)" tag="0"/>
+		<item text="Node (33643, 31937, 10)" tag="0"/>
+		<item text="Node (33640, 31939, 10)" tag="0"/>
+		<item text="Node (33639, 31942, 10)" tag="0"/>
+		<item text="Node (33639, 31945, 10)" tag="0"/>
+		<item text="Node (33639, 31948, 10)" tag="0"/>
+		<item text="Node (33642, 31950, 10)" tag="0"/>
+		<item text="Node (33645, 31952, 10)" tag="0"/>
+		<item text="Node (33648, 31954, 10)" tag="0"/>
+		<item text="Node (33651, 31954, 10)" tag="0"/>
+		<item text="hunt|leave:" tag="255"/>
+		<item text="Ladder (33654, 31954, 10)" tag="2"/>
+		<item text="Stand (33655, 31954, 9)" tag="1"/>
+		<item text="other|step|east:" tag="255"/>
+		<item text="Node (33618, 31984, 10)" tag="0"/>
+		<item text="Ladder (33623, 31983, 10)" tag="2"/>
+		<item text="Ladder (33621, 31979, 9)" tag="2"/>
+		<item text="Stand (33624, 31977, 7)" tag="1"/>
+		<item text="other|door|north:" tag="255"/>
+		<item text="Node (33627, 31974, 7)" tag="0"/>
+		<item text="Node (33631, 31974, 7)" tag="0"/>
+		<item text="Node (33635, 31972, 7)" tag="0"/>
+		<item text="Node (33635, 31968, 7)" tag="0"/>
+		<item text="Node (33635, 31964, 7)" tag="0"/>
+		<item text="Node (33635, 31960, 7)" tag="0"/>
+		<item text="Node (33635, 31956, 7)" tag="0"/>
+		<item text="Node (33635, 31952, 7)" tag="0"/>
+		<item text="Node (33635, 31948, 7)" tag="0"/>
+		<item text="Stand (33635, 31944, 7)" tag="1"/>
+		<item text="other|checkloot:" tag="255"/>
+		<item text="Node (33636, 31939, 6)" tag="0"/>
+		<item text="Node (33637, 31935, 6)" tag="0"/>
+		<item text="Node (33637, 31931, 6)" tag="0"/>
+		<item text="Node (33637, 31927, 6)" tag="0"/>
+		<item text="Node (33637, 31923, 6)" tag="0"/>
+		<item text="Node (33633, 31921, 6)" tag="0"/>
+		<item text="Node (33632, 31917, 6)" tag="0"/>
+		<item text="Node (33632, 31913, 6)" tag="0"/>
+		<item text="Node (33631, 31909, 6)" tag="0"/>
+		<item text="Node (33631, 31905, 6)" tag="0"/>
+		<item text="Node (33632, 31901, 6)" tag="0"/>
+		<item text="Node (33632, 31897, 6)" tag="0"/>
+		<item text="Node (33633, 31893, 6)" tag="0"/>
+		<item text="Node (33633, 31889, 6)" tag="0"/>
+		<item text="Node (33633, 31885, 6)" tag="0"/>
+		<item text="Stand (33633, 31882, 6)" tag="1"/>
+		<item text="other|loot|Flint:" tag="255"/>
+		<item text="noloot:" tag="255"/>
+		<item text="hunt|finish:" tag="255"/>
+	</control>
+</panel>
+<panel name="Looter">
+	<control name="LootList" mode="1" minimum="0" maximum="0" skinner="0" unlisted="0">
+		<item ID="3031" action="0" deposit="0"/>
+		<item ID="3032" action="0" deposit="0"/>
+		<item ID="3035" action="0" deposit="0"/>
+		<item ID="7643" action="0" deposit="0"/>
+		<item ID="238" action="0" deposit="0"/>
+		<item ID="3037" action="0" deposit="0"/>
+		<item ID="3038" action="0" deposit="0"/>
+		<item ID="21179" action="0" deposit="0"/>
+		<item ID="21178" action="0" deposit="0"/>
+		<item ID="21183" action="0" deposit="0"/>
+		<item ID="21180" action="0" deposit="0"/>
+		<item ID="9057" action="0" deposit="0"/>
+		<item ID="5880" action="0" deposit="0"/>
+		<item ID="21103" action="0" deposit="0"/>
+		<item ID="21170" action="0" deposit="0"/>
+		<item ID="21165" action="0" deposit="0"/>
+		<item ID="21167" action="0" deposit="0"/>
+		<item ID="236" action="0" deposit="0"/>
+		<item ID="237" action="0" deposit="0"/>
+		<item ID="3732" action="0" deposit="0"/>
+		<item ID="21164" action="0" deposit="0"/>
+		<item ID="21197" action="0" deposit="0"/>
+		<item ID="21172" action="0" deposit="0"/>
+		<item ID="3030" action="0" deposit="0"/>
+		<item ID="3033" action="0" deposit="0"/>
+		<item ID="8084" action="0" deposit="0"/>
+		<item ID="3028" action="0" deposit="0"/>
+		<item ID="3029" action="0" deposit="0"/>
+		<item ID="3034" action="0" deposit="0"/>
+		<item ID="21182" action="0" deposit="0"/>
+		<item ID="8775" action="0" deposit="0"/>
+		<item ID="3065" action="0" deposit="0"/>
+	</control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="1"/>
+	<control name="walkOnFurnitureEnable" value="1"/>
+	<control name="walkOnMaroonGround" value="0"/>
+	<control name="pathThroughRangedCreatures" value="1"/>
+	<control name="walkWithMapclicks" value="0"/>
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList">
+		<item title="New Area" consider="1" width="1" height="1" x="33624" y="31977" z="9"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33627" y="31981" z="9"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33610" y="31983" z="10"/>
+		<item title="New Area" consider="3" width="3" height="1" x="33619" y="31978" z="10"/>
+		<item title="New Area" consider="1" width="3" height="1" x="33637" y="31942" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33639" y="31925" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33636" y="31923" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33631" y="31929" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33627" y="31929" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33627" y="31934" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33631" y="31934" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33631" y="31939" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33627" y="31939" z="10"/>
+		<item title="New Area" consider="1" width="2" height="1" x="33638" y="31945" z="10"/>
+		<item title="New Area" consider="1" width="2" height="1" x="33649" y="31948" z="10"/>
+		<item title="New Area" consider="1" width="2" height="2" x="33652" y="31949" z="10"/>
+		<item title="New Area" consider="1" width="2" height="3" x="33652" y="31952" z="10"/>
+		<item title="New Area" consider="1" width="1" height="4" x="33653" y="31956" z="10"/>
+		<item title="New Area" consider="1" width="1" height="2" x="33653" y="31961" z="10"/>
+		<item title="New Area" consider="1" width="2" height="1" x="33649" y="31963" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33641" y="31962" z="10"/>
+		<item title="New Area" consider="1" width="1" height="2" x="33633" y="31961" z="10"/>
+		<item title="New Area" consider="1" width="2" height="1" x="33649" y="31968" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33653" y="31969" z="10"/>
+		<item title="New Area" consider="1" width="2" height="4" x="33649" y="31964" z="10"/>
+		<item title="New Area" consider="1" width="2" height="1" x="33638" y="31976" z="10"/>
+		<item title="New Area" consider="1" width="2" height="1" x="33635" y="31978" z="10"/>
+		<item title="New Area" consider="1" width="1" height="3" x="33633" y="31980" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33641" y="31969" z="10"/>
+		<item title="New Area" consider="1" width="6" height="2" x="33636" y="31943" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33622" y="31932" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33619" y="31939" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33610" y="31939" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33607" y="31930" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33615" y="31926" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33621" y="31936" z="10"/>
+		<item title="New Area" consider="1" width="3" height="1" x="33652" y="31952" z="9"/>
+		<item title="New Area" consider="1" width="1" height="5" x="33652" y="31952" z="9"/>
+		<item title="New Area" consider="1" width="3" height="1" x="33652" y="31956" z="9"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33641" y="31970" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33653" y="31970" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33653" y="31982" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33634" y="31982" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33634" y="31979" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33651" y="31949" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33644" y="31946" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33634" y="31946" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33644" y="31941" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33646" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33654" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33654" y="31933" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33646" y="31933" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33644" y="31926" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33632" y="31941" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33635" y="31922" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33623" y="31922" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33626" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33616" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33616" y="31940" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33614" y="31940" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33614" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33605" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33605" y="31940" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33605" y="31938" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33614" y="31938" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33614" y="31931" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33605" y="31931" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33605" y="31929" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33614" y="31929" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33614" y="31922" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33605" y="31922" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33616" y="31922" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33621" y="31922" z="10"/>
+		<item title="New Area" consider="1" width="13" height="1" x="33632" y="31935" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33644" y="31934" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33632" y="31934" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33632" y="31936" z="10"/>
+		<item title="New Area" consider="1" width="4" height="1" x="33623" y="31927" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33623" y="31926" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33623" y="31928" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33626" y="31928" z="10"/>
+		<item title="New Area" consider="3" width="1" height="1" x="33609" y="31940" z="10"/>
+		<item title="New Area" consider="3" width="1" height="1" x="33609" y="31942" z="10"/>
+		<item title="New Area" consider="3" width="1" height="1" x="33609" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33610" y="31944" z="10"/>
+		<item title="New Area" consider="1" width="1" height="1" x="33610" y="31940" z="10"/>
+	</control>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="0"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="0"/>
+	<control name="lhpAlarmPercent" value="50"/>
+	<control name="pmAlarm" value="0"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="1"/>
+	<control name="attackAlarmYellow" value="1"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="0"/>
+	<control name="burstAlarm" value="0"/>
+	<control name="burstAlarmPercent" value="500"/>
+	<control name="averageAlarm" value="0"/>
+	<control name="averageAlarmPercent" value="200"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Scripter">
+	<control name="RunningScriptList">
+		<script name="|NAME|.xblua" noprompt="1"><![CDATA[|BASE64|]]></script>
+	</control>
+</panel>

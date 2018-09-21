@@ -1,0 +1,1018 @@
+<panel name="Spell Shooter">
+	<control name="shooterList">
+		<item spell="utani gran hur" rune="3155" srange="7" type="4" reason="0" minhp="0" maxhp="100" mana="10" count="4" creature="Mummy, Ghost, Gargoyle, Crypt Shambler, Demon Skeleton, Corym Charlatan, Corym Skirmisher" danger="0" targ="0" enabled="1"/>
+		<item spell="spell words" rune="3161" srange="4" type="3" reason="0" minhp="0" maxhp="100" mana="10" count="2" creature="Mummy, Ghost, Gargoyle, Crypt Shambler, Demon Skeleton, Corym Charlatan, Corym Skirmisher" danger="0" targ="0" enabled="1"/>
+		<item spell="exori flam" rune="3155" srange="3" type="0" reason="0" minhp="0" maxhp="100" mana="10" count="1" creature="Zombie" danger="0" targ="1" enabled="1"/>
+		<item spell="exori frigo" rune="3155" srange="3" type="0" reason="0" minhp="0" maxhp="100" mana="10" count="1" creature="Mummy, Ghost, Gargoyle, Crypt Shambler, Demon Skeleton, Corym Charlatan, Corym Skirmisher" danger="0" targ="1" enabled="1"/>
+	</control>
+</panel>
+<panel name="Self Healer">
+	<control name="SpellList">
+		<item spell="exura vita" mana="160" vcomp="0" vsign="1" vrandom="0" vvalue="65" enabled="1"/>
+		<item spell="exura gran" mana="70" vcomp="0" vsign="1" vrandom="0" vvalue="83" enabled="1"/>
+		<item spell="exura" mana="20" vcomp="0" vsign="1" vrandom="0" vvalue="90" enabled="1"/>
+	</control>
+	<control name="ItemList">
+		<item id="268" vcomp="0" vsign="3" vrandom="0" vvalue="60" enabled="1"/>
+	</control>
+</panel>
+<panel name="Tools">
+	<control name="EnableAntiIdle" value="0"/>
+	<control name="EnableEatFood" value="1"/>
+	<control name="EnableReconnect" value="1"/>
+	<control name="LightEnable" value="0"/>
+	<control name="XRayEnable" value="0"/>
+	<control name="ShowLookIDs" value="0"/>
+	<control name="ShowManaBar" value="0"/>
+	<control name="ShowBPInfo" value="0"/>
+	<control name="EnableAdvancedInfo" value="0"/>
+</panel>
+<panel name="Condition Manager">
+	<control name="PoisonCureLimit" value="6"/>
+	<control name="PoisonCureMana" value="20"/>
+	<control name="PoisonCureEnable" value="0"/>
+	<control name="DeathCureLimit" value="10"/>
+	<control name="DeathCureMana" value="40"/>
+	<control name="DeathCureEnable" value="0"/>
+	<control name="PhysicalCureLimit" value="5"/>
+	<control name="PhysicalCureMana" value="30"/>
+	<control name="PhysicalCureEnable" value="0"/>
+	<control name="FireCureLimit" value="20"/>
+	<control name="FireCureMana" value="30"/>
+	<control name="FireCureEnable" value="0"/>
+	<control name="EnergyCureLimit" value="15"/>
+	<control name="EnergyCureMana" value="30"/>
+	<control name="EnergyCureEnable" value="0"/>
+	<control name="ParaCureEnable" value="1"/>
+	<control name="ParaCureMana" value="20"/>
+	<control name="ParaCureSpell" value="exura"/>
+	<control name="HasteCastMana" value="70"/>
+	<control name="HasteCastSpell" value="utani gran hur"/>
+	<control name="HasteCastEnable" value="0"/>
+	<control name="InvisibleCastMana" value="50"/>
+	<control name="InvisibleCastEnable" value="0"/>
+	<control name="ShieldCastMana" value="50"/>
+	<control name="ShieldCastEnable" value="0"/>
+	<control name="RecoveryCastEnable" value="0"/>
+	<control name="RecoveryCastType" value="0"/>
+	<control name="RecoveryCastMana" value="50"/>
+	<control name="RecoveryCheckPzEnable" value="1"/>
+</panel>
+<panel name="Equipment Manager">
+	<control name="AmmoRefillID" value="15793"/>
+	<control name="AmmoRefillEnable" value="0"/>
+	<control name="WeaponRefillID" value="7368"/>
+	<control name="WeaponRefillEnable" value="0"/>
+</panel>
+<panel name="Targeting">
+	<control name="TargetingList">
+		<item type="Mummy, Ghost, Gargoyle, Crypt Shambler, Demon Skeleton, Corym Charlatan, Corym Skirmisher" chs="6" max="100" min="0" prio="9" prox="7" count="1" elastic="0"/>
+		<item type="All Creatures" chs="6" max="100" min="0" prio="10" prox="7" count="1" elastic="0"/>
+	</control>
+</panel>
+<panel name="Walker">
+	<control name="WaypointList">
+		<item text="kazordoon|depot-depot:" tag="255"/>
+		<item text="Node (32660, 31913, 8)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|bank-depot:" tag="255"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32654, 31914, 8)" tag="0"/>
+		<item text="Node (32660, 31913, 8)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|potion-depot:" tag="255"/>
+		<item text="Node (32630, 31928, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32654, 31914, 8)" tag="0"/>
+		<item text="Node (32660, 31913, 8)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|rune-depot:" tag="255"/>
+		<item text="Node (32630, 31928, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32654, 31914, 8)" tag="0"/>
+		<item text="Node (32660, 31913, 8)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|ammo-depot:" tag="255"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Stand (32645, 31908, 9)" tag="1"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32654, 31914, 8)" tag="0"/>
+		<item text="Node (32660, 31913, 8)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-depot:" tag="255"/>
+		<item text="Node (32659, 31905, 8)" tag="0"/>
+		<item text="Node (32661, 31909, 8)" tag="0"/>
+		<item text="Node (32660, 31913, 8)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|depot-bank:" tag="255"/>
+		<item text="Stand (32648, 31907, 8)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|bank-bank:" tag="255"/>
+		<item text="Stand (32648, 31907, 8)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|potion-bank:" tag="255"/>
+		<item text="Node (32630, 31928, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Stand (32648, 31907, 8)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|rune-bank:" tag="255"/>
+		<item text="Node (32630, 31928, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Stand (32648, 31907, 8)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|ammo-bank:" tag="255"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Stand (32645, 31908, 9)" tag="1"/>
+		<item text="Stand (32648, 31907, 8)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-bank:" tag="255"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Stand (32648, 31907, 8)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|depot-potion:" tag="255"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|bank-potion:" tag="255"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|potion-potion:" tag="255"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|rune-potion:" tag="255"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|ammo-potion:" tag="255"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Stand (32645, 31908, 9)" tag="1"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-potion:" tag="255"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32651, 31914, 8)" tag="0"/>
+		<item text="Node (32648, 31916, 8)" tag="0"/>
+		<item text="Node (32644, 31917, 8)" tag="0"/>
+		<item text="Node (32640, 31918, 8)" tag="0"/>
+		<item text="Node (32636, 31919, 8)" tag="0"/>
+		<item text="Node (32632, 31920, 8)" tag="0"/>
+		<item text="Node (32627, 31921, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32622, 31920, 6)" tag="0"/>
+		<item text="Node (32618, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32613, 31925, 6)" tag="0"/>
+		<item text="Node (32610, 31925, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|depot-rune:" tag="255"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|bank-rune:" tag="255"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|potion-rune:" tag="255"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|rune-rune:" tag="255"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|ammo-rune:" tag="255"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Stand (32645, 31908, 9)" tag="1"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-rune:" tag="255"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32651, 31914, 8)" tag="0"/>
+		<item text="Node (32648, 31916, 8)" tag="0"/>
+		<item text="Node (32644, 31917, 8)" tag="0"/>
+		<item text="Node (32640, 31918, 8)" tag="0"/>
+		<item text="Node (32636, 31919, 8)" tag="0"/>
+		<item text="Node (32632, 31920, 8)" tag="0"/>
+		<item text="Node (32627, 31921, 8)" tag="0"/>
+		<item text="Stand (32624, 31920, 8)" tag="1"/>
+		<item text="Stand (32626, 31920, 7)" tag="1"/>
+		<item text="Node (32622, 31920, 6)" tag="0"/>
+		<item text="Node (32618, 31921, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32613, 31925, 6)" tag="0"/>
+		<item text="Node (32610, 31925, 6)" tag="0"/>
+		<item text="Stand (32607, 31925, 6)" tag="1"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31924, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="if (Creature.isOnScreen('Sigurd')) then Walker.Goto('npcFound') end" tag="254"/>
+		<item text="Stand (32629, 31917, 5)" tag="1"/>
+		<item text="other|door|west:" tag="255"/>
+		<item text="npcFound:" tag="255"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|depot-ammo:" tag="255"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Stand (32645, 31908, 8)" tag="1"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Stand (32661, 31895, 9)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|bank-ammo:" tag="255"/>
+		<item text="Stand (32645, 31908, 8)" tag="1"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Stand (32661, 31895, 9)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|potion-ammo:" tag="255"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Stand (32645, 31908, 8)" tag="1"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Stand (32661, 31895, 9)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|rune-ammo:" tag="255"/>
+		<item text="Node (32626, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32616, 31930, 5)" tag="0"/>
+		<item text="Node (32611, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32611, 31924, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32621, 31921, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32629, 31920, 8)" tag="0"/>
+		<item text="Node (32635, 31919, 8)" tag="0"/>
+		<item text="Node (32641, 31918, 8)" tag="0"/>
+		<item text="Node (32646, 31917, 8)" tag="0"/>
+		<item text="Node (32650, 31916, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Stand (32645, 31908, 8)" tag="1"/>
+		<item text="Node (32647, 31908, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32651, 31902, 9)" tag="0"/>
+		<item text="Node (32654, 31900, 9)" tag="0"/>
+		<item text="Node (32656, 31897, 9)" tag="0"/>
+		<item text="Node (32658, 31894, 9)" tag="0"/>
+		<item text="Stand (32661, 31895, 9)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|ammo-ammo:" tag="255"/>
+		<item text="Stand (32661, 31895, 9)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-ammo:" tag="255"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Stand (32645, 31908, 8)" tag="1"/>
+		<item text="Node (32647, 31907, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32652, 31901, 9)" tag="0"/>
+		<item text="Node (32655, 31898, 9)" tag="0"/>
+		<item text="Node (32657, 31894, 9)" tag="0"/>
+		<item text="Stand (32661, 31895, 9)" tag="1"/>
+		<item text="kazordoon|depot-exit.carts:" tag="255"/>
+		<item text="Node (32657, 31903, 8)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|bank-exit.carts:" tag="255"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32657, 31903, 8)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|potion-exit.carts:" tag="255"/>
+		<item text="Node (32629, 31929, 5)" tag="0"/>
+		<item text="Node (32625, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32617, 31930, 5)" tag="0"/>
+		<item text="Node (32613, 31930, 5)" tag="0"/>
+		<item text="Node (32610, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32610, 31925, 6)" tag="0"/>
+		<item text="Node (32613, 31925, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32618, 31921, 6)" tag="0"/>
+		<item text="Node (32622, 31920, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32627, 31921, 8)" tag="0"/>
+		<item text="Node (32632, 31920, 8)" tag="0"/>
+		<item text="Node (32636, 31919, 8)" tag="0"/>
+		<item text="Node (32640, 31918, 8)" tag="0"/>
+		<item text="Node (32644, 31917, 8)" tag="0"/>
+		<item text="Node (32648, 31916, 8)" tag="0"/>
+		<item text="Node (32651, 31914, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32657, 31903, 8)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|rune-exit.carts:" tag="255"/>
+		<item text="Node (32629, 31929, 5)" tag="0"/>
+		<item text="Node (32625, 31930, 5)" tag="0"/>
+		<item text="Node (32621, 31930, 5)" tag="0"/>
+		<item text="Node (32617, 31930, 5)" tag="0"/>
+		<item text="Node (32613, 31930, 5)" tag="0"/>
+		<item text="Node (32610, 31927, 5)" tag="0"/>
+		<item text="Stand (32607, 31925, 5)" tag="1"/>
+		<item text="Node (32610, 31925, 6)" tag="0"/>
+		<item text="Node (32613, 31925, 6)" tag="0"/>
+		<item text="Node (32616, 31923, 6)" tag="0"/>
+		<item text="Node (32618, 31921, 6)" tag="0"/>
+		<item text="Node (32622, 31920, 6)" tag="0"/>
+		<item text="Stand (32626, 31920, 6)" tag="1"/>
+		<item text="Stand (32624, 31920, 7)" tag="1"/>
+		<item text="Node (32627, 31921, 8)" tag="0"/>
+		<item text="Node (32632, 31920, 8)" tag="0"/>
+		<item text="Node (32636, 31919, 8)" tag="0"/>
+		<item text="Node (32640, 31918, 8)" tag="0"/>
+		<item text="Node (32644, 31917, 8)" tag="0"/>
+		<item text="Node (32648, 31916, 8)" tag="0"/>
+		<item text="Node (32651, 31914, 8)" tag="0"/>
+		<item text="Node (32651, 31910, 8)" tag="0"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32657, 31903, 8)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|ammo-exit.carts:" tag="255"/>
+		<item text="Node (32657, 31894, 9)" tag="0"/>
+		<item text="Node (32655, 31898, 9)" tag="0"/>
+		<item text="Node (32652, 31901, 9)" tag="0"/>
+		<item text="Node (32648, 31904, 9)" tag="0"/>
+		<item text="Node (32647, 31907, 9)" tag="0"/>
+		<item text="Stand (32645, 31908, 9)" tag="1"/>
+		<item text="Node (32648, 31908, 8)" tag="0"/>
+		<item text="Node (32652, 31906, 8)" tag="0"/>
+		<item text="Node (32657, 31903, 8)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-exit.carts:" tag="255"/>
+		<item text="Node (32657, 31903, 8)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="kazordoon|exit.carts-spawn:" tag="255"/>
+		<item text="Stand (32657, 31901, 8)" tag="1"/>
+		<item text="other|use|east:" tag="255"/>
+		<item text="Node (32623, 31924, 11)" tag="0"/>
+		<item text="Node (32619, 31924, 11)" tag="0"/>
+		<item text="Node (32615, 31923, 11)" tag="0"/>
+		<item text="Node (32613, 31918, 11)" tag="0"/>
+		<item text="Node (32613, 31912, 11)" tag="0"/>
+		<item text="Node (32613, 31906, 11)" tag="0"/>
+		<item text="Node (32613, 31900, 11)" tag="0"/>
+		<item text="Node (32613, 31894, 11)" tag="0"/>
+		<item text="Node (32613, 31888, 11)" tag="0"/>
+		<item text="Node (32613, 31882, 11)" tag="0"/>
+		<item text="Node (32613, 31876, 11)" tag="0"/>
+		<item text="Node (32613, 31870, 11)" tag="0"/>
+		<item text="Node (32613, 31864, 11)" tag="0"/>
+		<item text="Node (32618, 31862, 11)" tag="0"/>
+		<item text="Node (32622, 31859, 11)" tag="0"/>
+		<item text="Node (32624, 31855, 11)" tag="0"/>
+		<item text="Stand (32624, 31854, 11)" tag="1"/>
+		<item text="other|step|north:" tag="255"/>
+		<item text="Node (32239, 32600, 8)" tag="0"/>
+		<item text="Stand (32239, 32603, 8)" tag="1"/>
+		<item text="Node (32243, 32605, 9)" tag="0"/>
+		<item text="Stand (32248, 32603, 9)" tag="1"/>
+		<item text="Node (32243, 32606, 10)" tag="0"/>
+		<item text="Node (32239, 32605, 10)" tag="0"/>
+		<item text="Stand (32235, 32604, 10)" tag="1"/>
+		<item text="other|step|west:" tag="255"/>
+		<item text="Node (32242, 32617, 10)" tag="0"/>
+		<item text="Node (32246, 32616, 10)" tag="0"/>
+		<item text="Node (32250, 32615, 10)" tag="0"/>
+		<item text="Node (32253, 32613, 10)" tag="0"/>
+		<item text="Node (32256, 32610, 10)" tag="0"/>
+		<item text="Node (32260, 32608, 10)" tag="0"/>
+		<item text="Node (32265, 32608, 10)" tag="0"/>
+		<item text="Node (32270, 32608, 10)" tag="0"/>
+		<item text="Node (32275, 32608, 10)" tag="0"/>
+		<item text="Node (32279, 32609, 10)" tag="0"/>
+		<item text="hunt|start:" tag="255"/>
+		<item text="special|lure|start:" tag="255"/>
+		<item text="Node (32273, 32607, 10)" tag="0"/>
+		<item text="Node (32276, 32607, 10)" tag="0"/>
+		<item text="Node (32279, 32607, 10)" tag="0"/>
+		<item text="Node (32282, 32606, 10)" tag="0"/>
+		<item text="Node (32285, 32605, 10)" tag="0"/>
+		<item text="Node (32288, 32604, 10)" tag="0"/>
+		<item text="Node (32291, 32602, 10)" tag="0"/>
+		<item text="Node (32294, 32600, 10)" tag="0"/>
+		<item text="Node (32296, 32598, 10)" tag="0"/>
+		<item text="Node (32297, 32596, 10)" tag="0"/>
+		<item text="Node (32298, 32594, 10)" tag="0"/>
+		<item text="Node (32300, 32592, 10)" tag="0"/>
+		<item text="Node (32302, 32590, 10)" tag="0"/>
+		<item text="Node (32304, 32588, 10)" tag="0"/>
+		<item text="Node (32307, 32587, 10)" tag="0"/>
+		<item text="Node (32310, 32586, 10)" tag="0"/>
+		<item text="Node (32313, 32585, 10)" tag="0"/>
+		<item text="Node (32316, 32584, 10)" tag="0"/>
+		<item text="Node (32319, 32583, 10)" tag="0"/>
+		<item text="Node (32322, 32582, 10)" tag="0"/>
+		<item text="Node (32325, 32581, 10)" tag="0"/>
+		<item text="Node (32328, 32580, 10)" tag="0"/>
+		<item text="Node (32331, 32579, 10)" tag="0"/>
+		<item text="Node (32334, 32579, 10)" tag="0"/>
+		<item text="Node (32337, 32579, 10)" tag="0"/>
+		<item text="Node (32340, 32580, 10)" tag="0"/>
+		<item text="Node (32343, 32582, 10)" tag="0"/>
+		<item text="Node (32346, 32584, 10)" tag="0"/>
+		<item text="Node (32349, 32585, 10)" tag="0"/>
+		<item text="Node (32352, 32587, 10)" tag="0"/>
+		<item text="Node (32354, 32589, 10)" tag="0"/>
+		<item text="Node (32356, 32591, 10)" tag="0"/>
+		<item text="Node (32357, 32594, 10)" tag="0"/>
+		<item text="special|lure|kill|3:" tag="255"/>
+		<item text="Node (32355, 32592, 10)" tag="0"/>
+		<item text="Node (32353, 32590, 10)" tag="0"/>
+		<item text="Node (32351, 32588, 10)" tag="0"/>
+		<item text="Node (32350, 32585, 10)" tag="0"/>
+		<item text="Node (32349, 32582, 10)" tag="0"/>
+		<item text="Node (32348, 32579, 10)" tag="0"/>
+		<item text="Node (32348, 32576, 10)" tag="0"/>
+		<item text="Node (32350, 32574, 10)" tag="0"/>
+		<item text="Node (32352, 32572, 10)" tag="0"/>
+		<item text="Node (32354, 32570, 10)" tag="0"/>
+		<item text="Node (32356, 32568, 10)" tag="0"/>
+		<item text="Node (32357, 32566, 10)" tag="0"/>
+		<item text="Node (32358, 32564, 10)" tag="0"/>
+		<item text="Node (32359, 32562, 10)" tag="0"/>
+		<item text="special|lure|kill|3:" tag="255"/>
+		<item text="Node (32357, 32564, 10)" tag="0"/>
+		<item text="Node (32355, 32566, 10)" tag="0"/>
+		<item text="Node (32354, 32568, 10)" tag="0"/>
+		<item text="Node (32353, 32570, 10)" tag="0"/>
+		<item text="Node (32351, 32572, 10)" tag="0"/>
+		<item text="Node (32349, 32574, 10)" tag="0"/>
+		<item text="Node (32347, 32576, 10)" tag="0"/>
+		<item text="Node (32344, 32576, 10)" tag="0"/>
+		<item text="Node (32341, 32576, 10)" tag="0"/>
+		<item text="Node (32338, 32575, 10)" tag="0"/>
+		<item text="Node (32335, 32574, 10)" tag="0"/>
+		<item text="Node (32332, 32573, 10)" tag="0"/>
+		<item text="Node (32330, 32571, 10)" tag="0"/>
+		<item text="Node (32329, 32568, 10)" tag="0"/>
+		<item text="Node (32328, 32565, 10)" tag="0"/>
+		<item text="Node (32328, 32562, 10)" tag="0"/>
+		<item text="Node (32329, 32559, 10)" tag="0"/>
+		<item text="Node (32330, 32556, 10)" tag="0"/>
+		<item text="Node (32330, 32553, 10)" tag="0"/>
+		<item text="Node (32330, 32550, 10)" tag="0"/>
+		<item text="Node (32329, 32547, 10)" tag="0"/>
+		<item text="Node (32327, 32545, 10)" tag="0"/>
+		<item text="Node (32327, 32542, 10)" tag="0"/>
+		<item text="Node (32327, 32539, 10)" tag="0"/>
+		<item text="Node (32328, 32536, 10)" tag="0"/>
+		<item text="Node (32328, 32533, 10)" tag="0"/>
+		<item text="Node (32330, 32530, 10)" tag="0"/>
+		<item text="Node (32332, 32528, 10)" tag="0"/>
+		<item text="Node (32333, 32525, 10)" tag="0"/>
+		<item text="special|lure|kill:" tag="255"/>
+		<item text="Node (32332, 32528, 10)" tag="0"/>
+		<item text="Node (32330, 32530, 10)" tag="0"/>
+		<item text="Node (32328, 32532, 10)" tag="0"/>
+		<item text="Node (32328, 32535, 10)" tag="0"/>
+		<item text="Node (32328, 32538, 10)" tag="0"/>
+		<item text="Node (32328, 32541, 10)" tag="0"/>
+		<item text="Node (32328, 32544, 10)" tag="0"/>
+		<item text="Node (32329, 32547, 10)" tag="0"/>
+		<item text="Node (32330, 32550, 10)" tag="0"/>
+		<item text="Node (32330, 32553, 10)" tag="0"/>
+		<item text="Node (32329, 32556, 10)" tag="0"/>
+		<item text="Node (32328, 32559, 10)" tag="0"/>
+		<item text="Node (32329, 32562, 10)" tag="0"/>
+		<item text="Node (32329, 32565, 10)" tag="0"/>
+		<item text="Node (32329, 32568, 10)" tag="0"/>
+		<item text="Node (32329, 32571, 10)" tag="0"/>
+		<item text="Node (32329, 32574, 10)" tag="0"/>
+		<item text="Node (32328, 32577, 10)" tag="0"/>
+		<item text="Node (32326, 32579, 10)" tag="0"/>
+		<item text="Node (32324, 32581, 10)" tag="0"/>
+		<item text="Node (32321, 32582, 10)" tag="0"/>
+		<item text="Node (32318, 32582, 10)" tag="0"/>
+		<item text="Node (32315, 32582, 10)" tag="0"/>
+		<item text="Node (32312, 32583, 10)" tag="0"/>
+		<item text="Node (32309, 32583, 10)" tag="0"/>
+		<item text="Node (32306, 32582, 10)" tag="0"/>
+		<item text="Node (32305, 32579, 10)" tag="0"/>
+		<item text="Node (32304, 32576, 10)" tag="0"/>
+		<item text="Node (32302, 32574, 10)" tag="0"/>
+		<item text="Node (32301, 32571, 10)" tag="0"/>
+		<item text="Node (32299, 32569, 10)" tag="0"/>
+		<item text="Node (32297, 32567, 10)" tag="0"/>
+		<item text="Node (32295, 32565, 10)" tag="0"/>
+		<item text="Node (32293, 32564, 10)" tag="0"/>
+		<item text="Node (32290, 32563, 10)" tag="0"/>
+		<item text="Node (32287, 32562, 10)" tag="0"/>
+		<item text="Node (32284, 32561, 10)" tag="0"/>
+		<item text="Node (32281, 32560, 10)" tag="0"/>
+		<item text="Node (32278, 32561, 10)" tag="0"/>
+		<item text="Node (32275, 32562, 10)" tag="0"/>
+		<item text="Node (32272, 32563, 10)" tag="0"/>
+		<item text="Node (32269, 32564, 10)" tag="0"/>
+		<item text="Node (32266, 32565, 10)" tag="0"/>
+		<item text="Node (32263, 32566, 10)" tag="0"/>
+		<item text="Node (32260, 32567, 10)" tag="0"/>
+		<item text="Node (32257, 32568, 10)" tag="0"/>
+		<item text="Node (32254, 32569, 10)" tag="0"/>
+		<item text="Node (32251, 32570, 10)" tag="0"/>
+		<item text="Node (32249, 32572, 10)" tag="0"/>
+		<item text="Node (32248, 32575, 10)" tag="0"/>
+		<item text="Node (32247, 32578, 10)" tag="0"/>
+		<item text="Node (32245, 32580, 10)" tag="0"/>
+		<item text="Node (32244, 32582, 10)" tag="0"/>
+		<item text="Node (32244, 32585, 10)" tag="0"/>
+		<item text="Node (32245, 32588, 10)" tag="0"/>
+		<item text="Node (32247, 32591, 10)" tag="0"/>
+		<item text="Node (32249, 32593, 10)" tag="0"/>
+		<item text="Node (32251, 32595, 10)" tag="0"/>
+		<item text="Node (32253, 32597, 10)" tag="0"/>
+		<item text="Node (32255, 32599, 10)" tag="0"/>
+		<item text="Node (32257, 32601, 10)" tag="0"/>
+		<item text="Node (32259, 32603, 10)" tag="0"/>
+		<item text="Node (32261, 32605, 10)" tag="0"/>
+		<item text="Node (32264, 32606, 10)" tag="0"/>
+		<item text="Node (32267, 32606, 10)" tag="0"/>
+		<item text="Node (32270, 32606, 10)" tag="0"/>
+		<item text="hunt|check:" tag="255"/>
+		<item text="Node (32270, 32606, 10)" tag="0"/>
+		<item text="Node (32333, 32523, 10)" tag="0"/>
+		<item text="Node (32333, 32526, 10)" tag="0"/>
+		<item text="Node (32331, 32528, 10)" tag="0"/>
+		<item text="Node (32329, 32530, 10)" tag="0"/>
+		<item text="Node (32328, 32533, 10)" tag="0"/>
+		<item text="Node (32328, 32536, 10)" tag="0"/>
+		<item text="Node (32328, 32539, 10)" tag="0"/>
+		<item text="Node (32329, 32542, 10)" tag="0"/>
+		<item text="Node (32330, 32545, 10)" tag="0"/>
+		<item text="Node (32330, 32548, 10)" tag="0"/>
+		<item text="Node (32330, 32551, 10)" tag="0"/>
+		<item text="Node (32330, 32554, 10)" tag="0"/>
+		<item text="Node (32329, 32557, 10)" tag="0"/>
+		<item text="Node (32329, 32560, 10)" tag="0"/>
+		<item text="Node (32329, 32563, 10)" tag="0"/>
+		<item text="Node (32329, 32566, 10)" tag="0"/>
+		<item text="Node (32329, 32569, 10)" tag="0"/>
+		<item text="Node (32329, 32572, 10)" tag="0"/>
+		<item text="Node (32329, 32575, 10)" tag="0"/>
+		<item text="Node (32329, 32578, 10)" tag="0"/>
+		<item text="Node (32327, 32580, 10)" tag="0"/>
+		<item text="Node (32324, 32581, 10)" tag="0"/>
+		<item text="hunt|exit|1:" tag="255"/>
+		<item text="Node (32360, 32559, 10)" tag="0"/>
+		<item text="Node (32358, 32561, 10)" tag="0"/>
+		<item text="Node (32357, 32563, 10)" tag="0"/>
+		<item text="Node (32356, 32565, 10)" tag="0"/>
+		<item text="Node (32355, 32567, 10)" tag="0"/>
+		<item text="Node (32354, 32569, 10)" tag="0"/>
+		<item text="Node (32352, 32571, 10)" tag="0"/>
+		<item text="Node (32350, 32573, 10)" tag="0"/>
+		<item text="Node (32348, 32575, 10)" tag="0"/>
+		<item text="Node (32345, 32576, 10)" tag="0"/>
+		<item text="Node (32342, 32576, 10)" tag="0"/>
+		<item text="Node (32339, 32577, 10)" tag="0"/>
+		<item text="Node (32336, 32577, 10)" tag="0"/>
+		<item text="Node (32334, 32579, 10)" tag="0"/>
+		<item text="Node (32331, 32579, 10)" tag="0"/>
+		<item text="Node (32328, 32580, 10)" tag="0"/>
+		<item text="Node (32325, 32581, 10)" tag="0"/>
+		<item text="hunt|exit|2:" tag="255"/>
+		<item text="Node (32358, 32598, 10)" tag="0"/>
+		<item text="Node (32356, 32596, 10)" tag="0"/>
+		<item text="Node (32355, 32593, 10)" tag="0"/>
+		<item text="Node (32353, 32591, 10)" tag="0"/>
+		<item text="Node (32352, 32588, 10)" tag="0"/>
+		<item text="Node (32350, 32586, 10)" tag="0"/>
+		<item text="Node (32348, 32584, 10)" tag="0"/>
+		<item text="Node (32346, 32582, 10)" tag="0"/>
+		<item text="Node (32344, 32580, 10)" tag="0"/>
+		<item text="Node (32341, 32579, 10)" tag="0"/>
+		<item text="Node (32338, 32578, 10)" tag="0"/>
+		<item text="Node (32335, 32578, 10)" tag="0"/>
+		<item text="Node (32332, 32578, 10)" tag="0"/>
+		<item text="Node (32329, 32579, 10)" tag="0"/>
+		<item text="Node (32326, 32581, 10)" tag="0"/>
+		<item text="Node (32323, 32582, 10)" tag="0"/>
+		<item text="Node (32320, 32583, 10)" tag="0"/>
+		<item text="Node (32317, 32584, 10)" tag="0"/>
+		<item text="Node (32314, 32585, 10)" tag="0"/>
+		<item text="Node (32311, 32586, 10)" tag="0"/>
+		<item text="Node (32308, 32587, 10)" tag="0"/>
+		<item text="Node (32305, 32588, 10)" tag="0"/>
+		<item text="Node (32302, 32590, 10)" tag="0"/>
+		<item text="Node (32299, 32592, 10)" tag="0"/>
+		<item text="Node (32297, 32594, 10)" tag="0"/>
+		<item text="Node (32295, 32596, 10)" tag="0"/>
+		<item text="Node (32294, 32599, 10)" tag="0"/>
+		<item text="Node (32292, 32601, 10)" tag="0"/>
+		<item text="Node (32289, 32602, 10)" tag="0"/>
+		<item text="Node (32286, 32604, 10)" tag="0"/>
+		<item text="Node (32283, 32605, 10)" tag="0"/>
+		<item text="Node (32280, 32606, 10)" tag="0"/>
+		<item text="Node (32277, 32607, 10)" tag="0"/>
+		<item text="Node (32274, 32607, 10)" tag="0"/>
+		<item text="Node (32271, 32607, 10)" tag="0"/>
+		<item text="Node (32268, 32607, 10)" tag="0"/>
+		<item text="Node (32265, 32607, 10)" tag="0"/>
+		<item text="Node (32262, 32607, 10)" tag="0"/>
+		<item text="Node (32259, 32608, 10)" tag="0"/>
+		<item text="Node (32256, 32609, 10)" tag="0"/>
+		<item text="Node (32254, 32611, 10)" tag="0"/>
+		<item text="hunt|exit|3:" tag="255"/>
+		<item text="Node (32305, 32581, 10)" tag="0"/>
+		<item text="Node (32304, 32578, 10)" tag="0"/>
+		<item text="Node (32303, 32575, 10)" tag="0"/>
+		<item text="Node (32302, 32572, 10)" tag="0"/>
+		<item text="Node (32300, 32570, 10)" tag="0"/>
+		<item text="Node (32298, 32568, 10)" tag="0"/>
+		<item text="Node (32296, 32566, 10)" tag="0"/>
+		<item text="Node (32294, 32564, 10)" tag="0"/>
+		<item text="Node (32291, 32563, 10)" tag="0"/>
+		<item text="Node (32288, 32562, 10)" tag="0"/>
+		<item text="Node (32285, 32562, 10)" tag="0"/>
+		<item text="Node (32282, 32562, 10)" tag="0"/>
+		<item text="Node (32279, 32562, 10)" tag="0"/>
+		<item text="Node (32276, 32562, 10)" tag="0"/>
+		<item text="Node (32273, 32564, 10)" tag="0"/>
+		<item text="Node (32270, 32565, 10)" tag="0"/>
+		<item text="Node (32267, 32565, 10)" tag="0"/>
+		<item text="Node (32264, 32566, 10)" tag="0"/>
+		<item text="Node (32261, 32567, 10)" tag="0"/>
+		<item text="Node (32258, 32568, 10)" tag="0"/>
+		<item text="Node (32255, 32569, 10)" tag="0"/>
+		<item text="Node (32252, 32570, 10)" tag="0"/>
+		<item text="Node (32250, 32572, 10)" tag="0"/>
+		<item text="Node (32248, 32574, 10)" tag="0"/>
+		<item text="Node (32246, 32576, 10)" tag="0"/>
+		<item text="Node (32244, 32579, 10)" tag="0"/>
+		<item text="Node (32244, 32582, 10)" tag="0"/>
+		<item text="Node (32245, 32585, 10)" tag="0"/>
+		<item text="Node (32246, 32588, 10)" tag="0"/>
+		<item text="Node (32247, 32591, 10)" tag="0"/>
+		<item text="Node (32249, 32593, 10)" tag="0"/>
+		<item text="Node (32251, 32595, 10)" tag="0"/>
+		<item text="Node (32253, 32597, 10)" tag="0"/>
+		<item text="Node (32255, 32600, 10)" tag="0"/>
+		<item text="Node (32255, 32603, 10)" tag="0"/>
+		<item text="Node (32255, 32606, 10)" tag="0"/>
+		<item text="Node (32255, 32609, 10)" tag="0"/>
+		<item text="Node (32254, 32612, 10)" tag="0"/>
+		<item text="Node (32252, 32614, 10)" tag="0"/>
+		<item text="Node (32250, 32616, 10)" tag="0"/>
+		<item text="Node (32247, 32616, 10)" tag="0"/>
+		<item text="Node (32244, 32616, 10)" tag="0"/>
+		<item text="Node (32241, 32618, 10)" tag="0"/>
+		<item text="Stand (32240, 32620, 10)" tag="1"/>
+		<item text="other|step|south:" tag="255"/>
+		<item text="hunt|leave:" tag="255"/>
+		<item text="Stand (32248, 32603, 10)" tag="1"/>
+		<item text="Node (32244, 32605, 9)" tag="0"/>
+		<item text="Stand (32239, 32603, 9)" tag="1"/>
+		<item text="Node (32241, 32599, 8)" tag="0"/>
+		<item text="Stand (32243, 32597, 8)" tag="1"/>
+		<item text="other|step|north:" tag="255"/>
+		<item text="Node (32622, 31859, 11)" tag="0"/>
+		<item text="Node (32618, 31862, 11)" tag="0"/>
+		<item text="Node (32613, 31864, 11)" tag="0"/>
+		<item text="Node (32613, 31870, 11)" tag="0"/>
+		<item text="Node (32613, 31876, 11)" tag="0"/>
+		<item text="Node (32613, 31882, 11)" tag="0"/>
+		<item text="Node (32613, 31888, 11)" tag="0"/>
+		<item text="Node (32613, 31894, 11)" tag="0"/>
+		<item text="Node (32613, 31900, 11)" tag="0"/>
+		<item text="Node (32613, 31906, 11)" tag="0"/>
+		<item text="Node (32613, 31912, 11)" tag="0"/>
+		<item text="Node (32613, 31918, 11)" tag="0"/>
+		<item text="Node (32615, 31923, 11)" tag="0"/>
+		<item text="Node (32619, 31924, 11)" tag="0"/>
+		<item text="Node (32623, 31924, 11)" tag="0"/>
+		<item text="Node (32628, 31923, 11)" tag="0"/>
+		<item text="Stand (32628, 31920, 11)" tag="1"/>
+		<item text="other|use|east:" tag="255"/>
+		<item text="Node (32656, 31904, 8)" tag="0"/>
+		<item text="hunt|finish:" tag="255"/>
+	</control>
+</panel>
+<panel name="Looter">
+	<control name="LootList" mode="1" minimum="0" maximum="0" skinner="2" unlisted="1">
+	</control>
+</panel>
+<panel name="Pathfinder">
+	<control name="walkOnFireEnable" value="1"/>
+	<control name="walkOnFurnitureEnable" value="1"/>
+	<control name="walkOnMaroonGround" value="0"/>
+	<control name="pathThroughRangedCreatures" value="1"/>
+	<control name="walkWithMapclicks" value="0"/>
+</panel>
+<panel name="Special Areas">
+	<control name="AreaList">
+		<item title="New Area" consider="1" width="8" height="1" x="32341" y="32584" z="10"/>
+		<item title="New Area" consider="1" width="7" height="1" x="32348" y="32583" z="10"/>
+		<item title="New Area" consider="1" width="12" height="1" x="32346" y="32571" z="10"/>
+		<item title="New Area" consider="1" width="12" height="1" x="32320" y="32533" z="10"/>
+	</control>
+</panel>
+<panel name="Alarms">
+	<control name="disAlarm" value="0"/>
+	<control name="damAlarm" value="0"/>
+	<control name="lhpAlarm" value="0"/>
+	<control name="lhpAlarmPercent" value="50"/>
+	<control name="pmAlarm" value="0"/>
+	<control name="creatureAlarm" value="0"/>
+	<control name="attackAlarm" value="1"/>
+	<control name="attackAlarmYellow" value="1"/>
+	<control name="playerAlarm" value="0"/>
+	<control name="playerAlarmLog" value="0"/>
+	<control name="stuckAlarm" value="0"/>
+	<control name="burstAlarm" value="0"/>
+	<control name="burstAlarmPercent" value="500"/>
+	<control name="averageAlarm" value="0"/>
+	<control name="averageAlarmPercent" value="200"/>
+	<control name="alarmPartyIgnore" value="0"/>
+</panel>
+<panel name="Scripter">
+	<control name="RunningScriptList">
+		<script name="|NAME|.xblua" noprompt="1"><![CDATA[|BASE64|]]></script>
+	</control>
+</panel>

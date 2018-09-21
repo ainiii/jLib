@@ -1,0 +1,619 @@
+<panel name="Walker">
+	<control name="WaypointList">
+		
+		<!-- Waypoints to depot -->
+		
+		<item text="liberty bay|depot-depot:" tag="255"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-depot:" tag="255"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-depot:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-depot:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-depot:" tag="255"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-depot:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-depot:" tag="255"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Stand (32336, 32838, 7)" tag="1"/>
+		<item text="Node (32331, 32835, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to bank -->
+		
+		<item text="liberty bay|depot-bank:" tag="255"/>
+		<item text="Stand (32336, 32838, 6)" tag="1"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-bank:" tag="255"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-bank:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-bank:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-bank:" tag="255"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-bank:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-bank:" tag="255"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Stand (32338, 32836, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to potion -->
+		
+		<item text="liberty bay|depot-potion:" tag="255"/>
+		<item text="Stand (32336, 32838, 6)" tag="1"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-potion:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-potion:" tag="255"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-potion:" tag="255"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-potion:" tag="255"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32831, 7)" tag="0"/>
+		<item text="Node (32328, 32828, 7)" tag="0"/>
+		<item text="Node (32332, 32828, 7)" tag="0"/>
+		<item text="Node (32337, 32827, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-potion:" tag="255"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-potion:" tag="255"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32291, 32813, 7)" tag="0"/>
+		<item text="Node (32295, 32813, 7)" tag="0"/>
+		<item text="Node (32299, 32812, 7)" tag="0"/>
+		<item text="Node (32301, 32807, 7)" tag="0"/>
+		<item text="Node (32307, 32807, 7)" tag="0"/>
+		<item text="Node (32311, 32807, 7)" tag="0"/>
+		<item text="Node (32315, 32807, 7)" tag="0"/>
+		<item text="Node (32319, 32807, 7)" tag="0"/>
+		<item text="Node (32324, 32807, 7)" tag="0"/>
+		<item text="Node (32329, 32807, 7)" tag="0"/>
+		<item text="Node (32334, 32807, 7)" tag="0"/>
+		<item text="Node (32339, 32807, 7)" tag="0"/>
+		<item text="Node (32340, 32810, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to rune -->
+		
+		<item text="liberty bay|depot-rune:" tag="255"/>
+		<item text="Stand (32336, 32838, 6)" tag="1"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-rune:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-rune:" tag="255"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-rune:" tag="255"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-rune:" tag="255"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32831, 7)" tag="0"/>
+		<item text="Node (32328, 32828, 7)" tag="0"/>
+		<item text="Node (32332, 32828, 7)" tag="0"/>
+		<item text="Node (32337, 32827, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-rune:" tag="255"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-rune:" tag="255"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32291, 32813, 7)" tag="0"/>
+		<item text="Node (32295, 32813, 7)" tag="0"/>
+		<item text="Node (32299, 32812, 7)" tag="0"/>
+		<item text="Node (32301, 32807, 7)" tag="0"/>
+		<item text="Node (32307, 32807, 7)" tag="0"/>
+		<item text="Node (32311, 32807, 7)" tag="0"/>
+		<item text="Node (32315, 32807, 7)" tag="0"/>
+		<item text="Node (32319, 32807, 7)" tag="0"/>
+		<item text="Node (32324, 32807, 7)" tag="0"/>
+		<item text="Node (32329, 32807, 7)" tag="0"/>
+		<item text="Node (32334, 32807, 7)" tag="0"/>
+		<item text="Node (32339, 32807, 7)" tag="0"/>
+		<item text="Node (32340, 32810, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Stand (32345, 32810, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to ammo -->
+		
+		<item text="liberty bay|depot-ammo:" tag="255"/>
+		<item text="Stand (32336, 32838, 6)" tag="1"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-ammo:" tag="255"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-ammo:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32337, 32827, 7)" tag="0"/>
+		<item text="Node (32332, 32828, 7)" tag="0"/>
+		<item text="Node (32328, 32828, 7)" tag="0"/>
+		<item text="Node (32324, 32831, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-ammo:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32337, 32827, 7)" tag="0"/>
+		<item text="Node (32332, 32828, 7)" tag="0"/>
+		<item text="Node (32328, 32828, 7)" tag="0"/>
+		<item text="Node (32324, 32831, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-ammo:" tag="255"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-ammo:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-ammo:" tag="255"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32293, 32818, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to exit.south -->
+		
+		<item text="liberty bay|depot-exit.south:" tag="255"/>
+		<item text="Stand (32336, 32838, 6)" tag="1"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-exit.south:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-exit.south:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-exit.south:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32819, 7)" tag="0"/>
+		<item text="Node (32340, 32823, 7)" tag="0"/>
+		<item text="Node (32341, 32827, 7)" tag="0"/>
+		<item text="Node (32343, 32831, 7)" tag="0"/>
+		<item text="Node (32343, 32835, 7)" tag="0"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-exit.south:" tag="255"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-exit.south:" tag="255"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-exit.south:" tag="255"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32345, 32842, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		
+		<!-- Waypoints to exit.west -->
+		
+		<item text="liberty bay|depot-exit.west:" tag="255"/>
+		<item text="Stand (32336, 32838, 6)" tag="1"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|bank-exit.west:" tag="255"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|potion-exit.west:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32810, 7)" tag="0"/>
+		<item text="Node (32339, 32807, 7)" tag="0"/>
+		<item text="Node (32334, 32807, 7)" tag="0"/>
+		<item text="Node (32329, 32807, 7)" tag="0"/>
+		<item text="Node (32324, 32807, 7)" tag="0"/>
+		<item text="Node (32319, 32807, 7)" tag="0"/>
+		<item text="Node (32315, 32807, 7)" tag="0"/>
+		<item text="Node (32311, 32807, 7)" tag="0"/>
+		<item text="Node (32307, 32807, 7)" tag="0"/>
+		<item text="Node (32301, 32807, 7)" tag="0"/>
+		<item text="Node (32299, 32812, 7)" tag="0"/>
+		<item text="Node (32295, 32813, 7)" tag="0"/>
+		<item text="Node (32291, 32813, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|rune-exit.west:" tag="255"/>
+		<item text="Node (32346, 32814, 7)" tag="0"/>
+		<item text="Node (32342, 32815, 7)" tag="0"/>
+		<item text="Node (32340, 32810, 7)" tag="0"/>
+		<item text="Node (32339, 32807, 7)" tag="0"/>
+		<item text="Node (32334, 32807, 7)" tag="0"/>
+		<item text="Node (32329, 32807, 7)" tag="0"/>
+		<item text="Node (32324, 32807, 7)" tag="0"/>
+		<item text="Node (32319, 32807, 7)" tag="0"/>
+		<item text="Node (32315, 32807, 7)" tag="0"/>
+		<item text="Node (32311, 32807, 7)" tag="0"/>
+		<item text="Node (32307, 32807, 7)" tag="0"/>
+		<item text="Node (32301, 32807, 7)" tag="0"/>
+		<item text="Node (32299, 32812, 7)" tag="0"/>
+		<item text="Node (32295, 32813, 7)" tag="0"/>
+		<item text="Node (32291, 32813, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|ammo-exit.west:" tag="255"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.south-exit.west:" tag="255"/>
+		<item text="Node (32340, 32838, 7)" tag="0"/>
+		<item text="Node (32333, 32836, 7)" tag="0"/>
+		<item text="Node (32329, 32836, 7)" tag="0"/>
+		<item text="Node (32324, 32835, 7)" tag="0"/>
+		<item text="Node (32320, 32834, 7)" tag="0"/>
+		<item text="Node (32317, 32834, 7)" tag="0"/>
+		<item text="Node (32312, 32832, 7)" tag="0"/>
+		<item text="Node (32310, 32828, 7)" tag="0"/>
+		<item text="Node (32306, 32827, 7)" tag="0"/>
+		<item text="Node (32302, 32827, 7)" tag="0"/>
+		<item text="Node (32298, 32826, 7)" tag="0"/>
+		<item text="Node (32294, 32825, 7)" tag="0"/>
+		<item text="Node (32291, 32821, 7)" tag="0"/>
+		<item text="Node (32287, 32820, 7)" tag="0"/>
+		<item text="Node (32286, 32815, 7)" tag="0"/>
+		<item text="Node (32280, 32815, 7)" tag="0"/>
+		<item text="Node (32274, 32815, 7)" tag="0"/>
+		<item text="Node (32269, 32815, 7)" tag="0"/>
+		<item text="Node (32262, 32817, 7)" tag="0"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="liberty bay|exit.west-exit.west:" tag="255"/>
+		<item text="Node (32255, 32817, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+	</control>
+</panel>

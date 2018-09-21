@@ -1,0 +1,1971 @@
+<panel name="Walker">
+    <control name="WaypointList">
+		
+		<!-- Waypoints to depot -->
+		
+        <item text="venore|depot-depot:" tag="255"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|bank-depot:" tag="255"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|potion-depot:" tag="255"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|rune-depot:" tag="255"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|ammo-depot:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32908, 32124, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32916, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32924, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32940, 32126, 6)" tag="0"/>
+        <item text="Node (32944, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32952, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32963, 32116, 6)" tag="0"/>
+        <item text="Node (32963, 32110, 6)" tag="0"/>
+        <item text="Node (32969, 32108, 6)" tag="0"/>
+        <item text="Node (32974, 32108, 6)" tag="0"/>
+        <item text="Node (32979, 32108, 6)" tag="0"/>
+        <item text="Node (32984, 32108, 6)" tag="0"/>
+        <item text="Node (32989, 32108, 6)" tag="0"/>
+        <item text="Node (32994, 32108, 6)" tag="0"/>
+        <item text="Node (32997, 32105, 6)" tag="0"/>
+        <item text="Node (32997, 32100, 6)" tag="0"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.north-depot:" tag="255"/>
+        <item text="Node (32955, 32031, 6)" tag="0"/>
+        <item text="Node (32955, 32036, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32051, 6)" tag="0"/>
+        <item text="Node (32959, 32053, 6)" tag="0"/>
+        <item text="Node (32964, 32053, 6)" tag="0"/>
+        <item text="Node (32969, 32053, 6)" tag="0"/>
+        <item text="Node (32974, 32053, 6)" tag="0"/>
+        <item text="Node (32979, 32053, 6)" tag="0"/>
+        <item text="Node (32984, 32053, 6)" tag="0"/>
+        <item text="Node (32989, 32053, 6)" tag="0"/>
+        <item text="Node (32994, 32053, 6)" tag="0"/>
+        <item text="Node (32999, 32053, 6)" tag="0"/>
+        <item text="Node (33004, 32053, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.east-depot:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.south-depot:" tag="255"/>
+        <item text="Node (32936, 32152, 6)" tag="0"/>
+        <item text="Node (32936, 32146, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32134, 6)" tag="0"/>
+        <item text="Node (32936, 32129, 6)" tag="0"/>
+        <item text="Node (32940, 32126, 6)" tag="0"/>
+        <item text="Node (32944, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32952, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32963, 32116, 6)" tag="0"/>
+        <item text="Node (32963, 32110, 6)" tag="0"/>
+        <item text="Node (32969, 32108, 6)" tag="0"/>
+        <item text="Node (32974, 32108, 6)" tag="0"/>
+        <item text="Node (32979, 32108, 6)" tag="0"/>
+        <item text="Node (32984, 32108, 6)" tag="0"/>
+        <item text="Node (32989, 32108, 6)" tag="0"/>
+        <item text="Node (32994, 32108, 6)" tag="0"/>
+        <item text="Node (32997, 32105, 6)" tag="0"/>
+        <item text="Node (32997, 32100, 6)" tag="0"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.west-depot:" tag="255"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32916, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32924, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32940, 32126, 6)" tag="0"/>
+        <item text="Node (32944, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32952, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32963, 32116, 6)" tag="0"/>
+        <item text="Node (32963, 32110, 6)" tag="0"/>
+        <item text="Node (32969, 32108, 6)" tag="0"/>
+        <item text="Node (32974, 32108, 6)" tag="0"/>
+        <item text="Node (32979, 32108, 6)" tag="0"/>
+        <item text="Node (32984, 32108, 6)" tag="0"/>
+        <item text="Node (32989, 32108, 6)" tag="0"/>
+        <item text="Node (32994, 32108, 6)" tag="0"/>
+        <item text="Node (32997, 32105, 6)" tag="0"/>
+        <item text="Node (32997, 32100, 6)" tag="0"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Stand (33020, 32059, 6)" tag="1"/>
+        <item text="Node (33018, 32049, 7)" tag="0"/>
+        <item text="Reach Depot" tag="253"/>
+        <item text="next:" tag="255"/>
+		
+		<!-- Waypoints to bank -->
+		
+        <item text="venore|depot-bank:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|bank-bank:" tag="255"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|potion-bank:" tag="255"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|rune-bank:" tag="255"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|ammo-bank:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32908, 32124, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32916, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32924, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32940, 32126, 6)" tag="0"/>
+        <item text="Node (32944, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32952, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32963, 32116, 6)" tag="0"/>
+        <item text="Node (32963, 32110, 6)" tag="0"/>
+        <item text="Node (32969, 32108, 6)" tag="0"/>
+        <item text="Node (32974, 32108, 6)" tag="0"/>
+        <item text="Node (32979, 32108, 6)" tag="0"/>
+        <item text="Node (32984, 32108, 6)" tag="0"/>
+        <item text="Node (32989, 32108, 6)" tag="0"/>
+        <item text="Node (32994, 32108, 6)" tag="0"/>
+        <item text="Node (32997, 32105, 6)" tag="0"/>
+        <item text="Node (32997, 32100, 6)" tag="0"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.north-bank:" tag="255"/>
+        <item text="Node (32955, 32031, 6)" tag="0"/>
+        <item text="Node (32955, 32036, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32051, 6)" tag="0"/>
+        <item text="Node (32959, 32053, 6)" tag="0"/>
+        <item text="Node (32964, 32053, 6)" tag="0"/>
+        <item text="Node (32969, 32053, 6)" tag="0"/>
+        <item text="Node (32974, 32053, 6)" tag="0"/>
+        <item text="Node (32979, 32053, 6)" tag="0"/>
+        <item text="Node (32984, 32053, 6)" tag="0"/>
+        <item text="Node (32989, 32053, 6)" tag="0"/>
+        <item text="Node (32994, 32053, 6)" tag="0"/>
+        <item text="Node (32999, 32053, 6)" tag="0"/>
+        <item text="Node (33004, 32053, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.east-bank:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.south-bank:" tag="255"/>
+        <item text="Node (32936, 32152, 6)" tag="0"/>
+        <item text="Node (32936, 32146, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32134, 6)" tag="0"/>
+        <item text="Node (32936, 32129, 6)" tag="0"/>
+        <item text="Node (32940, 32126, 6)" tag="0"/>
+        <item text="Node (32944, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32952, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32963, 32116, 6)" tag="0"/>
+        <item text="Node (32963, 32110, 6)" tag="0"/>
+        <item text="Node (32969, 32108, 6)" tag="0"/>
+        <item text="Node (32974, 32108, 6)" tag="0"/>
+        <item text="Node (32979, 32108, 6)" tag="0"/>
+        <item text="Node (32984, 32108, 6)" tag="0"/>
+        <item text="Node (32989, 32108, 6)" tag="0"/>
+        <item text="Node (32994, 32108, 6)" tag="0"/>
+        <item text="Node (32997, 32105, 6)" tag="0"/>
+        <item text="Node (32997, 32100, 6)" tag="0"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.west-bank:" tag="255"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32916, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32924, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32940, 32126, 6)" tag="0"/>
+        <item text="Node (32944, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32952, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32963, 32116, 6)" tag="0"/>
+        <item text="Node (32963, 32110, 6)" tag="0"/>
+        <item text="Node (32969, 32108, 6)" tag="0"/>
+        <item text="Node (32974, 32108, 6)" tag="0"/>
+        <item text="Node (32979, 32108, 6)" tag="0"/>
+        <item text="Node (32984, 32108, 6)" tag="0"/>
+        <item text="Node (32989, 32108, 6)" tag="0"/>
+        <item text="Node (32994, 32108, 6)" tag="0"/>
+        <item text="Node (32997, 32105, 6)" tag="0"/>
+        <item text="Node (32997, 32100, 6)" tag="0"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Stand (33019, 32053, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		
+		<!-- Waypoints to potion -->
+		
+        <item text="venore|depot-potion:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|bank-potion:" tag="255"/>
+        <item text="Node (33013, 32054, 6)" tag="0"/>
+        <item text="Node (33009, 32054, 6)" tag="0"/>
+        <item text="Node (33007, 32057, 6)" tag="0"/>
+        <item text="Node (33007, 32061, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32069, 6)" tag="0"/>
+        <item text="Node (33003, 32072, 6)" tag="0"/>
+        <item text="Node (32999, 32072, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|potion-potion:" tag="255"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|rune-potion:" tag="255"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|ammo-potion:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32908, 32124, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32916, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32924, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32935, 32122, 6)" tag="0"/>
+        <item text="Node (32935, 32117, 6)" tag="0"/>
+        <item text="Node (32935, 32112, 6)" tag="0"/>
+        <item text="Node (32935, 32107, 6)" tag="0"/>
+        <item text="Node (32935, 32103, 6)" tag="0"/>
+        <item text="Node (32935, 32098, 6)" tag="0"/>
+        <item text="Node (32940, 32096, 6)" tag="0"/>
+        <item text="Node (32944, 32096, 6)" tag="0"/>
+        <item text="Node (32948, 32096, 6)" tag="0"/>
+        <item text="Node (32952, 32096, 6)" tag="0"/>
+        <item text="Node (32953, 32092, 6)" tag="0"/>
+        <item text="Node (32953, 32088, 6)" tag="0"/>
+        <item text="Node (32953, 32084, 6)" tag="0"/>
+        <item text="Node (32956, 32080, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32969, 32073, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.north-potion:" tag="255"/>
+        <item text="Node (32955, 32031, 6)" tag="0"/>
+        <item text="Node (32955, 32036, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32051, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32059, 6)" tag="0"/>
+        <item text="Node (32954, 32063, 6)" tag="0"/>
+        <item text="Node (32954, 32067, 6)" tag="0"/>
+        <item text="Node (32954, 32071, 6)" tag="0"/>
+        <item text="Node (32957, 32074, 6)" tag="0"/>
+        <item text="Node (32961, 32074, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32969, 32073, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.east-potion:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32997, 32094, 6)" tag="0"/>
+        <item text="Node (32997, 32089, 6)" tag="0"/>
+        <item text="Node (32997, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32078, 6)" tag="0"/>
+        <item text="Node (32994, 32072, 6)" tag="0"/>
+        <item text="Node (32989, 32072, 6)" tag="0"/>
+        <item text="Node (32984, 32072, 6)" tag="0"/>
+        <item text="Node (32980, 32072, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.south-potion:" tag="255"/>
+        <item text="Node (32936, 32152, 6)" tag="0"/>
+        <item text="Node (32936, 32146, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32134, 6)" tag="0"/>
+        <item text="Node (32936, 32129, 6)" tag="0"/>
+        <item text="Node (32935, 32122, 6)" tag="0"/>
+        <item text="Node (32935, 32117, 6)" tag="0"/>
+        <item text="Node (32935, 32112, 6)" tag="0"/>
+        <item text="Node (32935, 32107, 6)" tag="0"/>
+        <item text="Node (32935, 32103, 6)" tag="0"/>
+        <item text="Node (32935, 32098, 6)" tag="0"/>
+        <item text="Node (32940, 32096, 6)" tag="0"/>
+        <item text="Node (32944, 32096, 6)" tag="0"/>
+        <item text="Node (32948, 32096, 6)" tag="0"/>
+        <item text="Node (32952, 32096, 6)" tag="0"/>
+        <item text="Node (32953, 32092, 6)" tag="0"/>
+        <item text="Node (32953, 32088, 6)" tag="0"/>
+        <item text="Node (32953, 32084, 6)" tag="0"/>
+        <item text="Node (32956, 32080, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32969, 32073, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		<item text="venore|exit.west-potion:" tag="255"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32916, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32924, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32935, 32122, 6)" tag="0"/>
+        <item text="Node (32935, 32117, 6)" tag="0"/>
+        <item text="Node (32935, 32112, 6)" tag="0"/>
+        <item text="Node (32935, 32107, 6)" tag="0"/>
+        <item text="Node (32935, 32103, 6)" tag="0"/>
+        <item text="Node (32935, 32098, 6)" tag="0"/>
+        <item text="Node (32940, 32096, 6)" tag="0"/>
+        <item text="Node (32944, 32096, 6)" tag="0"/>
+        <item text="Node (32948, 32096, 6)" tag="0"/>
+        <item text="Node (32952, 32096, 6)" tag="0"/>
+        <item text="Node (32953, 32092, 6)" tag="0"/>
+        <item text="Node (32953, 32088, 6)" tag="0"/>
+        <item text="Node (32953, 32084, 6)" tag="0"/>
+        <item text="Node (32956, 32080, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32969, 32073, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Stand (32970, 32085, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+		
+		<!-- Waypoints to rune -->
+		
+        <item text="venore|depot-rune:" tag="255"/>
+		<item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Node (33015, 32053, 6)" tag="0"/>
+        <item text="Node (33010, 32053, 6)" tag="0"/>
+        <item text="Node (33007, 32056, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32064, 6)" tag="0"/>
+        <item text="Node (33007, 32068, 6)" tag="0"/>
+        <item text="Node (33007, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32073, 6)" tag="0"/>
+        <item text="Node (32993, 32073, 6)" tag="0"/>
+        <item text="Node (32988, 32073, 6)" tag="0"/>
+        <item text="Node (32983, 32073, 6)" tag="0"/>
+        <item text="Node (32978, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|bank-rune:" tag="255"/>
+        <item text="Node (33015, 32053, 6)" tag="0"/>
+        <item text="Node (33010, 32053, 6)" tag="0"/>
+        <item text="Node (33007, 32056, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32064, 6)" tag="0"/>
+        <item text="Node (33007, 32068, 6)" tag="0"/>
+        <item text="Node (33007, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32073, 6)" tag="0"/>
+        <item text="Node (32993, 32073, 6)" tag="0"/>
+        <item text="Node (32988, 32073, 6)" tag="0"/>
+        <item text="Node (32983, 32073, 6)" tag="0"/>
+        <item text="Node (32978, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|potion-rune:" tag="255"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|rune-rune:" tag="255"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|ammo-rune:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.north-rune:" tag="255"/>
+        <item text="Node (32955, 32029, 6)" tag="0"/>
+        <item text="Node (32955, 32033, 6)" tag="0"/>
+        <item text="Node (32955, 32037, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32045, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32058, 6)" tag="0"/>
+        <item text="Node (32954, 32061, 6)" tag="0"/>
+        <item text="Node (32954, 32064, 6)" tag="0"/>
+        <item text="Node (32954, 32067, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32958, 32074, 6)" tag="0"/>
+        <item text="Node (32962, 32073, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.east-rune:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32998, 32092, 6)" tag="0"/>
+        <item text="Node (32998, 32088, 6)" tag="0"/>
+        <item text="Node (32998, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32076, 6)" tag="0"/>
+        <item text="Node (32998, 32073, 6)" tag="0"/>
+        <item text="Node (32993, 32073, 6)" tag="0"/>
+        <item text="Node (32988, 32073, 6)" tag="0"/>
+        <item text="Node (32983, 32073, 6)" tag="0"/>
+        <item text="Node (32978, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.south-rune:" tag="255"/>
+        <item text="Node (32936, 32149, 6)" tag="0"/>
+        <item text="Node (32936, 32144, 6)" tag="0"/>
+        <item text="Node (32936, 32139, 6)" tag="0"/>
+        <item text="Node (32936, 32134, 6)" tag="0"/>
+        <item text="Node (32936, 32129, 6)" tag="0"/>
+        <item text="Node (32936, 32125, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.west-rune:" tag="255"/>
+        <item text="Node (32872, 32125, 6)" tag="0"/>
+        <item text="Node (32878, 32125, 6)" tag="0"/>
+        <item text="Node (32884, 32125, 6)" tag="0"/>
+        <item text="Node (32890, 32125, 6)" tag="0"/>
+        <item text="Node (32896, 32125, 6)" tag="0"/>
+        <item text="Node (32902, 32125, 6)" tag="0"/>
+        <item text="Node (32907, 32125, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32974, 32081, 6)" tag="0"/>
+        <item text="Stand (32970, 32082, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        
+        <!-- Waypoints to ammo -->
+        
+        <item text="venore|depot-ammo:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Node (33015, 32053, 6)" tag="0"/>
+        <item text="Node (33010, 32053, 6)" tag="0"/>
+        <item text="Node (33007, 32056, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32064, 6)" tag="0"/>
+        <item text="Node (33007, 32068, 6)" tag="0"/>
+        <item text="Node (33007, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32073, 6)" tag="0"/>
+        <item text="Node (32993, 32073, 6)" tag="0"/>
+        <item text="Node (32988, 32073, 6)" tag="0"/>
+        <item text="Node (32983, 32073, 6)" tag="0"/>
+        <item text="Node (32978, 32073, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|bank-ammo:" tag="255"/>
+        <item text="Node (33015, 32053, 6)" tag="0"/>
+        <item text="Node (33010, 32053, 6)" tag="0"/>
+        <item text="Node (33007, 32056, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32064, 6)" tag="0"/>
+        <item text="Node (33007, 32068, 6)" tag="0"/>
+        <item text="Node (33007, 32072, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32073, 6)" tag="0"/>
+        <item text="Node (32993, 32073, 6)" tag="0"/>
+        <item text="Node (32988, 32073, 6)" tag="0"/>
+        <item text="Node (32983, 32073, 6)" tag="0"/>
+        <item text="Node (32978, 32073, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|potion-ammo:" tag="255"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|rune-ammo:" tag="255"/>
+        <item text="Node (32977, 32077, 6)" tag="0"/>
+        <item text="Node (32975, 32073, 6)" tag="0"/>
+        <item text="Node (32970, 32073, 6)" tag="0"/>
+        <item text="Node (32965, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|ammo-ammo:" tag="255"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.north-ammo:" tag="255"/>
+        <item text="Node (32955, 32029, 6)" tag="0"/>
+        <item text="Node (32955, 32033, 6)" tag="0"/>
+        <item text="Node (32955, 32037, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32045, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32058, 6)" tag="0"/>
+        <item text="Node (32954, 32061, 6)" tag="0"/>
+        <item text="Node (32954, 32064, 6)" tag="0"/>
+        <item text="Node (32954, 32067, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32074, 6)" tag="0"/>
+        <item text="Node (32954, 32078, 6)" tag="0"/>
+        <item text="Node (32954, 32080, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32953, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32941, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.east-ammo:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32102, 6)" tag="0"/>
+        <item text="Node (32997, 32106, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32989, 32109, 6)" tag="0"/>
+        <item text="Node (32985, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32977, 32109, 6)" tag="0"/>
+        <item text="Node (32973, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32965, 32109, 6)" tag="0"/>
+        <item text="Node (32963, 32113, 6)" tag="0"/>
+        <item text="Node (32962, 32117, 6)" tag="0"/>
+        <item text="Node (32958, 32119, 6)" tag="0"/>
+        <item text="Node (32955, 32121, 6)" tag="0"/>
+        <item text="Node (32954, 32125, 6)" tag="0"/>
+        <item text="Node (32949, 32126, 6)" tag="0"/>
+        <item text="Node (32945, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32937, 32126, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.south-ammo:" tag="255"/>
+        <item text="Node (32936, 32149, 6)" tag="0"/>
+        <item text="Node (32936, 32144, 6)" tag="0"/>
+        <item text="Node (32936, 32139, 6)" tag="0"/>
+        <item text="Node (32936, 32134, 6)" tag="0"/>
+        <item text="Node (32936, 32129, 6)" tag="0"/>
+        <item text="Node (32932, 32126, 6)" tag="0"/>
+        <item text="Node (32927, 32126, 6)" tag="0"/>
+        <item text="Node (32922, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32914, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32124, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.west-ammo:" tag="255"/>
+        <item text="Node (32872, 32125, 6)" tag="0"/>
+        <item text="Node (32878, 32125, 6)" tag="0"/>
+        <item text="Node (32884, 32125, 6)" tag="0"/>
+        <item text="Node (32890, 32125, 6)" tag="0"/>
+        <item text="Node (32896, 32125, 6)" tag="0"/>
+        <item text="Node (32902, 32125, 6)" tag="0"/>
+        <item text="Node (32907, 32125, 6)" tag="0"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Stand (32906, 32118, 6)" tag="1"/>
+        <item text="next:" tag="255"/>
+        
+        <!-- Waypoints to exit.north -->
+        
+        <item text="venore|depot-exit.north:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Node (33014, 32053, 6)" tag="0"/>
+        <item text="Node (33009, 32053, 6)" tag="0"/>
+        <item text="Node (33004, 32053, 6)" tag="0"/>
+        <item text="Node (32999, 32053, 6)" tag="0"/>
+        <item text="Node (32994, 32053, 6)" tag="0"/>
+        <item text="Node (32989, 32053, 6)" tag="0"/>
+        <item text="Node (32984, 32053, 6)" tag="0"/>
+        <item text="Node (32979, 32053, 6)" tag="0"/>
+        <item text="Node (32974, 32053, 6)" tag="0"/>
+        <item text="Node (32969, 32053, 6)" tag="0"/>
+        <item text="Node (32964, 32053, 6)" tag="0"/>
+        <item text="Node (32959, 32053, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|bank-exit.north:" tag="255"/>
+        <item text="Node (33014, 32053, 6)" tag="0"/>
+        <item text="Node (33009, 32053, 6)" tag="0"/>
+        <item text="Node (33004, 32053, 6)" tag="0"/>
+        <item text="Node (32999, 32053, 6)" tag="0"/>
+        <item text="Node (32994, 32053, 6)" tag="0"/>
+        <item text="Node (32989, 32053, 6)" tag="0"/>
+        <item text="Node (32984, 32053, 6)" tag="0"/>
+        <item text="Node (32979, 32053, 6)" tag="0"/>
+        <item text="Node (32974, 32053, 6)" tag="0"/>
+        <item text="Node (32969, 32053, 6)" tag="0"/>
+        <item text="Node (32964, 32053, 6)" tag="0"/>
+        <item text="Node (32959, 32053, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|potion-exit.north:" tag="255"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32968, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32958, 32073, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|rune-exit.north:" tag="255"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32968, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32958, 32073, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|ammo-exit.north:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32909, 32125, 6)" tag="0"/>
+        <item text="Node (32913, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32923, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32933, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32937, 32096, 6)" tag="0"/>
+        <item text="Node (32942, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32952, 32096, 6)" tag="0"/>
+        <item text="Node (32954, 32091, 6)" tag="0"/>
+        <item text="Node (32954, 32085, 6)" tag="0"/>
+        <item text="Node (32954, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32073, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.north-exit.north:" tag="255"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.east-exit.north:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32998, 32093, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32085, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32075, 6)" tag="0"/>
+        <item text="Node (32994, 32073, 6)" tag="0"/>
+        <item text="Node (32989, 32073, 6)" tag="0"/>
+        <item text="Node (32984, 32073, 6)" tag="0"/>
+        <item text="Node (32979, 32073, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32968, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32958, 32073, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.south-exit.north:" tag="255"/>
+        <item text="Node (32936, 32153, 6)" tag="0"/>
+        <item text="Node (32936, 32148, 6)" tag="0"/>
+        <item text="Node (32936, 32142, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32130, 6)" tag="0"/>
+        <item text="Node (32936, 32125, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32937, 32096, 6)" tag="0"/>
+        <item text="Node (32942, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32952, 32096, 6)" tag="0"/>
+        <item text="Node (32954, 32091, 6)" tag="0"/>
+        <item text="Node (32954, 32085, 6)" tag="0"/>
+        <item text="Node (32954, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32073, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.west-exit.north:" tag="255"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32875, 32126, 6)" tag="0"/>
+        <item text="Node (32880, 32126, 6)" tag="0"/>
+        <item text="Node (32885, 32126, 6)" tag="0"/>
+        <item text="Node (32890, 32126, 6)" tag="0"/>
+        <item text="Node (32895, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32905, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32126, 6)" tag="0"/>
+        <item text="Node (32913, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32923, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32933, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32115, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32103, 6)" tag="0"/>
+        <item text="Node (32937, 32096, 6)" tag="0"/>
+        <item text="Node (32942, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32952, 32096, 6)" tag="0"/>
+        <item text="Node (32954, 32091, 6)" tag="0"/>
+        <item text="Node (32954, 32085, 6)" tag="0"/>
+        <item text="Node (32954, 32079, 6)" tag="0"/>
+        <item text="Node (32954, 32073, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32025, 6)" tag="0"/>
+        <item text="Node (32954, 32022, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+
+        <!-- Waypoints to exit.east -->
+
+        <item text="venore|depot-exit.east:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33017, 32056, 6)" tag="0"/>
+        <item text="Node (33014, 32053, 6)" tag="0"/>
+        <item text="Node (33009, 32053, 6)" tag="0"/>
+        <item text="Node (33007, 32058, 6)" tag="0"/>
+        <item text="Node (33007, 32062, 6)" tag="0"/>
+        <item text="Node (33007, 32066, 6)" tag="0"/>
+        <item text="Node (33007, 32070, 6)" tag="0"/>
+        <item text="Node (33005, 32073, 6)" tag="0"/>
+        <item text="Node (33002, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32075, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32085, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32093, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|bank-exit.east:" tag="255"/>
+        <item text="Node (33014, 32053, 6)" tag="0"/>
+        <item text="Node (33009, 32053, 6)" tag="0"/>
+        <item text="Node (33007, 32058, 6)" tag="0"/>
+        <item text="Node (33007, 32062, 6)" tag="0"/>
+        <item text="Node (33007, 32066, 6)" tag="0"/>
+        <item text="Node (33007, 32070, 6)" tag="0"/>
+        <item text="Node (33005, 32073, 6)" tag="0"/>
+        <item text="Node (33002, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32075, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32085, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32093, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|potion-exit.east:" tag="255"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32979, 32073, 6)" tag="0"/>
+        <item text="Node (32984, 32073, 6)" tag="0"/>
+        <item text="Node (32989, 32073, 6)" tag="0"/>
+        <item text="Node (32994, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32075, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32085, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32093, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|rune-exit.east:" tag="255"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32075, 6)" tag="0"/>
+        <item text="Node (32979, 32073, 6)" tag="0"/>
+        <item text="Node (32984, 32073, 6)" tag="0"/>
+        <item text="Node (32989, 32073, 6)" tag="0"/>
+        <item text="Node (32994, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32075, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32085, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32093, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|ammo-exit.east:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32909, 32125, 6)" tag="0"/>
+        <item text="Node (32913, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32923, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32933, 32126, 6)" tag="0"/>
+        <item text="Node (32938, 32126, 6)" tag="0"/>
+        <item text="Node (32943, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32953, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32958, 32119, 6)" tag="0"/>
+        <item text="Node (32962, 32119, 6)" tag="0"/>
+        <item text="Node (32963, 32114, 6)" tag="0"/>
+        <item text="Node (32965, 32109, 6)" tag="0"/>
+        <item text="Node (32970, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32980, 32109, 6)" tag="0"/>
+        <item text="Node (32985, 32109, 6)" tag="0"/>
+        <item text="Node (32990, 32109, 6)" tag="0"/>
+        <item text="Node (32995, 32109, 6)" tag="0"/>
+        <item text="Node (32998, 32106, 6)" tag="0"/>
+        <item text="Node (32998, 32102, 6)" tag="0"/>
+        <item text="Node (32998, 32098, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.north-exit.east:" tag="255"/>
+        <item text="Node (32954, 32030, 6)" tag="0"/>
+        <item text="Node (32954, 32034, 6)" tag="0"/>
+        <item text="Node (32954, 32038, 6)" tag="0"/>
+        <item text="Node (32954, 32042, 6)" tag="0"/>
+        <item text="Node (32954, 32046, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32958, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32968, 32073, 6)" tag="0"/>
+        <item text="Node (32973, 32073, 6)" tag="0"/>
+        <item text="Node (32979, 32073, 6)" tag="0"/>
+        <item text="Node (32984, 32073, 6)" tag="0"/>
+        <item text="Node (32989, 32073, 6)" tag="0"/>
+        <item text="Node (32994, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32075, 6)" tag="0"/>
+        <item text="Node (32998, 32080, 6)" tag="0"/>
+        <item text="Node (32998, 32085, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32093, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.east-exit.east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.south-exit.east:" tag="255"/>
+        <item text="Node (32936, 32153, 6)" tag="0"/>
+        <item text="Node (32936, 32148, 6)" tag="0"/>
+        <item text="Node (32936, 32142, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32130, 6)" tag="0"/>
+        <item text="Node (32938, 32126, 6)" tag="0"/>
+        <item text="Node (32943, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32953, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32958, 32119, 6)" tag="0"/>
+        <item text="Node (32962, 32119, 6)" tag="0"/>
+        <item text="Node (32963, 32114, 6)" tag="0"/>
+        <item text="Node (32965, 32109, 6)" tag="0"/>
+        <item text="Node (32970, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32980, 32109, 6)" tag="0"/>
+        <item text="Node (32985, 32109, 6)" tag="0"/>
+        <item text="Node (32990, 32109, 6)" tag="0"/>
+        <item text="Node (32995, 32109, 6)" tag="0"/>
+        <item text="Node (32998, 32106, 6)" tag="0"/>
+        <item text="Node (32998, 32102, 6)" tag="0"/>
+        <item text="Node (32998, 32098, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.west-exit.east:" tag="255"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32875, 32126, 6)" tag="0"/>
+        <item text="Node (32880, 32126, 6)" tag="0"/>
+        <item text="Node (32885, 32126, 6)" tag="0"/>
+        <item text="Node (32890, 32126, 6)" tag="0"/>
+        <item text="Node (32895, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32905, 32126, 6)" tag="0"/>
+        <item text="Node (32909, 32126, 6)" tag="0"/>
+        <item text="Node (32913, 32126, 6)" tag="0"/>
+        <item text="Node (32918, 32126, 6)" tag="0"/>
+        <item text="Node (32923, 32126, 6)" tag="0"/>
+        <item text="Node (32928, 32126, 6)" tag="0"/>
+        <item text="Node (32933, 32126, 6)" tag="0"/>
+        <item text="Node (32938, 32126, 6)" tag="0"/>
+        <item text="Node (32943, 32126, 6)" tag="0"/>
+        <item text="Node (32948, 32126, 6)" tag="0"/>
+        <item text="Node (32953, 32126, 6)" tag="0"/>
+        <item text="Node (32955, 32122, 6)" tag="0"/>
+        <item text="Node (32958, 32119, 6)" tag="0"/>
+        <item text="Node (32962, 32119, 6)" tag="0"/>
+        <item text="Node (32963, 32114, 6)" tag="0"/>
+        <item text="Node (32965, 32109, 6)" tag="0"/>
+        <item text="Node (32970, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32980, 32109, 6)" tag="0"/>
+        <item text="Node (32985, 32109, 6)" tag="0"/>
+        <item text="Node (32990, 32109, 6)" tag="0"/>
+        <item text="Node (32995, 32109, 6)" tag="0"/>
+        <item text="Node (32998, 32106, 6)" tag="0"/>
+        <item text="Node (32998, 32102, 6)" tag="0"/>
+        <item text="Node (32998, 32098, 6)" tag="0"/>
+        <item text="Stand (32998, 32096, 6)" tag="1"/>
+        <item text="other|door|east:" tag="255"/>
+        <item text="Node (33002, 32096, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+
+        <!-- Waypoints to exit.south -->
+
+        <item text="venore|depot-exit.south:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33016, 32054, 6)" tag="0"/>
+        <item text="Node (33012, 32054, 6)" tag="0"/>
+        <item text="Node (33007, 32055, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32070, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32074, 6)" tag="0"/>
+        <item text="Node (32998, 32079, 6)" tag="0"/>
+        <item text="Node (32998, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32094, 6)" tag="0"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32104, 6)" tag="0"/>
+        <item text="Node (32998, 32108, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32987, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32964, 32110, 6)" tag="0"/>
+        <item text="Node (32962, 32115, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32955, 32120, 6)" tag="0"/>
+        <item text="Node (32955, 32124, 6)" tag="0"/>
+        <item text="Node (32951, 32126, 6)" tag="0"/>
+        <item text="Node (32946, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|bank-exit.south:" tag="255"/>
+        <item text="Node (33016, 32054, 6)" tag="0"/>
+        <item text="Node (33012, 32054, 6)" tag="0"/>
+        <item text="Node (33007, 32055, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32070, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32074, 6)" tag="0"/>
+        <item text="Node (32998, 32079, 6)" tag="0"/>
+        <item text="Node (32998, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32094, 6)" tag="0"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32104, 6)" tag="0"/>
+        <item text="Node (32998, 32108, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32987, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32964, 32110, 6)" tag="0"/>
+        <item text="Node (32962, 32115, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32955, 32120, 6)" tag="0"/>
+        <item text="Node (32955, 32124, 6)" tag="0"/>
+        <item text="Node (32951, 32126, 6)" tag="0"/>
+        <item text="Node (32946, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|potion-exit.south:" tag="255"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32074, 6)" tag="0"/>
+        <item text="Node (32971, 32073, 6)" tag="0"/>
+        <item text="Node (32967, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32078, 6)" tag="0"/>
+        <item text="Node (32954, 32081, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32087, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32093, 6)" tag="0"/>
+        <item text="Node (32951, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32943, 32096, 6)" tag="0"/>
+        <item text="Node (32939, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32101, 6)" tag="0"/>
+        <item text="Node (32936, 32105, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32113, 6)" tag="0"/>
+        <item text="Node (32936, 32117, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|rune-exit.south:" tag="255"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32074, 6)" tag="0"/>
+        <item text="Node (32971, 32073, 6)" tag="0"/>
+        <item text="Node (32967, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32078, 6)" tag="0"/>
+        <item text="Node (32954, 32081, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32087, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32093, 6)" tag="0"/>
+        <item text="Node (32951, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32943, 32096, 6)" tag="0"/>
+        <item text="Node (32939, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32101, 6)" tag="0"/>
+        <item text="Node (32936, 32105, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32113, 6)" tag="0"/>
+        <item text="Node (32936, 32117, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|ammo-exit.south:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32910, 32125, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.north-exit.south:" tag="255"/>
+        <item text="Node (32955, 32031, 6)" tag="0"/>
+        <item text="Node (32955, 32036, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32045, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32075, 6)" tag="0"/>
+        <item text="Node (32954, 32077, 6)" tag="0"/>
+        <item text="Node (32954, 32081, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32087, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32093, 6)" tag="0"/>
+        <item text="Node (32951, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32943, 32096, 6)" tag="0"/>
+        <item text="Node (32939, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32101, 6)" tag="0"/>
+        <item text="Node (32936, 32105, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32113, 6)" tag="0"/>
+        <item text="Node (32936, 32117, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.east-exit.south:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32104, 6)" tag="0"/>
+        <item text="Node (32998, 32108, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32987, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32964, 32110, 6)" tag="0"/>
+        <item text="Node (32962, 32115, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32955, 32120, 6)" tag="0"/>
+        <item text="Node (32955, 32124, 6)" tag="0"/>
+        <item text="Node (32951, 32126, 6)" tag="0"/>
+        <item text="Node (32946, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.south-exit.south:" tag="255"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.west-exit.south:" tag="255"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32155, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+
+        <!-- Waypoints to exit.west -->
+
+        <item text="venore|depot-exit.west:" tag="255"/>
+        <item text="Stand (33020, 32059, 7)" tag="1"/>
+        <item text="Node (33016, 32054, 6)" tag="0"/>
+        <item text="Node (33012, 32054, 6)" tag="0"/>
+        <item text="Node (33007, 32055, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32070, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32074, 6)" tag="0"/>
+        <item text="Node (32998, 32079, 6)" tag="0"/>
+        <item text="Node (32998, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32094, 6)" tag="0"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32104, 6)" tag="0"/>
+        <item text="Node (32998, 32108, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32987, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32964, 32110, 6)" tag="0"/>
+        <item text="Node (32962, 32115, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32955, 32120, 6)" tag="0"/>
+        <item text="Node (32955, 32124, 6)" tag="0"/>
+        <item text="Node (32951, 32126, 6)" tag="0"/>
+        <item text="Node (32946, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|bank-exit.west:" tag="255"/>
+        <item text="Node (33016, 32054, 6)" tag="0"/>
+        <item text="Node (33012, 32054, 6)" tag="0"/>
+        <item text="Node (33007, 32055, 6)" tag="0"/>
+        <item text="Node (33007, 32060, 6)" tag="0"/>
+        <item text="Node (33007, 32065, 6)" tag="0"/>
+        <item text="Node (33007, 32070, 6)" tag="0"/>
+        <item text="Node (33003, 32073, 6)" tag="0"/>
+        <item text="Node (32998, 32074, 6)" tag="0"/>
+        <item text="Node (32998, 32079, 6)" tag="0"/>
+        <item text="Node (32998, 32084, 6)" tag="0"/>
+        <item text="Node (32998, 32089, 6)" tag="0"/>
+        <item text="Node (32998, 32094, 6)" tag="0"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32104, 6)" tag="0"/>
+        <item text="Node (32998, 32108, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32987, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32964, 32110, 6)" tag="0"/>
+        <item text="Node (32962, 32115, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32955, 32120, 6)" tag="0"/>
+        <item text="Node (32955, 32124, 6)" tag="0"/>
+        <item text="Node (32951, 32126, 6)" tag="0"/>
+        <item text="Node (32946, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|potion-exit.west:" tag="255"/>
+        <item text="Node (32974, 32083, 6)" tag="0"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32074, 6)" tag="0"/>
+        <item text="Node (32971, 32073, 6)" tag="0"/>
+        <item text="Node (32967, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32078, 6)" tag="0"/>
+        <item text="Node (32954, 32081, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32087, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32093, 6)" tag="0"/>
+        <item text="Node (32951, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32943, 32096, 6)" tag="0"/>
+        <item text="Node (32939, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32101, 6)" tag="0"/>
+        <item text="Node (32936, 32105, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32113, 6)" tag="0"/>
+        <item text="Node (32936, 32117, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|rune-exit.west:" tag="255"/>
+        <item text="Node (32976, 32079, 6)" tag="0"/>
+        <item text="Node (32976, 32074, 6)" tag="0"/>
+        <item text="Node (32971, 32073, 6)" tag="0"/>
+        <item text="Node (32967, 32073, 6)" tag="0"/>
+        <item text="Node (32963, 32073, 6)" tag="0"/>
+        <item text="Node (32960, 32076, 6)" tag="0"/>
+        <item text="Node (32957, 32078, 6)" tag="0"/>
+        <item text="Node (32954, 32081, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32087, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32093, 6)" tag="0"/>
+        <item text="Node (32951, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32943, 32096, 6)" tag="0"/>
+        <item text="Node (32939, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32101, 6)" tag="0"/>
+        <item text="Node (32936, 32105, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32113, 6)" tag="0"/>
+        <item text="Node (32936, 32117, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|ammo-exit.west:" tag="255"/>
+        <item text="Node (32908, 32121, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.north-exit.west:" tag="255"/>
+        <item text="Node (32955, 32031, 6)" tag="0"/>
+        <item text="Node (32955, 32036, 6)" tag="0"/>
+        <item text="Node (32954, 32040, 6)" tag="0"/>
+        <item text="Node (32954, 32045, 6)" tag="0"/>
+        <item text="Node (32954, 32050, 6)" tag="0"/>
+        <item text="Node (32954, 32055, 6)" tag="0"/>
+        <item text="Node (32954, 32060, 6)" tag="0"/>
+        <item text="Node (32954, 32065, 6)" tag="0"/>
+        <item text="Node (32954, 32070, 6)" tag="0"/>
+        <item text="Node (32954, 32075, 6)" tag="0"/>
+        <item text="Node (32954, 32077, 6)" tag="0"/>
+        <item text="Node (32954, 32081, 6)" tag="0"/>
+        <item text="Node (32954, 32084, 6)" tag="0"/>
+        <item text="Node (32954, 32087, 6)" tag="0"/>
+        <item text="Node (32954, 32090, 6)" tag="0"/>
+        <item text="Node (32954, 32093, 6)" tag="0"/>
+        <item text="Node (32951, 32096, 6)" tag="0"/>
+        <item text="Node (32947, 32096, 6)" tag="0"/>
+        <item text="Node (32943, 32096, 6)" tag="0"/>
+        <item text="Node (32939, 32096, 6)" tag="0"/>
+        <item text="Node (32936, 32097, 6)" tag="0"/>
+        <item text="Node (32936, 32101, 6)" tag="0"/>
+        <item text="Node (32936, 32105, 6)" tag="0"/>
+        <item text="Node (32936, 32109, 6)" tag="0"/>
+        <item text="Node (32936, 32113, 6)" tag="0"/>
+        <item text="Node (32936, 32117, 6)" tag="0"/>
+        <item text="Node (32936, 32121, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.east-exit.west:" tag="255"/>
+        <item text="Stand (33000, 32096, 6)" tag="1"/>
+        <item text="other|door|west:" tag="255"/>
+        <item text="Node (32998, 32099, 6)" tag="0"/>
+        <item text="Node (32998, 32104, 6)" tag="0"/>
+        <item text="Node (32998, 32108, 6)" tag="0"/>
+        <item text="Node (32993, 32109, 6)" tag="0"/>
+        <item text="Node (32987, 32109, 6)" tag="0"/>
+        <item text="Node (32981, 32109, 6)" tag="0"/>
+        <item text="Node (32975, 32109, 6)" tag="0"/>
+        <item text="Node (32969, 32109, 6)" tag="0"/>
+        <item text="Node (32964, 32110, 6)" tag="0"/>
+        <item text="Node (32962, 32115, 6)" tag="0"/>
+        <item text="Node (32959, 32118, 6)" tag="0"/>
+        <item text="Node (32955, 32120, 6)" tag="0"/>
+        <item text="Node (32955, 32124, 6)" tag="0"/>
+        <item text="Node (32951, 32126, 6)" tag="0"/>
+        <item text="Node (32946, 32126, 6)" tag="0"/>
+        <item text="Node (32941, 32126, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.south-exit.west:" tag="255"/>
+        <item text="Node (32936, 32150, 6)" tag="0"/>
+        <item text="Node (32936, 32145, 6)" tag="0"/>
+        <item text="Node (32936, 32140, 6)" tag="0"/>
+        <item text="Node (32936, 32136, 6)" tag="0"/>
+        <item text="Node (32936, 32131, 6)" tag="0"/>
+        <item text="Node (32936, 32126, 6)" tag="0"/>
+        <item text="Node (32930, 32126, 6)" tag="0"/>
+        <item text="Node (32925, 32126, 6)" tag="0"/>
+        <item text="Node (32920, 32126, 6)" tag="0"/>
+        <item text="Node (32915, 32126, 6)" tag="0"/>
+        <item text="Node (32912, 32126, 6)" tag="0"/>
+        <item text="Node (32906, 32126, 6)" tag="0"/>
+        <item text="Node (32900, 32126, 6)" tag="0"/>
+        <item text="Node (32894, 32126, 6)" tag="0"/>
+        <item text="Node (32888, 32126, 6)" tag="0"/>
+        <item text="Node (32882, 32126, 6)" tag="0"/>
+        <item text="Node (32876, 32126, 6)" tag="0"/>
+        <item text="Node (32870, 32126, 6)" tag="0"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+        <item text="venore|exit.west-exit.west:" tag="255"/>
+        <item text="Node (32865, 32126, 6)" tag="0"/>
+        <item text="next:" tag="255"/>
+    </control>
+</panel>

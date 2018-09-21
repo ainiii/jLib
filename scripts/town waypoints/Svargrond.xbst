@@ -1,0 +1,927 @@
+<panel name="Walker">
+	<control name="WaypointList">
+		
+		<!-- Waypoints to depot -->
+		
+		<item text="svargrond|depot-depot:" tag="255"/>
+		<item text="Stand (32254, 31143, 6)" tag="1"/>
+		<item text="Node (32264, 31141, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-depot:" tag="255"/>
+		<item text="Node (32299, 31131, 7)" tag="0"/>
+		<item text="Node (32295, 31131, 7)" tag="0"/>
+		<item text="Node (32291, 31134, 7)" tag="0"/>
+		<item text="Node (32287, 31136, 7)" tag="0"/>
+		<item text="Node (32283, 31138, 7)" tag="0"/>
+		<item text="Node (32279, 31140, 7)" tag="0"/>
+		<item text="Node (32275, 31141, 7)" tag="0"/>
+		<item text="Node (32271, 31141, 7)" tag="0"/>
+		<item text="Node (32267, 31141, 7)" tag="0"/>
+		<item text="Node (32264, 31141, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-depot:" tag="255"/>
+		<item text="Node (32304, 31133, 7)" tag="0"/>
+		<item text="Node (32300, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32277, 31141, 7)" tag="0"/>
+		<item text="Node (32273, 31141, 7)" tag="0"/>
+		<item text="Node (32269, 31141, 7)" tag="0"/>
+		<item text="Node (32264, 31141, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-depot:" tag="255"/>
+		<item text="Node (32304, 31133, 7)" tag="0"/>
+		<item text="Node (32300, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32277, 31141, 7)" tag="0"/>
+		<item text="Node (32273, 31141, 7)" tag="0"/>
+		<item text="Node (32269, 31141, 7)" tag="0"/>
+		<item text="Node (32264, 31141, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-depot:" tag="255"/>
+		<item text="Node (32235, 31077, 6)" tag="0"/>
+		<item text="Node (32235, 31081, 6)" tag="0"/>
+		<item text="Node (32237, 31085, 6)" tag="0"/>
+		<item text="Node (32241, 31088, 6)" tag="0"/>
+		<item text="Node (32242, 31092, 6)" tag="0"/>
+		<item text="Node (32242, 31096, 6)" tag="0"/>
+		<item text="Node (32241, 31100, 6)" tag="0"/>
+		<item text="Node (32237, 31101, 6)" tag="0"/>
+		<item text="Node (32235, 31104, 6)" tag="0"/>
+		<item text="Stand (32235, 31108, 6)" tag="1"/>
+		<item text="Node (32235, 31112, 7)" tag="0"/>
+		<item text="Node (32236, 31116, 7)" tag="0"/>
+		<item text="Node (32237, 31120, 7)" tag="0"/>
+		<item text="Node (32240, 31123, 7)" tag="0"/>
+		<item text="Node (32240, 31127, 7)" tag="0"/>
+		<item text="Node (32240, 31131, 7)" tag="0"/>
+		<item text="Node (32240, 31135, 7)" tag="0"/>
+		<item text="Node (32242, 31139, 7)" tag="0"/>
+		<item text="Node (32246, 31141, 7)" tag="0"/>
+		<item text="Node (32250, 31142, 7)" tag="0"/>
+		<item text="Node (32254, 31141, 7)" tag="0"/>
+		<item text="Node (32258, 31141, 7)" tag="0"/>
+		<item text="Node (32264, 31141, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-depot:" tag="255"/>
+		<item text="Node (32255, 31191, 7)" tag="0"/>
+		<item text="Node (32255, 31187, 7)" tag="0"/>
+		<item text="Node (32254, 31183, 7)" tag="0"/>
+		<item text="Node (32254, 31179, 7)" tag="0"/>
+		<item text="Node (32253, 31175, 7)" tag="0"/>
+		<item text="Node (32250, 31172, 7)" tag="0"/>
+		<item text="Node (32248, 31168, 7)" tag="0"/>
+		<item text="Node (32248, 31164, 7)" tag="0"/>
+		<item text="Node (32246, 31160, 7)" tag="0"/>
+		<item text="Node (32242, 31158, 7)" tag="0"/>
+		<item text="Node (32242, 31154, 7)" tag="0"/>
+		<item text="Node (32242, 31150, 7)" tag="0"/>
+		<item text="Node (32242, 31146, 7)" tag="0"/>
+		<item text="Node (32243, 31142, 7)" tag="0"/>
+		<item text="Node (32247, 31141, 7)" tag="0"/>
+		<item text="Node (32251, 31141, 7)" tag="0"/>
+		<item text="Node (32255, 31141, 7)" tag="0"/>
+		<item text="Node (32259, 31141, 7)" tag="0"/>
+		<item text="Node (32264, 31141, 7)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-depot:" tag="255"/>
+		<item text="Stand (32246, 31106, 5)" tag="1"/>
+		<item text="Node (32246, 31110, 6)" tag="0"/>
+		<item text="Stand (32245, 31112, 6)" tag="1"/>
+		<item text="Node (32244, 31116, 7)" tag="0"/>
+		<item text="Node (32242, 31119, 7)" tag="0"/>
+		<item text="Node (32241, 31123, 7)" tag="0"/>
+		<item text="Node (32241, 31127, 7)" tag="0"/>
+		<item text="Node (32241, 31131, 7)" tag="0"/>
+		<item text="Node (32241, 31135, 7)" tag="0"/>
+		<item text="Node (32244, 31139, 7)" tag="0"/>
+		<item text="Node (32248, 31141, 7)" tag="0"/>
+		<item text="Node (32252, 31143, 7)" tag="0"/>
+		<item text="Stand (32254, 31143, 7)" tag="1"/>
+		<item text="Node (32258, 31141, 6)" tag="0"/>
+		<item text="Node (32264, 31141, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to bank -->
+		
+		<item text="svargrond|depot-bank:" tag="255"/>
+		<item text="Stand (32274, 31143, 6)" tag="1"/>
+		<item text="Node (32276, 31141, 7)" tag="0"/>
+		<item text="Node (32280, 31139, 7)" tag="0"/>
+		<item text="Node (32284, 31137, 7)" tag="0"/>
+		<item text="Node (32288, 31135, 7)" tag="0"/>
+		<item text="Node (32292, 31133, 7)" tag="0"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-bank:" tag="255"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-bank:" tag="255"/>
+		<item text="Node (32303, 31133, 7)" tag="0"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-bank:" tag="255"/>
+		<item text="Node (32303, 31133, 7)" tag="0"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-bank:" tag="255"/>
+		<item text="Node (32235, 31081, 6)" tag="0"/>
+		<item text="Node (32237, 31085, 6)" tag="0"/>
+		<item text="Node (32240, 31088, 6)" tag="0"/>
+		<item text="Node (32242, 31091, 6)" tag="0"/>
+		<item text="Node (32242, 31095, 6)" tag="0"/>
+		<item text="Node (32241, 31099, 6)" tag="0"/>
+		<item text="Node (32238, 31101, 6)" tag="0"/>
+		<item text="Node (32235, 31103, 6)" tag="0"/>
+		<item text="Node (32235, 31107, 6)" tag="0"/>
+		<item text="Stand (32235, 31108, 6)" tag="1"/>
+		<item text="Node (32235, 31113, 7)" tag="0"/>
+		<item text="Node (32236, 31117, 7)" tag="0"/>
+		<item text="Node (32237, 31121, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32241, 31128, 7)" tag="0"/>
+		<item text="Node (32245, 31129, 7)" tag="0"/>
+		<item text="Node (32249, 31128, 7)" tag="0"/>
+		<item text="Node (32253, 31127, 7)" tag="0"/>
+		<item text="Node (32257, 31127, 7)" tag="0"/>
+		<item text="Node (32261, 31127, 7)" tag="0"/>
+		<item text="Node (32265, 31127, 7)" tag="0"/>
+		<item text="Node (32269, 31127, 7)" tag="0"/>
+		<item text="Node (32273, 31127, 7)" tag="0"/>
+		<item text="Node (32277, 31127, 7)" tag="0"/>
+		<item text="Node (32281, 31127, 7)" tag="0"/>
+		<item text="Node (32286, 31127, 7)" tag="0"/>
+		<item text="Node (32288, 31131, 7)" tag="0"/>
+		<item text="Node (32292, 31132, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-bank:" tag="255"/>
+		<item text="Node (32255, 31190, 7)" tag="0"/>
+		<item text="Node (32254, 31186, 7)" tag="0"/>
+		<item text="Node (32254, 31182, 7)" tag="0"/>
+		<item text="Node (32254, 31178, 7)" tag="0"/>
+		<item text="Node (32253, 31174, 7)" tag="0"/>
+		<item text="Node (32250, 31171, 7)" tag="0"/>
+		<item text="Node (32248, 31167, 7)" tag="0"/>
+		<item text="Node (32248, 31162, 7)" tag="0"/>
+		<item text="Node (32251, 31159, 7)" tag="0"/>
+		<item text="Node (32255, 31159, 7)" tag="0"/>
+		<item text="Node (32259, 31160, 7)" tag="0"/>
+		<item text="Node (32263, 31160, 7)" tag="0"/>
+		<item text="Node (32268, 31160, 7)" tag="0"/>
+		<item text="Node (32272, 31160, 7)" tag="0"/>
+		<item text="Node (32276, 31160, 7)" tag="0"/>
+		<item text="Node (32279, 31156, 7)" tag="0"/>
+		<item text="Node (32278, 31152, 7)" tag="0"/>
+		<item text="Node (32278, 31148, 7)" tag="0"/>
+		<item text="Node (32279, 31143, 7)" tag="0"/>
+		<item text="Node (32280, 31139, 7)" tag="0"/>
+		<item text="Node (32284, 31137, 7)" tag="0"/>
+		<item text="Node (32288, 31135, 7)" tag="0"/>
+		<item text="Node (32292, 31133, 7)" tag="0"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-bank:" tag="255"/>
+		<item text="Stand (32248, 31106, 5)" tag="1"/>
+		<item text="Stand (32249, 31111, 6)" tag="1"/>
+		<item text="Node (32254, 31111, 7)" tag="0"/>
+		<item text="Node (32257, 31114, 7)" tag="0"/>
+		<item text="Node (32258, 31118, 7)" tag="0"/>
+		<item text="Node (32258, 31122, 7)" tag="0"/>
+		<item text="Node (32260, 31126, 7)" tag="0"/>
+		<item text="Node (32265, 31126, 7)" tag="0"/>
+		<item text="Node (32269, 31126, 7)" tag="0"/>
+		<item text="Node (32273, 31126, 7)" tag="0"/>
+		<item text="Node (32277, 31126, 7)" tag="0"/>
+		<item text="Node (32281, 31126, 7)" tag="0"/>
+		<item text="Node (32285, 31127, 7)" tag="0"/>
+		<item text="Node (32289, 31129, 7)" tag="0"/>
+		<item text="Node (32293, 31130, 7)" tag="0"/>
+		<item text="Node (32297, 31130, 7)" tag="0"/>
+		<item text="Stand (32299, 31134, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to potion -->
+		
+		<item text="svargrond|depot-potion:" tag="255"/>
+		<item text="Stand (32274, 31143, 6)" tag="1"/>
+		<item text="Node (32277, 31141, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32301, 31133, 7)" tag="0"/>
+		<item text="Node (32305, 31132, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-potion:" tag="255"/>
+		<item text="Node (32303, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-potion:" tag="255"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-potion:" tag="255"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-potion:" tag="255"/>
+		<item text="Node (32235, 31081, 6)" tag="0"/>
+		<item text="Node (32237, 31085, 6)" tag="0"/>
+		<item text="Node (32241, 31087, 6)" tag="0"/>
+		<item text="Node (32243, 31091, 6)" tag="0"/>
+		<item text="Node (32243, 31095, 6)" tag="0"/>
+		<item text="Node (32242, 31099, 6)" tag="0"/>
+		<item text="Node (32238, 31101, 6)" tag="0"/>
+		<item text="Node (32235, 31104, 6)" tag="0"/>
+		<item text="Stand (32235, 31108, 6)" tag="1"/>
+		<item text="Node (32236, 31113, 7)" tag="0"/>
+		<item text="Node (32236, 31117, 7)" tag="0"/>
+		<item text="Node (32237, 31121, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32241, 31128, 7)" tag="0"/>
+		<item text="Node (32245, 31129, 7)" tag="0"/>
+		<item text="Node (32249, 31128, 7)" tag="0"/>
+		<item text="Node (32253, 31127, 7)" tag="0"/>
+		<item text="Node (32257, 31127, 7)" tag="0"/>
+		<item text="Node (32261, 31127, 7)" tag="0"/>
+		<item text="Node (32265, 31127, 7)" tag="0"/>
+		<item text="Node (32269, 31127, 7)" tag="0"/>
+		<item text="Node (32273, 31127, 7)" tag="0"/>
+		<item text="Node (32277, 31127, 7)" tag="0"/>
+		<item text="Node (32281, 31127, 7)" tag="0"/>
+		<item text="Node (32285, 31127, 7)" tag="0"/>
+		<item text="Node (32288, 31130, 7)" tag="0"/>
+		<item text="Node (32290, 31133, 7)" tag="0"/>
+		<item text="Node (32294, 31132, 7)" tag="0"/>
+		<item text="Node (32298, 31130, 7)" tag="0"/>
+		<item text="Node (32302, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-potion:" tag="255"/>
+		<item text="Node (32255, 31189, 7)" tag="0"/>
+		<item text="Node (32254, 31185, 7)" tag="0"/>
+		<item text="Node (32254, 31181, 7)" tag="0"/>
+		<item text="Node (32254, 31177, 7)" tag="0"/>
+		<item text="Node (32252, 31173, 7)" tag="0"/>
+		<item text="Node (32249, 31170, 7)" tag="0"/>
+		<item text="Node (32248, 31166, 7)" tag="0"/>
+		<item text="Node (32248, 31162, 7)" tag="0"/>
+		<item text="Node (32251, 31159, 7)" tag="0"/>
+		<item text="Node (32256, 31159, 7)" tag="0"/>
+		<item text="Node (32260, 31160, 7)" tag="0"/>
+		<item text="Node (32264, 31160, 7)" tag="0"/>
+		<item text="Node (32268, 31160, 7)" tag="0"/>
+		<item text="Node (32272, 31162, 7)" tag="0"/>
+		<item text="Node (32276, 31162, 7)" tag="0"/>
+		<item text="Node (32278, 31159, 7)" tag="0"/>
+		<item text="Node (32278, 31155, 7)" tag="0"/>
+		<item text="Node (32278, 31151, 7)" tag="0"/>
+		<item text="Node (32278, 31147, 7)" tag="0"/>
+		<item text="Node (32279, 31143, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32302, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-potion:" tag="255"/>
+		<item text="Stand (32248, 31106, 5)" tag="1"/>
+		<item text="Stand (32249, 31111, 6)" tag="1"/>
+		<item text="Node (32254, 31111, 7)" tag="0"/>
+		<item text="Node (32258, 31114, 7)" tag="0"/>
+		<item text="Node (32258, 31118, 7)" tag="0"/>
+		<item text="Node (32258, 31122, 7)" tag="0"/>
+		<item text="Node (32260, 31126, 7)" tag="0"/>
+		<item text="Node (32264, 31126, 7)" tag="0"/>
+		<item text="Node (32268, 31126, 7)" tag="0"/>
+		<item text="Node (32272, 31126, 7)" tag="0"/>
+		<item text="Node (32276, 31126, 7)" tag="0"/>
+		<item text="Node (32280, 31126, 7)" tag="0"/>
+		<item text="Node (32284, 31126, 7)" tag="0"/>
+		<item text="Node (32287, 31128, 7)" tag="0"/>
+		<item text="Node (32289, 31132, 7)" tag="0"/>
+		<item text="Node (32294, 31131, 7)" tag="0"/>
+		<item text="Node (32298, 31131, 7)" tag="0"/>
+		<item text="Node (32302, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to rune -->
+		
+		<item text="svargrond|depot-rune:" tag="255"/>
+		<item text="Stand (32274, 31143, 6)" tag="1"/>
+		<item text="Node (32277, 31141, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32301, 31133, 7)" tag="0"/>
+		<item text="Node (32305, 31132, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-rune:" tag="255"/>
+		<item text="Node (32303, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-rune:" tag="255"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-rune:" tag="255"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-rune:" tag="255"/>
+		<item text="Node (32235, 31081, 6)" tag="0"/>
+		<item text="Node (32237, 31085, 6)" tag="0"/>
+		<item text="Node (32241, 31087, 6)" tag="0"/>
+		<item text="Node (32243, 31091, 6)" tag="0"/>
+		<item text="Node (32243, 31095, 6)" tag="0"/>
+		<item text="Node (32242, 31099, 6)" tag="0"/>
+		<item text="Node (32238, 31101, 6)" tag="0"/>
+		<item text="Node (32235, 31104, 6)" tag="0"/>
+		<item text="Stand (32235, 31108, 6)" tag="1"/>
+		<item text="Node (32236, 31113, 7)" tag="0"/>
+		<item text="Node (32236, 31117, 7)" tag="0"/>
+		<item text="Node (32237, 31121, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32241, 31128, 7)" tag="0"/>
+		<item text="Node (32245, 31129, 7)" tag="0"/>
+		<item text="Node (32249, 31128, 7)" tag="0"/>
+		<item text="Node (32253, 31127, 7)" tag="0"/>
+		<item text="Node (32257, 31127, 7)" tag="0"/>
+		<item text="Node (32261, 31127, 7)" tag="0"/>
+		<item text="Node (32265, 31127, 7)" tag="0"/>
+		<item text="Node (32269, 31127, 7)" tag="0"/>
+		<item text="Node (32273, 31127, 7)" tag="0"/>
+		<item text="Node (32277, 31127, 7)" tag="0"/>
+		<item text="Node (32281, 31127, 7)" tag="0"/>
+		<item text="Node (32285, 31127, 7)" tag="0"/>
+		<item text="Node (32288, 31130, 7)" tag="0"/>
+		<item text="Node (32290, 31133, 7)" tag="0"/>
+		<item text="Node (32294, 31132, 7)" tag="0"/>
+		<item text="Node (32298, 31130, 7)" tag="0"/>
+		<item text="Node (32302, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-rune:" tag="255"/>
+		<item text="Node (32255, 31189, 7)" tag="0"/>
+		<item text="Node (32254, 31185, 7)" tag="0"/>
+		<item text="Node (32254, 31181, 7)" tag="0"/>
+		<item text="Node (32254, 31177, 7)" tag="0"/>
+		<item text="Node (32252, 31173, 7)" tag="0"/>
+		<item text="Node (32249, 31170, 7)" tag="0"/>
+		<item text="Node (32248, 31166, 7)" tag="0"/>
+		<item text="Node (32248, 31162, 7)" tag="0"/>
+		<item text="Node (32251, 31159, 7)" tag="0"/>
+		<item text="Node (32256, 31159, 7)" tag="0"/>
+		<item text="Node (32260, 31160, 7)" tag="0"/>
+		<item text="Node (32264, 31160, 7)" tag="0"/>
+		<item text="Node (32268, 31160, 7)" tag="0"/>
+		<item text="Node (32272, 31162, 7)" tag="0"/>
+		<item text="Node (32276, 31162, 7)" tag="0"/>
+		<item text="Node (32278, 31159, 7)" tag="0"/>
+		<item text="Node (32278, 31155, 7)" tag="0"/>
+		<item text="Node (32278, 31151, 7)" tag="0"/>
+		<item text="Node (32278, 31147, 7)" tag="0"/>
+		<item text="Node (32279, 31143, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32302, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-rune:" tag="255"/>
+		<item text="Stand (32248, 31106, 5)" tag="1"/>
+		<item text="Stand (32249, 31111, 6)" tag="1"/>
+		<item text="Node (32254, 31111, 7)" tag="0"/>
+		<item text="Node (32258, 31114, 7)" tag="0"/>
+		<item text="Node (32258, 31118, 7)" tag="0"/>
+		<item text="Node (32258, 31122, 7)" tag="0"/>
+		<item text="Node (32260, 31126, 7)" tag="0"/>
+		<item text="Node (32264, 31126, 7)" tag="0"/>
+		<item text="Node (32268, 31126, 7)" tag="0"/>
+		<item text="Node (32272, 31126, 7)" tag="0"/>
+		<item text="Node (32276, 31126, 7)" tag="0"/>
+		<item text="Node (32280, 31126, 7)" tag="0"/>
+		<item text="Node (32284, 31126, 7)" tag="0"/>
+		<item text="Node (32287, 31128, 7)" tag="0"/>
+		<item text="Node (32289, 31132, 7)" tag="0"/>
+		<item text="Node (32294, 31131, 7)" tag="0"/>
+		<item text="Node (32298, 31131, 7)" tag="0"/>
+		<item text="Node (32302, 31133, 7)" tag="0"/>
+		<item text="Stand (32308, 31132, 7)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to ammo -->
+		
+		<item text="svargrond|depot-ammo:" tag="255"/>
+		<item text="Stand (32254, 31143, 6)" tag="1"/>
+		<item text="Node (32251, 31142, 7)" tag="0"/>
+		<item text="Node (32247, 31141, 7)" tag="0"/>
+		<item text="Node (32243, 31139, 7)" tag="0"/>
+		<item text="Node (32240, 31136, 7)" tag="0"/>
+		<item text="Node (32240, 31132, 7)" tag="0"/>
+		<item text="Node (32240, 31128, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32237, 31121, 7)" tag="0"/>
+		<item text="Node (32236, 31117, 7)" tag="0"/>
+		<item text="Node (32236, 31113, 7)" tag="0"/>
+		<item text="Stand (32235, 31108, 7)" tag="1"/>
+		<item text="Node (32235, 31104, 6)" tag="0"/>
+		<item text="Node (32238, 31101, 6)" tag="0"/>
+		<item text="Node (32242, 31099, 6)" tag="0"/>
+		<item text="Node (32242, 31095, 6)" tag="0"/>
+		<item text="Node (32242, 31091, 6)" tag="0"/>
+		<item text="Node (32240, 31087, 6)" tag="0"/>
+		<item text="Node (32236, 31086, 6)" tag="0"/>
+		<item text="Node (32235, 31082, 6)" tag="0"/>
+		<item text="Node (32235, 31078, 6)" tag="0"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-ammo:" tag="255"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Node (32292, 31133, 7)" tag="0"/>
+		<item text="Node (32288, 31135, 7)" tag="0"/>
+		<item text="Node (32287, 31131, 7)" tag="0"/>
+		<item text="Node (32286, 31127, 7)" tag="0"/>
+		<item text="Node (32282, 31126, 7)" tag="0"/>
+		<item text="Node (32277, 31126, 7)" tag="0"/>
+		<item text="Node (32273, 31126, 7)" tag="0"/>
+		<item text="Node (32269, 31127, 7)" tag="0"/>
+		<item text="Node (32265, 31127, 7)" tag="0"/>
+		<item text="Node (32261, 31127, 7)" tag="0"/>
+		<item text="Node (32257, 31127, 7)" tag="0"/>
+		<item text="Node (32253, 31127, 7)" tag="0"/>
+		<item text="Node (32249, 31128, 7)" tag="0"/>
+		<item text="Node (32245, 31129, 7)" tag="0"/>
+		<item text="Node (32241, 31128, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32237, 31121, 7)" tag="0"/>
+		<item text="Node (32236, 31117, 7)" tag="0"/>
+		<item text="Node (32236, 31113, 7)" tag="0"/>
+		<item text="Stand (32236, 31108, 7)" tag="1"/>
+		<item text="Node (32236, 31104, 6)" tag="0"/>
+		<item text="Node (32239, 31101, 6)" tag="0"/>
+		<item text="Node (32242, 31098, 6)" tag="0"/>
+		<item text="Node (32242, 31094, 6)" tag="0"/>
+		<item text="Node (32242, 31090, 6)" tag="0"/>
+		<item text="Node (32239, 31087, 6)" tag="0"/>
+		<item text="Node (32236, 31084, 6)" tag="0"/>
+		<item text="Node (32235, 31080, 6)" tag="0"/>
+		<item text="Node (32235, 31076, 6)" tag="0"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-ammo:" tag="255"/>
+		<item text="Node (32304, 31133, 7)" tag="0"/>
+		<item text="Node (32300, 31133, 7)" tag="0"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Node (32292, 31132, 7)" tag="0"/>
+		<item text="Node (32288, 31130, 7)" tag="0"/>
+		<item text="Node (32286, 31126, 7)" tag="0"/>
+		<item text="Node (32282, 31126, 7)" tag="0"/>
+		<item text="Node (32278, 31126, 7)" tag="0"/>
+		<item text="Node (32274, 31126, 7)" tag="0"/>
+		<item text="Node (32270, 31126, 7)" tag="0"/>
+		<item text="Node (32265, 31127, 7)" tag="0"/>
+		<item text="Node (32261, 31127, 7)" tag="0"/>
+		<item text="Node (32257, 31127, 7)" tag="0"/>
+		<item text="Node (32253, 31127, 7)" tag="0"/>
+		<item text="Node (32249, 31128, 7)" tag="0"/>
+		<item text="Node (32245, 31129, 7)" tag="0"/>
+		<item text="Node (32241, 31128, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32237, 31120, 7)" tag="0"/>
+		<item text="Node (32236, 31116, 7)" tag="0"/>
+		<item text="Node (32236, 31112, 7)" tag="0"/>
+		<item text="Stand (32236, 31108, 7)" tag="1"/>
+		<item text="Node (32236, 31104, 6)" tag="0"/>
+		<item text="Node (32239, 31101, 6)" tag="0"/>
+		<item text="Node (32243, 31098, 6)" tag="0"/>
+		<item text="Node (32243, 31094, 6)" tag="0"/>
+		<item text="Node (32243, 31090, 6)" tag="0"/>
+		<item text="Node (32240, 31087, 6)" tag="0"/>
+		<item text="Node (32236, 31085, 6)" tag="0"/>
+		<item text="Node (32235, 31081, 6)" tag="0"/>
+		<item text="Node (32235, 31077, 6)" tag="0"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-ammo:" tag="255"/>
+		<item text="Node (32304, 31133, 7)" tag="0"/>
+		<item text="Node (32300, 31133, 7)" tag="0"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Node (32292, 31132, 7)" tag="0"/>
+		<item text="Node (32288, 31130, 7)" tag="0"/>
+		<item text="Node (32286, 31126, 7)" tag="0"/>
+		<item text="Node (32282, 31126, 7)" tag="0"/>
+		<item text="Node (32278, 31126, 7)" tag="0"/>
+		<item text="Node (32274, 31126, 7)" tag="0"/>
+		<item text="Node (32270, 31126, 7)" tag="0"/>
+		<item text="Node (32265, 31127, 7)" tag="0"/>
+		<item text="Node (32261, 31127, 7)" tag="0"/>
+		<item text="Node (32257, 31127, 7)" tag="0"/>
+		<item text="Node (32253, 31127, 7)" tag="0"/>
+		<item text="Node (32249, 31128, 7)" tag="0"/>
+		<item text="Node (32245, 31129, 7)" tag="0"/>
+		<item text="Node (32241, 31128, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32237, 31120, 7)" tag="0"/>
+		<item text="Node (32236, 31116, 7)" tag="0"/>
+		<item text="Node (32236, 31112, 7)" tag="0"/>
+		<item text="Stand (32236, 31108, 7)" tag="1"/>
+		<item text="Node (32236, 31104, 6)" tag="0"/>
+		<item text="Node (32239, 31101, 6)" tag="0"/>
+		<item text="Node (32243, 31098, 6)" tag="0"/>
+		<item text="Node (32243, 31094, 6)" tag="0"/>
+		<item text="Node (32243, 31090, 6)" tag="0"/>
+		<item text="Node (32240, 31087, 6)" tag="0"/>
+		<item text="Node (32236, 31085, 6)" tag="0"/>
+		<item text="Node (32235, 31081, 6)" tag="0"/>
+		<item text="Node (32235, 31077, 6)" tag="0"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-ammo:" tag="255"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-ammo:" tag="255"/>
+		<item text="Node (32255, 31190, 7)" tag="0"/>
+		<item text="Node (32254, 31186, 7)" tag="0"/>
+		<item text="Node (32254, 31181, 7)" tag="0"/>
+		<item text="Node (32254, 31177, 7)" tag="0"/>
+		<item text="Node (32252, 31173, 7)" tag="0"/>
+		<item text="Node (32248, 31170, 7)" tag="0"/>
+		<item text="Node (32248, 31166, 7)" tag="0"/>
+		<item text="Node (32248, 31162, 7)" tag="0"/>
+		<item text="Node (32245, 31159, 7)" tag="0"/>
+		<item text="Node (32242, 31156, 7)" tag="0"/>
+		<item text="Node (32242, 31152, 7)" tag="0"/>
+		<item text="Node (32242, 31148, 7)" tag="0"/>
+		<item text="Node (32242, 31144, 7)" tag="0"/>
+		<item text="Node (32242, 31140, 7)" tag="0"/>
+		<item text="Node (32241, 31136, 7)" tag="0"/>
+		<item text="Node (32240, 31132, 7)" tag="0"/>
+		<item text="Node (32240, 31128, 7)" tag="0"/>
+		<item text="Node (32240, 31124, 7)" tag="0"/>
+		<item text="Node (32237, 31121, 7)" tag="0"/>
+		<item text="Node (32236, 31117, 7)" tag="0"/>
+		<item text="Node (32236, 31113, 7)" tag="0"/>
+		<item text="Stand (32236, 31108, 7)" tag="1"/>
+		<item text="Node (32236, 31104, 6)" tag="0"/>
+		<item text="Node (32239, 31101, 6)" tag="0"/>
+		<item text="Node (32242, 31098, 6)" tag="0"/>
+		<item text="Node (32242, 31094, 6)" tag="0"/>
+		<item text="Node (32242, 31090, 6)" tag="0"/>
+		<item text="Node (32239, 31087, 6)" tag="0"/>
+		<item text="Node (32236, 31084, 6)" tag="0"/>
+		<item text="Node (32235, 31080, 6)" tag="0"/>
+		<item text="Node (32235, 31076, 6)" tag="0"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-ammo:" tag="255"/>
+		<item text="Stand (32246, 31106, 5)" tag="1"/>
+		<item text="Stand (32244, 31109, 6)" tag="1"/>
+		<item text="Node (32239, 31111, 7)" tag="0"/>
+		<item text="Stand (32236, 31108, 7)" tag="1"/>
+		<item text="Node (32236, 31104, 6)" tag="0"/>
+		<item text="Node (32239, 31101, 6)" tag="0"/>
+		<item text="Node (32242, 31098, 6)" tag="0"/>
+		<item text="Node (32242, 31094, 6)" tag="0"/>
+		<item text="Node (32242, 31090, 6)" tag="0"/>
+		<item text="Node (32239, 31087, 6)" tag="0"/>
+		<item text="Node (32235, 31084, 6)" tag="0"/>
+		<item text="Node (32235, 31080, 6)" tag="0"/>
+		<item text="Node (32235, 31074, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to exit.south -->
+		
+		<item text="svargrond|depot-exit.south:" tag="255"/>
+		<item text="Stand (32254, 31143, 6)" tag="1"/>
+		<item text="Node (32250, 31142, 7)" tag="0"/>
+		<item text="Node (32246, 31142, 7)" tag="0"/>
+		<item text="Node (32242, 31144, 7)" tag="0"/>
+		<item text="Node (32242, 31148, 7)" tag="0"/>
+		<item text="Node (32242, 31152, 7)" tag="0"/>
+		<item text="Node (32242, 31156, 7)" tag="0"/>
+		<item text="Node (32245, 31159, 7)" tag="0"/>
+		<item text="Node (32248, 31163, 7)" tag="0"/>
+		<item text="Node (32248, 31167, 7)" tag="0"/>
+		<item text="Node (32250, 31171, 7)" tag="0"/>
+		<item text="Node (32253, 31174, 7)" tag="0"/>
+		<item text="Node (32254, 31178, 7)" tag="0"/>
+		<item text="Node (32254, 31182, 7)" tag="0"/>
+		<item text="Node (32255, 31186, 7)" tag="0"/>
+		<item text="Node (32256, 31190, 7)" tag="0"/>
+		<item text="Node (32256, 31194, 7)" tag="0"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-exit.south:" tag="255"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32294, 31132, 7)" tag="0"/>
+		<item text="Node (32291, 31134, 7)" tag="0"/>
+		<item text="Node (32287, 31135, 7)" tag="0"/>
+		<item text="Node (32284, 31137, 7)" tag="0"/>
+		<item text="Node (32281, 31139, 7)" tag="0"/>
+		<item text="Node (32279, 31142, 7)" tag="0"/>
+		<item text="Node (32278, 31146, 7)" tag="0"/>
+		<item text="Node (32278, 31150, 7)" tag="0"/>
+		<item text="Node (32278, 31154, 7)" tag="0"/>
+		<item text="Node (32278, 31158, 7)" tag="0"/>
+		<item text="Node (32278, 31162, 7)" tag="0"/>
+		<item text="Node (32274, 31162, 7)" tag="0"/>
+		<item text="Node (32270, 31161, 7)" tag="0"/>
+		<item text="Node (32266, 31160, 7)" tag="0"/>
+		<item text="Node (32262, 31160, 7)" tag="0"/>
+		<item text="Node (32258, 31159, 7)" tag="0"/>
+		<item text="Node (32254, 31159, 7)" tag="0"/>
+		<item text="Node (32250, 31159, 7)" tag="0"/>
+		<item text="Node (32248, 31162, 7)" tag="0"/>
+		<item text="Node (32248, 31166, 7)" tag="0"/>
+		<item text="Node (32248, 31170, 7)" tag="0"/>
+		<item text="Node (32251, 31172, 7)" tag="0"/>
+		<item text="Node (32253, 31175, 7)" tag="0"/>
+		<item text="Node (32254, 31179, 7)" tag="0"/>
+		<item text="Node (32254, 31183, 7)" tag="0"/>
+		<item text="Node (32255, 31187, 7)" tag="0"/>
+		<item text="Node (32256, 31191, 7)" tag="0"/>
+		<item text="Node (32256, 31195, 7)" tag="0"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-exit.south:" tag="255"/>
+		<item text="Node (32305, 31133, 7)" tag="0"/>
+		<item text="Node (32301, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32282, 31139, 7)" tag="0"/>
+		<item text="Node (32279, 31141, 7)" tag="0"/>
+		<item text="Node (32278, 31145, 7)" tag="0"/>
+		<item text="Node (32278, 31149, 7)" tag="0"/>
+		<item text="Node (32278, 31153, 7)" tag="0"/>
+		<item text="Node (32278, 31157, 7)" tag="0"/>
+		<item text="Node (32278, 31161, 7)" tag="0"/>
+		<item text="Node (32274, 31161, 7)" tag="0"/>
+		<item text="Node (32270, 31160, 7)" tag="0"/>
+		<item text="Node (32266, 31160, 7)" tag="0"/>
+		<item text="Node (32262, 31160, 7)" tag="0"/>
+		<item text="Node (32258, 31160, 7)" tag="0"/>
+		<item text="Node (32254, 31159, 7)" tag="0"/>
+		<item text="Node (32250, 31159, 7)" tag="0"/>
+		<item text="Node (32248, 31161, 7)" tag="0"/>
+		<item text="Node (32248, 31165, 7)" tag="0"/>
+		<item text="Node (32248, 31169, 7)" tag="0"/>
+		<item text="Node (32250, 31172, 7)" tag="0"/>
+		<item text="Node (32253, 31174, 7)" tag="0"/>
+		<item text="Node (32254, 31178, 7)" tag="0"/>
+		<item text="Node (32254, 31182, 7)" tag="0"/>
+		<item text="Node (32255, 31186, 7)" tag="0"/>
+		<item text="Node (32256, 31190, 7)" tag="0"/>
+		<item text="Node (32256, 31194, 7)" tag="0"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-exit.south:" tag="255"/>
+		<item text="Node (32305, 31133, 7)" tag="0"/>
+		<item text="Node (32301, 31133, 7)" tag="0"/>
+		<item text="Node (32297, 31131, 7)" tag="0"/>
+		<item text="Node (32293, 31133, 7)" tag="0"/>
+		<item text="Node (32289, 31135, 7)" tag="0"/>
+		<item text="Node (32285, 31137, 7)" tag="0"/>
+		<item text="Node (32282, 31139, 7)" tag="0"/>
+		<item text="Node (32279, 31141, 7)" tag="0"/>
+		<item text="Node (32278, 31145, 7)" tag="0"/>
+		<item text="Node (32278, 31149, 7)" tag="0"/>
+		<item text="Node (32278, 31153, 7)" tag="0"/>
+		<item text="Node (32278, 31157, 7)" tag="0"/>
+		<item text="Node (32278, 31161, 7)" tag="0"/>
+		<item text="Node (32274, 31161, 7)" tag="0"/>
+		<item text="Node (32270, 31160, 7)" tag="0"/>
+		<item text="Node (32266, 31160, 7)" tag="0"/>
+		<item text="Node (32262, 31160, 7)" tag="0"/>
+		<item text="Node (32258, 31160, 7)" tag="0"/>
+		<item text="Node (32254, 31159, 7)" tag="0"/>
+		<item text="Node (32250, 31159, 7)" tag="0"/>
+		<item text="Node (32248, 31161, 7)" tag="0"/>
+		<item text="Node (32248, 31165, 7)" tag="0"/>
+		<item text="Node (32248, 31169, 7)" tag="0"/>
+		<item text="Node (32250, 31172, 7)" tag="0"/>
+		<item text="Node (32253, 31174, 7)" tag="0"/>
+		<item text="Node (32254, 31178, 7)" tag="0"/>
+		<item text="Node (32254, 31182, 7)" tag="0"/>
+		<item text="Node (32255, 31186, 7)" tag="0"/>
+		<item text="Node (32256, 31190, 7)" tag="0"/>
+		<item text="Node (32256, 31194, 7)" tag="0"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-exit.south:" tag="255"/>
+		<item text="Node (32235, 31079, 6)" tag="0"/>
+		<item text="Node (32235, 31083, 6)" tag="0"/>
+		<item text="Node (32238, 31086, 6)" tag="0"/>
+		<item text="Node (32241, 31089, 6)" tag="0"/>
+		<item text="Node (32242, 31093, 6)" tag="0"/>
+		<item text="Node (32242, 31097, 6)" tag="0"/>
+		<item text="Node (32240, 31101, 6)" tag="0"/>
+		<item text="Node (32236, 31102, 6)" tag="0"/>
+		<item text="Node (32236, 31106, 6)" tag="0"/>
+		<item text="Stand (32236, 31108, 6)" tag="1"/>
+		<item text="Node (32236, 31112, 7)" tag="0"/>
+		<item text="Node (32236, 31116, 7)" tag="0"/>
+		<item text="Node (32237, 31120, 7)" tag="0"/>
+		<item text="Node (32240, 31123, 7)" tag="0"/>
+		<item text="Node (32240, 31127, 7)" tag="0"/>
+		<item text="Node (32240, 31131, 7)" tag="0"/>
+		<item text="Node (32240, 31135, 7)" tag="0"/>
+		<item text="Node (32242, 31139, 7)" tag="0"/>
+		<item text="Node (32242, 31143, 7)" tag="0"/>
+		<item text="Node (32242, 31147, 7)" tag="0"/>
+		<item text="Node (32242, 31151, 7)" tag="0"/>
+		<item text="Node (32242, 31155, 7)" tag="0"/>
+		<item text="Node (32244, 31159, 7)" tag="0"/>
+		<item text="Node (32247, 31161, 7)" tag="0"/>
+		<item text="Node (32248, 31165, 7)" tag="0"/>
+		<item text="Node (32248, 31169, 7)" tag="0"/>
+		<item text="Node (32250, 31172, 7)" tag="0"/>
+		<item text="Node (32254, 31174, 7)" tag="0"/>
+		<item text="Node (32254, 31178, 7)" tag="0"/>
+		<item text="Node (32254, 31182, 7)" tag="0"/>
+		<item text="Node (32255, 31186, 7)" tag="0"/>
+		<item text="Node (32256, 31190, 7)" tag="0"/>
+		<item text="Node (32256, 31194, 7)" tag="0"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-exit.south:" tag="255"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-exit.south:" tag="255"/>
+		<item text="Stand (32246, 31106, 5)" tag="1"/>
+		<item text="Stand (32245, 31112, 6)" tag="1"/>
+		<item text="Node (32244, 31117, 7)" tag="0"/>
+		<item text="Node (32241, 31120, 7)" tag="0"/>
+		<item text="Node (32241, 31124, 7)" tag="0"/>
+		<item text="Node (32240, 31128, 7)" tag="0"/>
+		<item text="Node (32240, 31132, 7)" tag="0"/>
+		<item text="Node (32240, 31136, 7)" tag="0"/>
+		<item text="Node (32241, 31140, 7)" tag="0"/>
+		<item text="Node (32242, 31145, 7)" tag="0"/>
+		<item text="Node (32242, 31149, 7)" tag="0"/>
+		<item text="Node (32242, 31153, 7)" tag="0"/>
+		<item text="Node (32242, 31157, 7)" tag="0"/>
+		<item text="Node (32246, 31159, 7)" tag="0"/>
+		<item text="Node (32248, 31163, 7)" tag="0"/>
+		<item text="Node (32248, 31167, 7)" tag="0"/>
+		<item text="Node (32250, 31171, 7)" tag="0"/>
+		<item text="Node (32253, 31175, 7)" tag="0"/>
+		<item text="Node (32254, 31180, 7)" tag="0"/>
+		<item text="Node (32254, 31184, 7)" tag="0"/>
+		<item text="Node (32256, 31188, 7)" tag="0"/>
+		<item text="Node (32256, 31192, 7)" tag="0"/>
+		<item text="Node (32256, 31197, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to exit.north -->
+		
+		<item text="svargrond|depot-exit.north:" tag="255"/>
+		<item text="Stand (32254, 31143, 6)" tag="1"/>
+		<item text="Node (32250, 31142, 7)" tag="0"/>
+		<item text="Node (32246, 31141, 7)" tag="0"/>
+		<item text="Node (32243, 31139, 7)" tag="0"/>
+		<item text="Node (32240, 31136, 7)" tag="0"/>
+		<item text="Node (32240, 31132, 7)" tag="0"/>
+		<item text="Node (32240, 31128, 7)" tag="0"/>
+		<item text="Node (32241, 31124, 7)" tag="0"/>
+		<item text="Node (32242, 31120, 7)" tag="0"/>
+		<item text="Node (32244, 31116, 7)" tag="0"/>
+		<item text="Stand (32245, 31112, 7)" tag="1"/>
+		<item text="Stand (32246, 31106, 6)" tag="1"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|bank-exit.north:" tag="255"/>
+		<item text="Node (32298, 31131, 7)" tag="0"/>
+		<item text="Node (32294, 31131, 7)" tag="0"/>
+		<item text="Node (32290, 31130, 7)" tag="0"/>
+		<item text="Node (32287, 31127, 7)" tag="0"/>
+		<item text="Node (32283, 31127, 7)" tag="0"/>
+		<item text="Node (32280, 31127, 7)" tag="0"/>
+		<item text="Node (32276, 31127, 7)" tag="0"/>
+		<item text="Node (32272, 31127, 7)" tag="0"/>
+		<item text="Node (32268, 31127, 7)" tag="0"/>
+		<item text="Node (32264, 31126, 7)" tag="0"/>
+		<item text="Node (32260, 31125, 7)" tag="0"/>
+		<item text="Node (32258, 31122, 7)" tag="0"/>
+		<item text="Node (32257, 31118, 7)" tag="0"/>
+		<item text="Node (32257, 31114, 7)" tag="0"/>
+		<item text="Node (32254, 31111, 7)" tag="0"/>
+		<item text="Stand (32249, 31110, 7)" tag="1"/>
+		<item text="Stand (32246, 31106, 6)" tag="1"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|potion-exit.north:" tag="255"/>
+		<item text="Node (32304, 31133, 7)" tag="0"/>
+		<item text="Node (32300, 31133, 7)" tag="0"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Node (32292, 31130, 7)" tag="0"/>
+		<item text="Node (32288, 31128, 7)" tag="0"/>
+		<item text="Node (32284, 31126, 7)" tag="0"/>
+		<item text="Node (32280, 31126, 7)" tag="0"/>
+		<item text="Node (32276, 31126, 7)" tag="0"/>
+		<item text="Node (32272, 31126, 7)" tag="0"/>
+		<item text="Node (32268, 31126, 7)" tag="0"/>
+		<item text="Node (32264, 31126, 7)" tag="0"/>
+		<item text="Node (32260, 31125, 7)" tag="0"/>
+		<item text="Node (32258, 31122, 7)" tag="0"/>
+		<item text="Node (32257, 31118, 7)" tag="0"/>
+		<item text="Node (32257, 31114, 7)" tag="0"/>
+		<item text="Node (32254, 31111, 7)" tag="0"/>
+		<item text="Stand (32249, 31110, 7)" tag="1"/>
+		<item text="Stand (32246, 31106, 6)" tag="1"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|rune-exit.north:" tag="255"/>
+		<item text="Node (32304, 31133, 7)" tag="0"/>
+		<item text="Node (32300, 31133, 7)" tag="0"/>
+		<item text="Node (32296, 31131, 7)" tag="0"/>
+		<item text="Node (32292, 31130, 7)" tag="0"/>
+		<item text="Node (32288, 31128, 7)" tag="0"/>
+		<item text="Node (32284, 31126, 7)" tag="0"/>
+		<item text="Node (32280, 31126, 7)" tag="0"/>
+		<item text="Node (32276, 31126, 7)" tag="0"/>
+		<item text="Node (32272, 31126, 7)" tag="0"/>
+		<item text="Node (32268, 31126, 7)" tag="0"/>
+		<item text="Node (32264, 31126, 7)" tag="0"/>
+		<item text="Node (32260, 31125, 7)" tag="0"/>
+		<item text="Node (32258, 31122, 7)" tag="0"/>
+		<item text="Node (32257, 31118, 7)" tag="0"/>
+		<item text="Node (32257, 31114, 7)" tag="0"/>
+		<item text="Node (32254, 31111, 7)" tag="0"/>
+		<item text="Stand (32249, 31110, 7)" tag="1"/>
+		<item text="Stand (32246, 31106, 6)" tag="1"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|ammo-exit.north:" tag="255"/>
+		<item text="Node (32235, 31079, 6)" tag="0"/>
+		<item text="Node (32235, 31083, 6)" tag="0"/>
+		<item text="Node (32238, 31086, 6)" tag="0"/>
+		<item text="Node (32241, 31089, 6)" tag="0"/>
+		<item text="Node (32242, 31093, 6)" tag="0"/>
+		<item text="Node (32242, 31097, 6)" tag="0"/>
+		<item text="Node (32240, 31101, 6)" tag="0"/>
+		<item text="Node (32236, 31102, 6)" tag="0"/>
+		<item text="Node (32236, 31106, 6)" tag="0"/>
+		<item text="Stand (32236, 31108, 6)" tag="1"/>
+		<item text="Node (32240, 31110, 7)" tag="0"/>
+		<item text="Stand (32244, 31109, 7)" tag="1"/>
+		<item text="Stand (32246, 31106, 6)" tag="1"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.south-exit.north:" tag="255"/>
+		<item text="Node (32255, 31191, 7)" tag="0"/>
+		<item text="Node (32255, 31187, 7)" tag="0"/>
+		<item text="Node (32254, 31183, 7)" tag="0"/>
+		<item text="Node (32254, 31179, 7)" tag="0"/>
+		<item text="Node (32253, 31175, 7)" tag="0"/>
+		<item text="Node (32250, 31172, 7)" tag="0"/>
+		<item text="Node (32248, 31168, 7)" tag="0"/>
+		<item text="Node (32248, 31164, 7)" tag="0"/>
+		<item text="Node (32246, 31160, 7)" tag="0"/>
+		<item text="Node (32242, 31158, 7)" tag="0"/>
+		<item text="Node (32242, 31154, 7)" tag="0"/>
+		<item text="Node (32241, 31150, 7)" tag="0"/>
+		<item text="Node (32241, 31146, 7)" tag="0"/>
+		<item text="Node (32241, 31142, 7)" tag="0"/>
+		<item text="Node (32240, 31138, 7)" tag="0"/>
+		<item text="Node (32240, 31134, 7)" tag="0"/>
+		<item text="Node (32240, 31130, 7)" tag="0"/>
+		<item text="Node (32241, 31126, 7)" tag="0"/>
+		<item text="Node (32242, 31122, 7)" tag="0"/>
+		<item text="Node (32243, 31118, 7)" tag="0"/>
+		<item text="Node (32245, 31114, 7)" tag="0"/>
+		<item text="Stand (32245, 31112, 7)" tag="1"/>
+		<item text="Stand (32246, 31106, 6)" tag="1"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="svargrond|exit.north-exit.north:" tag="255"/>
+		<item text="Node (32246, 31104, 5)" tag="0"/>
+		<item text="next:" tag="255"/>
+	</control>
+</panel>

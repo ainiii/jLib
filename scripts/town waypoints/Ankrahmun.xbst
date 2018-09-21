@@ -1,0 +1,748 @@
+<panel name="Walker">
+	<control name="WaypointList">
+		
+		<!-- Waypoints to depot -->
+
+		<item text="ankrahmun|depot-depot:" tag="255"/>
+		<item text="Stand (33128, 32835, 7)" tag="1"/>
+		<item text="Stand (33124, 32850, 5)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-depot:" tag="255"/>
+		<item text="Node (33131, 32824, 6)" tag="0"/>
+		<item text="Stand (33128, 32826, 6)" tag="1"/>
+		<item text="Node (33128, 32831, 7)" tag="0"/>
+		<item text="Stand (33128, 32835, 7)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-depot:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33130, 32820, 6)" tag="0"/>
+		<item text="Stand (33128, 32826, 6)" tag="1"/>
+		<item text="Node (33128, 32831, 7)" tag="0"/>
+		<item text="Stand (33128, 32835, 7)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-depot:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33130, 32820, 6)" tag="0"/>
+		<item text="Stand (33128, 32826, 6)" tag="1"/>
+		<item text="Node (33128, 32831, 7)" tag="0"/>
+		<item text="Stand (33128, 32835, 7)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-depot:" tag="255"/>
+		<item text="Stand (33149, 32809, 4)" tag="1"/>
+		<item text="Stand (33151, 32809, 5)" tag="1"/>
+		<item text="Node (33149, 32812, 6)" tag="0"/>
+		<item text="Node (33147, 32815, 6)" tag="0"/>
+		<item text="Stand (33145, 32818, 6)" tag="1"/>
+		<item text="Node (33142, 32820, 7)" tag="0"/>
+		<item text="Node (33141, 32824, 7)" tag="0"/>
+		<item text="Node (33139, 32829, 7)" tag="0"/>
+		<item text="Node (33135, 32832, 7)" tag="0"/>
+		<item text="Node (33130, 32832, 7)" tag="0"/>
+		<item text="Stand (33129, 32835, 7)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-depot:" tag="255"/>
+		<item text="Node (33090, 32792, 7)" tag="0"/>
+		<item text="Node (33094, 32792, 7)" tag="0"/>
+		<item text="Node (33098, 32792, 7)" tag="0"/>
+		<item text="Node (33099, 32796, 7)" tag="0"/>
+		<item text="Node (33099, 32799, 7)" tag="0"/>
+		<item text="Node (33099, 32804, 7)" tag="0"/>
+		<item text="Node (33099, 32808, 7)" tag="0"/>
+		<item text="Node (33104, 32808, 7)" tag="0"/>
+		<item text="Node (33108, 32808, 7)" tag="0"/>
+		<item text="Node (33112, 32808, 7)" tag="0"/>
+		<item text="Node (33117, 32808, 7)" tag="0"/>
+		<item text="Node (33120, 32809, 7)" tag="0"/>
+		<item text="Node (33120, 32813, 7)" tag="0"/>
+		<item text="Node (33120, 32816, 7)" tag="0"/>
+		<item text="Node (33120, 32820, 7)" tag="0"/>
+		<item text="Node (33120, 32825, 7)" tag="0"/>
+		<item text="Node (33122, 32828, 7)" tag="0"/>
+		<item text="Node (33125, 32830, 7)" tag="0"/>
+		<item text="Node (33127, 32833, 7)" tag="0"/>
+		<item text="Stand (33128, 32835, 7)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-depot:" tag="255"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Stand (33084, 32877, 6)" tag="1"/>
+		<item text="Node (33086, 32873, 7)" tag="0"/>
+		<item text="Node (33089, 32869, 7)" tag="0"/>
+		<item text="Node (33089, 32864, 7)" tag="0"/>
+		<item text="Node (33089, 32859, 7)" tag="0"/>
+		<item text="Node (33089, 32854, 7)" tag="0"/>
+		<item text="Node (33092, 32851, 7)" tag="0"/>
+		<item text="Node (33097, 32851, 7)" tag="0"/>
+		<item text="Node (33102, 32851, 7)" tag="0"/>
+		<item text="Node (33107, 32851, 7)" tag="0"/>
+		<item text="Node (33112, 32851, 7)" tag="0"/>
+		<item text="Node (33116, 32847, 7)" tag="0"/>
+		<item text="Stand (33118, 32846, 7)" tag="1"/>
+		<item text="Node (33126, 32842, 6)" tag="0"/>
+		<item text="Reach Depot" tag="253"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to bank -->
+
+		<item text="ankrahmun|depot-bank:" tag="255"/>
+		<item text="Stand (33124, 32837, 5)" tag="1"/>
+		<item text="Stand (33123, 32835, 6)" tag="1"/>
+		<item text="Node (33126, 32833, 7)" tag="0"/>
+		<item text="Node (33130, 32830, 7)" tag="0"/>
+		<item text="Stand (33134, 32826, 7)" tag="1"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-bank:" tag="255"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-bank:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33131, 32819, 6)" tag="0"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-bank:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33131, 32819, 6)" tag="0"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-bank:" tag="255"/>
+		<item text="Stand (33149, 32809, 4)" tag="1"/>
+		<item text="Stand (33151, 32809, 5)" tag="1"/>
+		<item text="Node (33149, 32812, 6)" tag="0"/>
+		<item text="Node (33147, 32815, 6)" tag="0"/>
+		<item text="Stand (33145, 32818, 6)" tag="1"/>
+		<item text="Node (33142, 32819, 7)" tag="0"/>
+		<item text="Stand (33138, 32822, 7)" tag="1"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-bank:" tag="255"/>
+		<item text="Node (33092, 32792, 7)" tag="0"/>
+		<item text="Node (33096, 32792, 7)" tag="0"/>
+		<item text="Node (33098, 32794, 7)" tag="0"/>
+		<item text="Node (33098, 32797, 7)" tag="0"/>
+		<item text="Node (33098, 32801, 7)" tag="0"/>
+		<item text="Node (33098, 32805, 7)" tag="0"/>
+		<item text="Node (33101, 32807, 7)" tag="0"/>
+		<item text="Node (33104, 32808, 7)" tag="0"/>
+		<item text="Node (33108, 32808, 7)" tag="0"/>
+		<item text="Node (33111, 32808, 7)" tag="0"/>
+		<item text="Node (33115, 32808, 7)" tag="0"/>
+		<item text="Node (33120, 32808, 7)" tag="0"/>
+		<item text="Node (33120, 32811, 7)" tag="0"/>
+		<item text="Node (33120, 32816, 7)" tag="0"/>
+		<item text="Node (33120, 32819, 7)" tag="0"/>
+		<item text="Node (33120, 32823, 7)" tag="0"/>
+		<item text="Stand (33123, 32824, 7)" tag="1"/>
+		<item text="Node (33128, 32823, 6)" tag="0"/>
+		<item text="Node (33132, 32823, 6)" tag="0"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-bank:" tag="255"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Stand (33084, 32877, 6)" tag="1"/>
+		<item text="Node (33086, 32873, 7)" tag="0"/>
+		<item text="Node (33089, 32869, 7)" tag="0"/>
+		<item text="Node (33089, 32865, 7)" tag="0"/>
+		<item text="Node (33089, 32860, 7)" tag="0"/>
+		<item text="Node (33089, 32855, 7)" tag="0"/>
+		<item text="Node (33090, 32851, 7)" tag="0"/>
+		<item text="Node (33095, 32851, 7)" tag="0"/>
+		<item text="Node (33100, 32851, 7)" tag="0"/>
+		<item text="Node (33105, 32851, 7)" tag="0"/>
+		<item text="Node (33110, 32851, 7)" tag="0"/>
+		<item text="Node (33115, 32849, 7)" tag="0"/>
+		<item text="Node (33115, 32844, 7)" tag="0"/>
+		<item text="Node (33115, 32839, 7)" tag="0"/>
+		<item text="Node (33116, 32834, 7)" tag="0"/>
+		<item text="Node (33120, 32830, 7)" tag="0"/>
+		<item text="Stand (33125, 32826, 7)" tag="1"/>
+		<item text="Node (33131, 32822, 6)" tag="0"/>
+		<item text="Stand (33134, 32823, 6)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to potion -->
+
+		<item text="ankrahmun|depot-potion:" tag="255"/>
+		<item text="Stand (33124, 32837, 5)" tag="1"/>
+		<item text="Stand (33123, 32835, 6)" tag="1"/>
+		<item text="Node (33126, 32833, 7)" tag="0"/>
+		<item text="Node (33127, 32829, 7)" tag="0"/>
+		<item text="Stand (33128, 32826, 7)" tag="1"/>
+		<item text="Node (33130, 32823, 6)" tag="0"/>
+		<item text="Node (33130, 32819, 6)" tag="0"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-potion:" tag="255"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-potion:" tag="255"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-potion:" tag="255"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-potion:" tag="255"/>
+		<item text="Stand (33149, 32809, 4)" tag="1"/>
+		<item text="Stand (33151, 32809, 5)" tag="1"/>
+		<item text="Node (33148, 32812, 6)" tag="0"/>
+		<item text="Stand (33145, 32812, 6)" tag="1"/>
+		<item text="Node (33141, 32812, 7)" tag="0"/>
+		<item text="Stand (33138, 32812, 7)" tag="1"/>
+		<item text="Node (33135, 32815, 6)" tag="0"/>
+		<item text="Stand (33131, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-potion:" tag="255"/>
+		<item text="Node (33092, 32792, 7)" tag="0"/>
+		<item text="Node (33097, 32792, 7)" tag="0"/>
+		<item text="Node (33098, 32794, 7)" tag="0"/>
+		<item text="Node (33098, 32798, 7)" tag="0"/>
+		<item text="Node (33098, 32802, 7)" tag="0"/>
+		<item text="Node (33098, 32807, 7)" tag="0"/>
+		<item text="Node (33102, 32808, 7)" tag="0"/>
+		<item text="Node (33106, 32808, 7)" tag="0"/>
+		<item text="Node (33111, 32808, 7)" tag="0"/>
+		<item text="Node (33114, 32808, 7)" tag="0"/>
+		<item text="Node (33119, 32808, 7)" tag="0"/>
+		<item text="Node (33121, 32811, 7)" tag="0"/>
+		<item text="Stand (33123, 32813, 7)" tag="1"/>
+		<item text="Node (33127, 32815, 6)" tag="0"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-potion:" tag="255"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Stand (33084, 32877, 6)" tag="1"/>
+		<item text="Node (33086, 32873, 7)" tag="0"/>
+		<item text="Node (33089, 32869, 7)" tag="0"/>
+		<item text="Node (33089, 32865, 7)" tag="0"/>
+		<item text="Node (33089, 32860, 7)" tag="0"/>
+		<item text="Node (33089, 32856, 7)" tag="0"/>
+		<item text="Node (33090, 32852, 7)" tag="0"/>
+		<item text="Node (33095, 32851, 7)" tag="0"/>
+		<item text="Node (33100, 32851, 7)" tag="0"/>
+		<item text="Node (33105, 32851, 7)" tag="0"/>
+		<item text="Node (33110, 32851, 7)" tag="0"/>
+		<item text="Node (33115, 32849, 7)" tag="0"/>
+		<item text="Node (33115, 32844, 7)" tag="0"/>
+		<item text="Node (33115, 32839, 7)" tag="0"/>
+		<item text="Node (33115, 32834, 7)" tag="0"/>
+		<item text="Node (33118, 32831, 7)" tag="0"/>
+		<item text="Node (33123, 32828, 7)" tag="0"/>
+		<item text="Stand (33125, 32826, 7)" tag="1"/>
+		<item text="Node (33129, 32823, 6)" tag="0"/>
+		<item text="Node (33130, 32819, 6)" tag="0"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32813, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to rune -->
+
+		<item text="ankrahmun|depot-rune:" tag="255"/>
+		<item text="Stand (33124, 32837, 5)" tag="1"/>
+		<item text="Stand (33123, 32835, 6)" tag="1"/>
+		<item text="Node (33126, 32833, 7)" tag="0"/>
+		<item text="Node (33127, 32829, 7)" tag="0"/>
+		<item text="Stand (33128, 32826, 7)" tag="1"/>
+		<item text="Node (33130, 32823, 6)" tag="0"/>
+		<item text="Node (33130, 32819, 6)" tag="0"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-rune:" tag="255"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-rune:" tag="255"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-rune:" tag="255"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-rune:" tag="255"/>
+		<item text="Stand (33149, 32809, 4)" tag="1"/>
+		<item text="Stand (33151, 32809, 5)" tag="1"/>
+		<item text="Node (33148, 32812, 6)" tag="0"/>
+		<item text="Stand (33145, 32812, 6)" tag="1"/>
+		<item text="Node (33141, 32812, 7)" tag="0"/>
+		<item text="Stand (33138, 32812, 7)" tag="1"/>
+		<item text="Node (33135, 32815, 6)" tag="0"/>
+		<item text="Stand (33131, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-rune:" tag="255"/>
+		<item text="Node (33092, 32792, 7)" tag="0"/>
+		<item text="Node (33097, 32792, 7)" tag="0"/>
+		<item text="Node (33098, 32794, 7)" tag="0"/>
+		<item text="Node (33098, 32798, 7)" tag="0"/>
+		<item text="Node (33098, 32802, 7)" tag="0"/>
+		<item text="Node (33098, 32807, 7)" tag="0"/>
+		<item text="Node (33102, 32808, 7)" tag="0"/>
+		<item text="Node (33106, 32808, 7)" tag="0"/>
+		<item text="Node (33111, 32808, 7)" tag="0"/>
+		<item text="Node (33114, 32808, 7)" tag="0"/>
+		<item text="Node (33119, 32808, 7)" tag="0"/>
+		<item text="Node (33121, 32811, 7)" tag="0"/>
+		<item text="Stand (33123, 32813, 7)" tag="1"/>
+		<item text="Node (33127, 32815, 6)" tag="0"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-rune:" tag="255"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Stand (33084, 32877, 6)" tag="1"/>
+		<item text="Node (33086, 32873, 7)" tag="0"/>
+		<item text="Node (33089, 32869, 7)" tag="0"/>
+		<item text="Node (33089, 32865, 7)" tag="0"/>
+		<item text="Node (33089, 32860, 7)" tag="0"/>
+		<item text="Node (33089, 32856, 7)" tag="0"/>
+		<item text="Node (33090, 32852, 7)" tag="0"/>
+		<item text="Node (33095, 32851, 7)" tag="0"/>
+		<item text="Node (33100, 32851, 7)" tag="0"/>
+		<item text="Node (33105, 32851, 7)" tag="0"/>
+		<item text="Node (33110, 32851, 7)" tag="0"/>
+		<item text="Node (33115, 32849, 7)" tag="0"/>
+		<item text="Node (33115, 32844, 7)" tag="0"/>
+		<item text="Node (33115, 32839, 7)" tag="0"/>
+		<item text="Node (33115, 32834, 7)" tag="0"/>
+		<item text="Node (33118, 32831, 7)" tag="0"/>
+		<item text="Node (33123, 32828, 7)" tag="0"/>
+		<item text="Stand (33125, 32826, 7)" tag="1"/>
+		<item text="Node (33129, 32823, 6)" tag="0"/>
+		<item text="Node (33130, 32819, 6)" tag="0"/>
+		<item text="Stand (33130, 32816, 6)" tag="1"/>
+		<item text="Stand (33130, 32817, 5)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to ammo -->
+
+		<item text="ankrahmun|depot-ammo:" tag="255"/>
+		<item text="Stand (33124, 32837, 5)" tag="1"/>
+		<item text="Stand (33123, 32835, 6)" tag="1"/>
+		<item text="Node (33126, 32833, 7)" tag="0"/>
+		<item text="Node (33130, 32832, 7)" tag="0"/>
+		<item text="Node (33134, 32832, 7)" tag="0"/>
+		<item text="Node (33138, 32830, 7)" tag="0"/>
+		<item text="Node (33141, 32827, 7)" tag="0"/>
+		<item text="Node (33142, 32823, 7)" tag="0"/>
+		<item text="Stand (33145, 32820, 7)" tag="1"/>
+		<item text="Node (33147, 32816, 6)" tag="0"/>
+		<item text="Node (33149, 32812, 6)" tag="0"/>
+		<item text="Stand (33151, 32809, 6)" tag="1"/>
+		<item text="Stand (33149, 32809, 5)" tag="1"/>
+		<item text="Node (33152, 32811, 4)" tag="0"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-ammo:" tag="255"/>
+		<item text="Stand (33138, 32820, 6)" tag="1"/>
+		<item text="Node (33142, 32818, 7)" tag="0"/>
+		<item text="Stand (33145, 32815, 7)" tag="1"/>
+		<item text="Node (33148, 32812, 6)" tag="0"/>
+		<item text="Stand (33151, 32809, 6)" tag="1"/>
+		<item text="Stand (33149, 32809, 5)" tag="1"/>
+		<item text="Node (33152, 32811, 4)" tag="0"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-ammo:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33135, 32816, 6)" tag="0"/>
+		<item text="Stand (33138, 32816, 6)" tag="1"/>
+		<item text="Node (33142, 32814, 7)" tag="0"/>
+		<item text="Stand (33145, 32812, 7)" tag="1"/>
+		<item text="Stand (33151, 32809, 6)" tag="1"/>
+		<item text="Stand (33149, 32809, 5)" tag="1"/>
+		<item text="Node (33152, 32811, 4)" tag="0"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-ammo:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33135, 32816, 6)" tag="0"/>
+		<item text="Stand (33138, 32816, 6)" tag="1"/>
+		<item text="Node (33142, 32814, 7)" tag="0"/>
+		<item text="Stand (33145, 32812, 7)" tag="1"/>
+		<item text="Stand (33151, 32809, 6)" tag="1"/>
+		<item text="Stand (33149, 32809, 5)" tag="1"/>
+		<item text="Node (33152, 32811, 4)" tag="0"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-ammo:" tag="255"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-ammo:" tag="255"/>
+		<item text="Node (33093, 32792, 7)" tag="0"/>
+		<item text="Node (33096, 32792, 7)" tag="0"/>
+		<item text="Node (33099, 32795, 7)" tag="0"/>
+		<item text="Node (33099, 32798, 7)" tag="0"/>
+		<item text="Node (33099, 32801, 7)" tag="0"/>
+		<item text="Node (33099, 32806, 7)" tag="0"/>
+		<item text="Node (33103, 32808, 7)" tag="0"/>
+		<item text="Node (33106, 32808, 7)" tag="0"/>
+		<item text="Node (33110, 32808, 7)" tag="0"/>
+		<item text="Node (33115, 32808, 7)" tag="0"/>
+		<item text="Node (33119, 32808, 7)" tag="0"/>
+		<item text="Node (33121, 32805, 7)" tag="0"/>
+		<item text="Node (33125, 32803, 7)" tag="0"/>
+		<item text="Node (33130, 32803, 7)" tag="0"/>
+		<item text="Node (33135, 32803, 7)" tag="0"/>
+		<item text="Node (33138, 32803, 7)" tag="0"/>
+		<item text="Node (33141, 32805, 7)" tag="0"/>
+		<item text="Node (33142, 32808, 7)" tag="0"/>
+		<item text="Stand (33145, 32810, 7)" tag="1"/>
+		<item text="Stand (33151, 32809, 6)" tag="1"/>
+		<item text="Stand (33149, 32809, 5)" tag="1"/>
+		<item text="Node (33152, 32811, 4)" tag="0"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-ammo:" tag="255"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Stand (33084, 32877, 6)" tag="1"/>
+		<item text="Node (33086, 32873, 7)" tag="0"/>
+		<item text="Node (33089, 32869, 7)" tag="0"/>
+		<item text="Node (33089, 32865, 7)" tag="0"/>
+		<item text="Node (33089, 32861, 7)" tag="0"/>
+		<item text="Node (33089, 32857, 7)" tag="0"/>
+		<item text="Node (33089, 32853, 7)" tag="0"/>
+		<item text="Node (33093, 32851, 7)" tag="0"/>
+		<item text="Node (33098, 32851, 7)" tag="0"/>
+		<item text="Node (33103, 32851, 7)" tag="0"/>
+		<item text="Node (33108, 32851, 7)" tag="0"/>
+		<item text="Node (33113, 32851, 7)" tag="0"/>
+		<item text="Node (33115, 32847, 7)" tag="0"/>
+		<item text="Node (33115, 32842, 7)" tag="0"/>
+		<item text="Node (33115, 32837, 7)" tag="0"/>
+		<item text="Node (33116, 32833, 7)" tag="0"/>
+		<item text="Node (33120, 32832, 7)" tag="0"/>
+		<item text="Node (33126, 32832, 7)" tag="0"/>
+		<item text="Node (33131, 32832, 7)" tag="0"/>
+		<item text="Node (33135, 32829, 7)" tag="0"/>
+		<item text="Node (33140, 32827, 7)" tag="0"/>
+		<item text="Node (33142, 32823, 7)" tag="0"/>
+		<item text="Stand (33145, 32819, 7)" tag="1"/>
+		<item text="Node (33146, 32815, 6)" tag="0"/>
+		<item text="Node (33150, 32812, 6)" tag="0"/>
+		<item text="Stand (33151, 32809, 6)" tag="1"/>
+		<item text="Stand (33149, 32809, 5)" tag="1"/>
+		<item text="Node (33152, 32811, 4)" tag="0"/>
+		<item text="Stand (33156, 32812, 4)" tag="1"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to exit.west -->
+
+		<item text="ankrahmun|depot-exit.west:" tag="255"/>
+		<item text="Stand (33124, 32837, 5)" tag="1"/>
+		<item text="Stand (33123, 32835, 6)" tag="1"/>
+		<item text="Node (33122, 32832, 7)" tag="0"/>
+		<item text="Node (33120, 32828, 7)" tag="0"/>
+		<item text="Node (33120, 32824, 7)" tag="0"/>
+		<item text="Node (33120, 32820, 7)" tag="0"/>
+		<item text="Node (33120, 32816, 7)" tag="0"/>
+		<item text="Node (33120, 32812, 7)" tag="0"/>
+		<item text="Node (33120, 32808, 7)" tag="0"/>
+		<item text="Node (33117, 32808, 7)" tag="0"/>
+		<item text="Node (33113, 32808, 7)" tag="0"/>
+		<item text="Node (33110, 32808, 7)" tag="0"/>
+		<item text="Node (33105, 32808, 7)" tag="0"/>
+		<item text="Node (33101, 32808, 7)" tag="0"/>
+		<item text="Node (33099, 32804, 7)" tag="0"/>
+		<item text="Node (33099, 32801, 7)" tag="0"/>
+		<item text="Node (33099, 32797, 7)" tag="0"/>
+		<item text="Node (33099, 32793, 7)" tag="0"/>
+		<item text="Node (33095, 32792, 7)" tag="0"/>
+		<item text="Node (33091, 32792, 7)" tag="0"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-exit.west:" tag="255"/>
+		<item text="Stand (33123, 32816, 6)" tag="1"/>
+		<item text="Node (33120, 32813, 7)" tag="0"/>
+		<item text="Node (33120, 32809, 7)" tag="0"/>
+		<item text="Node (33116, 32808, 7)" tag="0"/>
+		<item text="Node (33112, 32808, 7)" tag="0"/>
+		<item text="Node (33108, 32808, 7)" tag="0"/>
+		<item text="Node (33104, 32808, 7)" tag="0"/>
+		<item text="Node (33100, 32808, 7)" tag="0"/>
+		<item text="Node (33099, 32805, 7)" tag="0"/>
+		<item text="Node (33099, 32801, 7)" tag="0"/>
+		<item text="Node (33099, 32797, 7)" tag="0"/>
+		<item text="Node (33099, 32793, 7)" tag="0"/>
+		<item text="Node (33095, 32792, 7)" tag="0"/>
+		<item text="Node (33091, 32792, 7)" tag="0"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-exit.west:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Stand (33123, 32814, 6)" tag="1"/>
+		<item text="Node (33120, 32812, 7)" tag="0"/>
+		<item text="Node (33120, 32808, 7)" tag="0"/>
+		<item text="Node (33116, 32808, 7)" tag="0"/>
+		<item text="Node (33113, 32808, 7)" tag="0"/>
+		<item text="Node (33110, 32808, 7)" tag="0"/>
+		<item text="Node (33106, 32808, 7)" tag="0"/>
+		<item text="Node (33102, 32808, 7)" tag="0"/>
+		<item text="Node (33099, 32805, 7)" tag="0"/>
+		<item text="Node (33099, 32802, 7)" tag="0"/>
+		<item text="Node (33099, 32799, 7)" tag="0"/>
+		<item text="Node (33099, 32795, 7)" tag="0"/>
+		<item text="Node (33097, 32792, 7)" tag="0"/>
+		<item text="Node (33092, 32792, 7)" tag="0"/>
+		<item text="Node (33088, 32791, 7)" tag="0"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-exit.west:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Stand (33123, 32814, 6)" tag="1"/>
+		<item text="Node (33120, 32812, 7)" tag="0"/>
+		<item text="Node (33120, 32808, 7)" tag="0"/>
+		<item text="Node (33116, 32808, 7)" tag="0"/>
+		<item text="Node (33113, 32808, 7)" tag="0"/>
+		<item text="Node (33110, 32808, 7)" tag="0"/>
+		<item text="Node (33106, 32808, 7)" tag="0"/>
+		<item text="Node (33102, 32808, 7)" tag="0"/>
+		<item text="Node (33099, 32805, 7)" tag="0"/>
+		<item text="Node (33099, 32802, 7)" tag="0"/>
+		<item text="Node (33099, 32799, 7)" tag="0"/>
+		<item text="Node (33099, 32795, 7)" tag="0"/>
+		<item text="Node (33097, 32792, 7)" tag="0"/>
+		<item text="Node (33092, 32792, 7)" tag="0"/>
+		<item text="Node (33088, 32791, 7)" tag="0"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-exit.west:" tag="255"/>
+		<item text="Stand (33149, 32809, 4)" tag="1"/>
+		<item text="Stand (33151, 32809, 5)" tag="1"/>
+		<item text="Node (33148, 32811, 6)" tag="0"/>
+		<item text="Stand (33145, 32811, 6)" tag="1"/>
+		<item text="Node (33142, 32809, 7)" tag="0"/>
+		<item text="Node (33142, 32806, 7)" tag="0"/>
+		<item text="Node (33140, 32802, 7)" tag="0"/>
+		<item text="Node (33136, 32802, 7)" tag="0"/>
+		<item text="Node (33132, 32802, 7)" tag="0"/>
+		<item text="Node (33128, 32802, 7)" tag="0"/>
+		<item text="Node (33124, 32802, 7)" tag="0"/>
+		<item text="Node (33120, 32802, 7)" tag="0"/>
+		<item text="Node (33119, 32805, 7)" tag="0"/>
+		<item text="Node (33117, 32808, 7)" tag="0"/>
+		<item text="Node (33114, 32808, 7)" tag="0"/>
+		<item text="Node (33109, 32808, 7)" tag="0"/>
+		<item text="Node (33106, 32808, 7)" tag="0"/>
+		<item text="Node (33102, 32808, 7)" tag="0"/>
+		<item text="Node (33099, 32805, 7)" tag="0"/>
+		<item text="Node (33099, 32801, 7)" tag="0"/>
+		<item text="Node (33099, 32797, 7)" tag="0"/>
+		<item text="Node (33099, 32793, 7)" tag="0"/>
+		<item text="Node (33095, 32792, 7)" tag="0"/>
+		<item text="Node (33091, 32792, 7)" tag="0"/>
+		<item text="Node (33087, 32790, 7)" tag="0"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-exit.west:" tag="255"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-exit.west:" tag="255"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Stand (33084, 32877, 6)" tag="1"/>
+		<item text="Node (33086, 32873, 7)" tag="0"/>
+		<item text="Node (33089, 32869, 7)" tag="0"/>
+		<item text="Node (33089, 32864, 7)" tag="0"/>
+		<item text="Node (33089, 32859, 7)" tag="0"/>
+		<item text="Node (33089, 32854, 7)" tag="0"/>
+		<item text="Node (33091, 32850, 7)" tag="0"/>
+		<item text="Node (33093, 32846, 7)" tag="0"/>
+		<item text="Node (33093, 32841, 7)" tag="0"/>
+		<item text="Node (33093, 32836, 7)" tag="0"/>
+		<item text="Node (33094, 32831, 7)" tag="0"/>
+		<item text="Node (33098, 32828, 7)" tag="0"/>
+		<item text="Node (33098, 32823, 7)" tag="0"/>
+		<item text="Node (33098, 32819, 7)" tag="0"/>
+		<item text="Node (33098, 32814, 7)" tag="0"/>
+		<item text="Node (33098, 32809, 7)" tag="0"/>
+		<item text="Node (33098, 32804, 7)" tag="0"/>
+		<item text="Node (33098, 32799, 7)" tag="0"/>
+		<item text="Node (33098, 32794, 7)" tag="0"/>
+		<item text="Node (33095, 32792, 7)" tag="0"/>
+		<item text="Node (33091, 32791, 7)" tag="0"/>
+		<item text="Node (33087, 32789, 7)" tag="0"/>
+		<item text="next:" tag="255"/>
+
+		<!-- Waypoints to exit.west -->
+
+		<item text="ankrahmun|depot-exit.boat:" tag="255"/>
+		<item text="Stand (33124, 32837, 5)" tag="1"/>
+		<item text="Stand (33123, 32835, 6)" tag="1"/>
+		<item text="Node (33119, 32833, 7)" tag="0"/>
+		<item text="Node (33115, 32836, 7)" tag="0"/>
+		<item text="Node (33115, 32840, 7)" tag="0"/>
+		<item text="Node (33115, 32844, 7)" tag="0"/>
+		<item text="Node (33115, 32848, 7)" tag="0"/>
+		<item text="Node (33112, 32851, 7)" tag="0"/>
+		<item text="Node (33108, 32851, 7)" tag="0"/>
+		<item text="Node (33103, 32851, 7)" tag="0"/>
+		<item text="Node (33098, 32851, 7)" tag="0"/>
+		<item text="Node (33094, 32851, 7)" tag="0"/>
+		<item text="Node (33089, 32852, 7)" tag="0"/>
+		<item text="Node (33089, 32856, 7)" tag="0"/>
+		<item text="Node (33089, 32861, 7)" tag="0"/>
+		<item text="Node (33089, 32866, 7)" tag="0"/>
+		<item text="Node (33089, 32871, 7)" tag="0"/>
+		<item text="Node (33085, 32873, 7)" tag="0"/>
+		<item text="Ladder (33084, 32877, 7)" tag="2"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Node (33089, 32884, 6)" tag="0"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|bank-exit.boat:" tag="255"/>
+		<item text="Node (33130, 32823, 6)" tag="0"/>
+		<item text="Stand (33126, 32826, 6)" tag="1"/>
+		<item text="Node (33122, 32829, 7)" tag="0"/>
+		<item text="Node (33118, 32832, 7)" tag="0"/>
+		<item text="Node (33115, 32835, 7)" tag="0"/>
+		<item text="Node (33115, 32840, 7)" tag="0"/>
+		<item text="Node (33115, 32845, 7)" tag="0"/>
+		<item text="Node (33114, 32849, 7)" tag="0"/>
+		<item text="Node (33110, 32851, 7)" tag="0"/>
+		<item text="Node (33106, 32851, 7)" tag="0"/>
+		<item text="Node (33102, 32851, 7)" tag="0"/>
+		<item text="Node (33098, 32851, 7)" tag="0"/>
+		<item text="Node (33094, 32851, 7)" tag="0"/>
+		<item text="Node (33089, 32853, 7)" tag="0"/>
+		<item text="Node (33089, 32858, 7)" tag="0"/>
+		<item text="Node (33089, 32863, 7)" tag="0"/>
+		<item text="Node (33089, 32868, 7)" tag="0"/>
+		<item text="Node (33087, 32872, 7)" tag="0"/>
+		<item text="Node (33085, 32875, 7)" tag="0"/>
+		<item text="Ladder (33084, 32877, 7)" tag="2"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Node (33088, 32884, 6)" tag="0"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|potion-exit.boat:" tag="255"/>
+		<item text="Stand (33130, 32816, 5)" tag="1"/>
+		<item text="Node (33130, 32823, 6)" tag="0"/>
+		<item text="Stand (33126, 32826, 6)" tag="1"/>
+		<item text="Node (33122, 32829, 7)" tag="0"/>
+		<item text="Node (33118, 32832, 7)" tag="0"/>
+		<item text="Node (33115, 32835, 7)" tag="0"/>
+		<item text="Node (33115, 32840, 7)" tag="0"/>
+		<item text="Node (33115, 32845, 7)" tag="0"/>
+		<item text="Node (33114, 32849, 7)" tag="0"/>
+		<item text="Node (33110, 32851, 7)" tag="0"/>
+		<item text="Node (33106, 32851, 7)" tag="0"/>
+		<item text="Node (33102, 32851, 7)" tag="0"/>
+		<item text="Node (33098, 32851, 7)" tag="0"/>
+		<item text="Node (33094, 32851, 7)" tag="0"/>
+		<item text="Node (33089, 32853, 7)" tag="0"/>
+		<item text="Node (33089, 32858, 7)" tag="0"/>
+		<item text="Node (33089, 32863, 7)" tag="0"/>
+		<item text="Node (33089, 32868, 7)" tag="0"/>
+		<item text="Node (33087, 32872, 7)" tag="0"/>
+		<item text="Node (33085, 32875, 7)" tag="0"/>
+		<item text="Ladder (33084, 32877, 7)" tag="2"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Node (33088, 32884, 6)" tag="0"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|rune-exit.boat:" tag="255"/>
+		<item text="Stand (33131, 32816, 5)" tag="1"/>
+		<item text="Node (33130, 32823, 6)" tag="0"/>
+		<item text="Stand (33126, 32826, 6)" tag="1"/>
+		<item text="Node (33122, 32829, 7)" tag="0"/>
+		<item text="Node (33118, 32832, 7)" tag="0"/>
+		<item text="Node (33115, 32835, 7)" tag="0"/>
+		<item text="Node (33115, 32840, 7)" tag="0"/>
+		<item text="Node (33115, 32845, 7)" tag="0"/>
+		<item text="Node (33114, 32849, 7)" tag="0"/>
+		<item text="Node (33110, 32851, 7)" tag="0"/>
+		<item text="Node (33106, 32851, 7)" tag="0"/>
+		<item text="Node (33102, 32851, 7)" tag="0"/>
+		<item text="Node (33098, 32851, 7)" tag="0"/>
+		<item text="Node (33094, 32851, 7)" tag="0"/>
+		<item text="Node (33089, 32853, 7)" tag="0"/>
+		<item text="Node (33089, 32858, 7)" tag="0"/>
+		<item text="Node (33089, 32863, 7)" tag="0"/>
+		<item text="Node (33089, 32868, 7)" tag="0"/>
+		<item text="Node (33087, 32872, 7)" tag="0"/>
+		<item text="Node (33085, 32875, 7)" tag="0"/>
+		<item text="Ladder (33084, 32877, 7)" tag="2"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Node (33088, 32884, 6)" tag="0"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|ammo-exit.boat:" tag="255"/>
+		<item text="Stand (33149, 32809, 4)" tag="1"/>
+		<item text="Stand (33151, 32809, 5)" tag="1"/>
+		<item text="Node (33147, 32812, 6)" tag="0"/>
+		<item text="Stand (33145, 32815, 6)" tag="1"/>
+		<item text="Node (33141, 32818, 7)" tag="0"/>
+		<item text="Node (33141, 32822, 7)" tag="0"/>
+		<item text="Node (33141, 32826, 7)" tag="0"/>
+		<item text="Node (33138, 32829, 7)" tag="0"/>
+		<item text="Node (33134, 32830, 7)" tag="0"/>
+		<item text="Node (33130, 32832, 7)" tag="0"/>
+		<item text="Node (33125, 32832, 7)" tag="0"/>
+		<item text="Node (33120, 32832, 7)" tag="0"/>
+		<item text="Node (33116, 32833, 7)" tag="0"/>
+		<item text="Node (33115, 32838, 7)" tag="0"/>
+		<item text="Node (33115, 32843, 7)" tag="0"/>
+		<item text="Node (33115, 32847, 7)" tag="0"/>
+		<item text="Node (33113, 32850, 7)" tag="0"/>
+		<item text="Node (33108, 32851, 7)" tag="0"/>
+		<item text="Node (33103, 32851, 7)" tag="0"/>
+		<item text="Node (33099, 32851, 7)" tag="0"/>
+		<item text="Node (33095, 32851, 7)" tag="0"/>
+		<item text="Node (33091, 32851, 7)" tag="0"/>
+		<item text="Node (33089, 32855, 7)" tag="0"/>
+		<item text="Node (33089, 32859, 7)" tag="0"/>
+		<item text="Node (33089, 32863, 7)" tag="0"/>
+		<item text="Node (33089, 32868, 7)" tag="0"/>
+		<item text="Node (33087, 32873, 7)" tag="0"/>
+		<item text="Node (33084, 32875, 7)" tag="0"/>
+		<item text="Ladder (33084, 32877, 7)" tag="2"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Node (33088, 32884, 6)" tag="0"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.west-exit.boat:" tag="255"/>
+		<item text="Node (33090, 32791, 7)" tag="0"/>
+		<item text="Node (33094, 32792, 7)" tag="0"/>
+		<item text="Node (33098, 32794, 7)" tag="0"/>
+		<item text="Node (33098, 32799, 7)" tag="0"/>
+		<item text="Node (33098, 32803, 7)" tag="0"/>
+		<item text="Node (33098, 32807, 7)" tag="0"/>
+		<item text="Node (33098, 32811, 7)" tag="0"/>
+		<item text="Node (33098, 32816, 7)" tag="0"/>
+		<item text="Node (33098, 32821, 7)" tag="0"/>
+		<item text="Node (33098, 32825, 7)" tag="0"/>
+		<item text="Node (33097, 32830, 7)" tag="0"/>
+		<item text="Node (33093, 32832, 7)" tag="0"/>
+		<item text="Node (33093, 32836, 7)" tag="0"/>
+		<item text="Node (33093, 32840, 7)" tag="0"/>
+		<item text="Node (33093, 32844, 7)" tag="0"/>
+		<item text="Node (33093, 32849, 7)" tag="0"/>
+		<item text="Node (33089, 32851, 7)" tag="0"/>
+		<item text="Node (33089, 32856, 7)" tag="0"/>
+		<item text="Node (33089, 32861, 7)" tag="0"/>
+		<item text="Node (33089, 32866, 7)" tag="0"/>
+		<item text="Node (33089, 32871, 7)" tag="0"/>
+		<item text="Node (33085, 32873, 7)" tag="0"/>
+		<item text="Ladder (33084, 32877, 7)" tag="2"/>
+		<item text="Node (33085, 32881, 6)" tag="0"/>
+		<item text="Node (33088, 32883, 6)" tag="0"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+		<item text="ankrahmun|exit.boat-exit.boat:" tag="255"/>
+		<item text="Node (33092, 32884, 6)" tag="0"/>
+		<item text="next:" tag="255"/>
+	</control>
+</panel>
